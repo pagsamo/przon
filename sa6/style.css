@@ -86,7 +86,7 @@ html, body {
 .container.tips{ margin-top: 5%; }
 .container.tips:nth-child(2){margin-bottom: 5%;}
 .tips .four.columns img{ width: 70px; }
-.tips .four.columns{ text-align: justify; }
+.tips .four.columns p{ text-align: justify; }
 .product-name{ background-color:#262262; padding: 2% 0; color: #ffffff;}
 .product-name .container{ vertical-align: middle; margin-bottom:0 !important;}
 .product-name .nine.columns{ padding: 1% 2%; vertical-align: center; }
@@ -134,7 +134,7 @@ div.twelve.columns{ width: 46%; margin-left: 0; }
 .container.tips{ width: 100%; }
 .container.tips .four.columns{ padding: 10% 10%; }
 .tip1-a{ display: none; }
-.tip1-b{ display: block !important; }
+.tip1-b{ display: block !important; padding-bottom: 0 !important;}
 .product-name{ text-align: center; }
 .specs{ margin-top: 20%; }
 .specs .row{ padding: 10%;}
