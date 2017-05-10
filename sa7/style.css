@@ -12,6 +12,7 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
+  font-size: 103%;
 }
 
 .container {
@@ -81,19 +82,44 @@ html, body {
   
 }
 
+.label{ font-weight: bold; }
 hr{ border: 3px solid; }
-.section{ border: 20px solid; }
+.section{ border: 20px solid; padding: 3% 0; }
 
-.details, .details hr{border-color: #FEB100;}
-.details .container:last-child{ margin-bottom: 3%;}
+.details, .details hr, .tips2, .tips2 hr{border-color: #FEB100;}
 .other-images{ width: 75%; margin: 0 auto; }
 
 
 .shipping, .shipping hr{ border-color: #017779;  }
 .shipping img{ max-width: 70px; }
 
+
+.tips1, .tips1 hr{ border-color: #CC0353; }
+.tips1 img{ width: 70%; display: block; margin: 3% auto; }
+
+.tips2 .row{text-align: center; width: 75%; margin: 0 auto;}
+
+.tracking, .tracking hr{ border-color: #AEAEAE; }
+
 /*Tablets and Laptop*/
 @media (min-width: 550px) and (max-width: 1024px) {
+
+.desktop{ display: none; }
+.laptop{ display: block !important; }
+.laptop .row{ width: 100%; }
+.laptop .row .six.columns{ width: 50%; margin-left: 0; }
+.laptop .other-images2 .three.columns{  width: 50%; margin-left: 0; }
+.laptop .include{ text-align: center; }
+
+
+.shipping .six.columns{ text-align: center; }
+.tips1 img{ width: 100%; display: block; margin: 3% auto; }
+
+.tips2 .container .row{ width: 100%; }
+.tips2 .twelve.columns{ text-align: left; }
+
+.tracking .three.columns{ width: 50%; margin-left: 0; }
+
 
 }
 /*Tablets and Laptop*/
@@ -101,5 +127,10 @@ hr{ border: 3px solid; }
 /*Mobile*/
 @media (max-width: 549px) {
 
+.desktop{ display: none; }
+.laptop{ display: block !important; }
+
+
+.details, .shipping, .tracking, .tips1, .tips2{ text-align: center; }
 
 }/*Mobile*/
