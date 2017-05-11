@@ -86,7 +86,6 @@ hr{ border: 3px solid; }
 .section{ border: 20px solid; padding: 3% 0; }
 
 .details, .details hr, .tips2, .tips2 hr{border-color: #FEB100;}
-.other-images{ width: 75%; margin: 0 auto; }
 
 
 .shipping, .shipping hr{ border-color: #017779;  }
@@ -94,7 +93,7 @@ hr{ border: 3px solid; }
 
 
 .tips1, .tips1 hr{ border-color: #CC0353; }
-.tips1 img{ width: 70%; display: block; margin: 3% auto; }
+.tips1 img{ margin: 3% auto; }
 
 .tips2 .row{text-align: center; width: 75%; margin: 0 auto;}
 
@@ -106,10 +105,12 @@ hr{ border: 3px solid; }
 .desktop{ display: none; }
 .laptop{ display: block !important; }
 .laptop .row{ width: 100%; }
-.laptop .row .six.columns{ width: 50%; margin-left: 0; }
-.laptop .other-images2 .three.columns{  width: 50%; margin-left: 0; }
-.laptop .include{ text-align: center; }
-
+.laptop .row .six.columns{ width: 50%; margin-left: 0; padding: 0 5%;}
+.laptop .row .twelve.columns{ width: 50%; margin:0 auto;  float: none;}
+.laptop .specs{ margin: 3% 0; }
+.laptop .include{ margin: 3% 0; }
+.laptop .include .six.columns{ width: 50%; }
+.laptop .row.other-imgs2 .six.columns{ width: 50%; padding:0; }
 
 .shipping .six.columns{ text-align: center; }
 .tips1 img{ width: 100%; display: block; margin: 3% auto; }
@@ -128,7 +129,7 @@ hr{ border: 3px solid; }
 
 .desktop{ display: none; }
 .laptop{ display: block !important; }
-
+.tips1 .container{ width: 100%; }
 
 .details, .shipping, .tracking, .tips1, .tips2{ text-align: center; }
 
