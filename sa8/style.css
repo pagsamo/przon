@@ -120,6 +120,10 @@ h1,h2,h3{ color: #7D7256; }
 .watch-guides .container{ width:100%; margin-left: 0; }
 .tips2{ margin-top: 3%; }
 .tips2 .row .twelve.columns{ margin-bottom: 3%; padding: 5%;}
+.other-images{ display:none; }
+.other-images2{ display: block !important; margin-bottom: 5%; }
+.other-images2 .six.columns{ width: 50%; margin-left:0; }
+.other-images2 .twelve.columns{ float: none; margin: 0 auto; text-align: center;}
 
 }
 /*Tablets and Laptop*/
