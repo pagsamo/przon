@@ -87,13 +87,14 @@ h1,h2,h3{ color: #7D7256; }
 .tracking .twelve.columns.tr{ padding: 3%; text-align: center;}
 
 .main{ margin-top: 3%; margin-bottom: 3%;}
-.main .info{ text-align: center; border-top: 3px solid #ccc5; padding: 3%;}
+.main .info{ text-align: center; border-top: 3px solid #ccc; padding: 3%;}
 .main .row .five.columns{ border:3px solid #ccc;  }
 .main .row .five.columns img{ margin-top:20%; margin-bottom: 20%; }
 .main .row .seven.columns{ border: 3px solid #ccc; }
 .include-info{ border-top: 3px solid #ccc; padding: 5%; text-align: center; color: #7D7256;}
+.main .row .seven.columns{ margin-bottom: 3%; }
 
-.specs{ border: 3px solid #ccc; margin-bottom: 3%;}
+.specs, .specs2{ border: 3px solid #ccc; margin-bottom: 3%;}
 .specs .four.columns{ padding: 5%; }
 
 .other-images{ margin-bottom: 3%; }
@@ -102,15 +103,23 @@ h1,h2,h3{ color: #7D7256; }
 .tips .six.columns{ border: 3px solid #ccc; }
 .tips .six.columns .u-full-width{ text-align: center; border-top: 3px solid #ccc;}
 .tips .row .twelve.columns{ padding-right: 5%; padding-left: 5%; padding-top: 5%; }
-.tips2 .row .twelve.columns{ padding-right: 20%; padding-left: 20%; }
+.tips2 .row .twelve.columns{ padding-right: 20%; padding-left: 20%; margin-bottom: 20%;}
 .tips{ margin-bottom: 3%; }
 
 
 /*Tablets and Laptop*/
 @media (min-width: 550px) and (max-width: 1024px) {
 
-
-
+.shipping{ margin-bottom: 5%; }
+.shipping .six.columns{ width: 45%; margin-left: 0; }
+.main .row .five.columns img{ margin-top:5%; margin-bottom: 5%; }
+.row.specs{ display: none;  }
+.row.specs2{ display: block !important; }
+.specs2 .six.columns{ width: 50%; margin-left: 0; padding: 5%;}
+.tracking .twelve.columns.tr{ width: 50%; margin-left:0; padding:3%; }
+.watch-guides .container{ width:100%; margin-left: 0; }
+.tips2{ margin-top: 3%; }
+.tips2 .row .twelve.columns{ margin-bottom: 3%; padding: 5%;}
 
 }
 /*Tablets and Laptop*/
@@ -118,5 +127,10 @@ h1,h2,h3{ color: #7D7256; }
 /*Mobile*/
 @media (max-width: 549px) {
 
+.shipping{ text-align: center; margin-bottom: 5%;}
+.watch-guides .container{ width: 100%; }
+.main .row .five.columns img{ margin-top:5%; margin-bottom: 5%; }
+.specs .four.columns{ padding-bottom:0;padding-top:0; }
+.tips2{ margin-top:3%; }
 
 }/*Mobile*/
