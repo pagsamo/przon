@@ -102,16 +102,23 @@ h1,h2,h3{ color: #7D7256; }
 
 .tips .six.columns{ border: 3px solid #ccc; }
 .tips .six.columns .u-full-width{ text-align: center; border-top: 3px solid #ccc;}
-.tips .row .twelve.columns{ padding-right: 5%; padding-left: 5%; padding-top: 5%; }
-.tips2 .row .twelve.columns{ padding-right: 20%; padding-left: 20%; margin-bottom: 20%;}
+.tips .row .twelve.columns{ padding:5%; }
+.tips2 .row .twelve.columns{ padding:5%;}
 .tips{ margin-bottom: 3%; }
 
-
 /*Tablets and Laptop*/
+
+@media and (max-width: 700px){
+
+.other-images .four.columns{ width: 100%; margin-left: 0; text-align: center; float: none;}
+
+}
+
+
 @media (min-width: 550px) and (max-width: 1024px) {
 
 .shipping{ margin-bottom: 5%; }
-.shipping .six.columns{ width: 50%; margin-left: 0; }
+.shipping .six.columns{ width: 50%; margin-left: 0;  }
 .main .row .five.columns img{ margin-top:5%; margin-bottom: 5%; }
 .row.specs{ display: none;  }
 .row.specs2{ display: block !important; }
@@ -120,21 +127,26 @@ h1,h2,h3{ color: #7D7256; }
 .watch-guides .container{ width:100%; margin-left: 0; }
 .tips2{ margin-top: 3%; }
 .tips2 .row .twelve.columns{ margin-bottom: 3%; padding: 5%;}
-.other-images{ display:none; }
-.other-images2{ display: block !important; margin-bottom: 5%; }
-.other-images2 .six.columns{ width: 50%; margin-left:0; }
-.other-images2 .twelve.columns{ float: none; margin: 0 auto; text-align: center;}
+
 
 }
 /*Tablets and Laptop*/
+
+
 
 /*Mobile*/
 @media (max-width: 549px) {
 
 .shipping{ text-align: center; margin-bottom: 5%;}
+.shipping .six.columns{ padding-left: 10%; padding-right: 10%; }
+.tracking .twelve.columns{ padding-left: 10%; padding-right: 10%; }
 .watch-guides .container{ width: 100%; }
 .main .row .five.columns img{ margin-top:5%; margin-bottom: 5%; }
-.specs .four.columns{ padding-bottom:0;padding-top:0; }
+.main .twelve.columns.info{ padding-left: 10%; padding-right: 10%; }
+.specs .four.columns{ padding-bottom:0;padding-top:0; text-align: center; padding-left: 10%; padding-right: 10%; }
 .tips2{ margin-top:3%; }
+.tips .row .twelve.columns{ padding: 5% 10%; }
+.tips2 .row .twelve.columns{ padding: 5% 10%;}
 
 }/*Mobile*/
+
