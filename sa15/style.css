@@ -6,9 +6,6 @@ html, body {
   font-family: "Tahoma", Arial, sans-serif;
 }
 
-
-h1,h2,h3{ color: #7D7256; }
-
 .container {
   position: relative;
   width: 90%;
@@ -77,8 +74,18 @@ h1,h2,h3{ color: #7D7256; }
 }
 
 .label{ font-weight: bolder; }
-
-
+.row.red, .red{ background-color: #BC1B23; color: #ffffff; }
+.title{ text-align: center; border: 3px solid #ffffff; margin-top: 5%; margin-bottom: 5%;}
+.specs{ width: 45%; float: none; margin: 3% auto; padding:0 5%;}
+.main{ width: 90%; float: none; margin: 3% auto;}
+.include{ text-align: center; }
+.include img{ width: 70%; }
+.section1 .four.columns, .section2 .four.columns{ width:35%; margin:0; text-align: center; padding: 3% 5%;}
+.section1 .eight.columns, .section2 .eight.columns{ width: 65%; margin:0;}
+.section1 h1, .section2 h1{ border: 3px solid #ffffff; padding: 5%; }
+.tips{ width: 80%; float: none; margin: 0 auto;}
+.tips h3{ border: 3px solid black; text-align: center; padding: 3%; }
+.tips .six.columns{ padding:3%; }
 /*Tablets and Laptop*/
 
 
