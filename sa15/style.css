@@ -90,7 +90,7 @@ html, body {
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
-
+.section1 .four.columns{ width: 100%; }
 
 
 }
