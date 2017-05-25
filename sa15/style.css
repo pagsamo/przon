@@ -8,7 +8,7 @@ html, body {
 
 .container {
   position: relative;
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
   box-sizing: border-box; }
 .column,
@@ -40,13 +40,13 @@ html, body {
 
 @media (min-width: 400px) {
   .container {
-    width: 90%;
+    width: 92%;
     padding: 0; }
 }
 
 @media (min-width: 1025px) {
   .container {
-    width: 90%; }
+    width: 92%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -73,35 +73,42 @@ html, body {
   
 }
 
-.label{ font-weight: bolder; }
-.row.red, .red{ background-color: #BC1B23; color: #ffffff; }
-.title{ text-align: center; border: 3px solid #ffffff; margin-top: 5%; margin-bottom: 5%;}
-.specs{ width: 45%; float: none; margin: 3% auto; padding:0 5%;}
-.main{ width: 90%; float: none; margin: 3% auto;}
-.include{ text-align: center; }
+.label{ font-weight: bold; }
+.red{ background-color: #BC1B23; }
+.title{ width: 45%; margin: 5% auto; text-align: center; color: white; border: 3px solid #ffffff;}
+.specs{ background-color: #EDEDED; }
+.specs .row{ width: 50%; margin: 0 auto; padding: 3% 0;}
+.specs .six.columns{ padding: 0 5%; }
+.main{ width: 90%; float: none; margin: 0 auto; }
+.include{ text-align:center; }
 .include img{ width: 70%; }
-.section1 .four.columns, .section2 .four.columns{ width:35%; margin:0; text-align: center; padding: 3% 5%;}
-.section1 .eight.columns, .section2 .eight.columns{ width: 65%; margin:0;}
-.section1 h1, .section2 h1{ border: 3px solid #ffffff; padding: 5%; }
-.tips{ width: 80%; float: none; margin: 0 auto;}
-.tips h3{ border: 3px solid black; text-align: center; padding: 3%; }
-.tips .six.columns{ padding:3%; }
+.tips{ background-color: #EDEDED; padding: 3% 0;}
+.tips .row h3{ border: 3px solid black; padding: 3%; }
+.tips .row{ width: 80%; margin: 0 auto; float: none; }
+.tips .row .six.columns{ padding: 0 5%; }
+.section1 .row .four.columns, .section2 .row .four.columns{ width: 35%; color: white; text-align: center; padding: 3%; margin-left:0;}
+.section1 .row .eight.columns, .section2 .row .eight.columns{ width: 65%; margin-left:0;}
+.section1 h1, .section2 h1{ border: 3px solid white; padding:5%;}
+
 /*Tablets and Laptop*/
-
-
 @media (min-width: 550px) and (max-width: 1024px) {
-.section1 .four.columns{ width: 100%; }
-
-
+.title{ width: 70%; }
+.specs .row{ width: 90%; }
+.specs .row .six.columns{ width: 50%; margin-left: 0; padding: 0 5%; }
+.main .row .six.columns{ width: 50%; margin-left: 0; }
+.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
+.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 50%; float: none; margin:0 auto; }
+.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
+.other-images{ text-align: center; }
+.tips .row .six.columns{ width: 50%; margin-left:0; }
 }
 /*Tablets and Laptop*/
 
-
-
 /*Mobile*/
 @media (max-width: 549px) {
-
-
-
+.title{ width:92%; }
+.specs .row{ width:80%; }
+.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
+.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 80%; float: none; margin:0 auto; }
+.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
 }/*Mobile*/
-
