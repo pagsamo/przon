@@ -114,4 +114,6 @@ html, body {
 .section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
 .section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 80%; float: none; margin:0 auto; }
 .section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
+.tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
+.tips .row h3{ text-align: center; }
 }/*Mobile*/
