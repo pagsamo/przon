@@ -83,7 +83,7 @@ html, body {
 .include{ text-align:center; }
 .include img{ width: 70%; }
 .tips{ background-color: #EDEDED; padding: 3% 0;}
-.tips .row h3{ border: 3px solid black; padding: 3%; }
+.tips .row h3{ border: 3px solid #BC1B23; padding: 3%; }
 .tips .row{ width: 80%; margin: 0 auto; float: none; }
 .tips .row .six.columns{ padding: 0 5%; }
 .section1 .row .four.columns, .section2 .row .four.columns{ width: 35%; color: white; text-align: center; padding: 3%; margin-left:0;}
@@ -94,7 +94,7 @@ html, body {
 @media (min-width: 550px) and (max-width: 1024px) {
 .title{ width: 70%; }
 .specs .row{ width: 90%; }
-.main{ margin: 3% auto; }
+.main{ margin: 7% auto; }
 .specs .row .six.columns{ width: 50%; margin-left: 0; padding: 0 5%; }
 .main .row .six.columns{ width: 50%; margin-left: 0; }
 .section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
@@ -109,9 +109,9 @@ html, body {
 /*Mobile*/
 @media (max-width: 549px) {
 .title{ width:92%; }
-.specs .row{ width:80%; }
+.specs .row{ width:80%; padding-top: 15%; padding-bottom: 15%;}
 .include{ margin: 5% auto; }
-.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
+.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; padding-bottom: 20%; padding-top: 20%;}
 .section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 80%; float: none; margin:0 auto; }
 .section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
 .tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
