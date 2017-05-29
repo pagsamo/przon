@@ -75,13 +75,35 @@ html, body {
   
 }
 
-
-
-
+.main{ border-bottom: 10px solid #FF6F6F; border-top:10px solid #FF6F6F; padding:3% 10%; }
+.specsandinclude, .specsandinclude2{ background-color: #F1F2F2; padding: 3% 5%;}
+.specsandinclude .seven.columns .row .six.columns{ padding-left:5%; padding-right:5%; }
+.specsandinclude .five.columns{ padding: 0 5%; }
+.guides .six.columns{ width:50%; margin-left:0; }
+.tips{ width:80%; float:none; margin: 0 auto; padding:3% 0; }
+.tips .six.columns{ background-color: #F1F2F2; padding:2% 3%; border-top: 10px solid #FF6F6F; }
+.twelve.columns.title{ background-color: #FF6F6F; text-align: center; }
+.content{ width: 88%; float:none; margin:0 auto; padding: 5% 0; }
+.content .row .four.columns, .content .row .eight.columns{ background-color: #F1F2F2; margin-top: 5%; padding: 3% 3%; border-top: 10px solid #FF6F6F;}
 
 @media (min-width: 550px) and (max-width: 1024px) {
-
-
+.other-images{ display: none; }
+.other-images2{ display: block !important; }
+.other-images2 .six.columns{ width:50%; margin-left:0; }
+.other-images2 .twelve.columns{ text-align: center; }
+.main .seven.columns{ width:65%; }
+.main .five.columns{ width:35%; margin-left:0; }
+.specsandinclude{ display: none; }
+.specsandinclude2{ display: block !important; }
+.specsandinclude2 .twelve.columns{ text-align: center; padding:0 5%;}
+.specsandinclude2 .six.columns{ width:50%; margin-left:0; padding:0 5%; }
+.guides .six.columns{ width:100%; margin-left:0; }
+.tips .six.columns{ margin: 5% auto; padding: 3% 7%;}
+.trackandship{ display:none; }
+.trackandship2{ display: block !important; }
+.trackandship2 .twelve.columns{ background-color: #FF6F6F; text-align: center; padding: 3% 0; margin:0;}
+.trackandship2 .track-content, .trackandship2 .ship-content{ width:80%; margin:3% auto; float: none; background-color: #F1F2F2; border-top:10px solid #FF6F6F}
+.trackandship2 .track-content .six.columns,.trackandship2 .shipping .six.columns{ width: 50%; margin-left:0; padding:3% 5%;}
 }
 /*Tablets and Laptop*/
 

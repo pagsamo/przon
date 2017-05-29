@@ -136,7 +136,7 @@ html, body {
 .main .container{ width:100%; margin-left:0; text-align:center;}
 .main .three.columns, .main .four.columns{ padding-left: 5%; padding-right:5%; }
 .specs .four.columns{ padding-left:5%; padding-right:5%; }
-.tips .six.columns{ width:100%; margin-left:0; padding-left: 10%; padding-right:10%;}
+.tips .six.columns{ width:100%; margin-left:0; padding:10% 10%;}
 
 }/*Mobile*/
 
