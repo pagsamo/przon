@@ -118,11 +118,13 @@ html, body {
 .trackandship2{ display: block !important;}
 .trackandship2 .u-full-width{ background-color: #F2DB5A; text-align: center; padding: 3% 2%;}
 .trackandship2 .container{  padding:2%; width:100%; }
-.track2-content, .ship2-content{ text-align: center; border:3px solid #37C1AA;}
+.track2-content, .ship2-content{ text-align: center; border:3px solid #37C1AA; padding-top: 7%; padding-bottom:7%;}
 .ship2-content .twelve.columns{ padding:0% 7%; }
 .tip1a{ border:3px solid #37C1AA; border-top:0;}
-.topper{ border-top: 3px solid #37C1AA; }
+.topper{ border-top: 3px solid #37C1AA; padding-top: 10% !important; padding-bottom:10% !important;}
 .guides{ width:100%; }
 .pic2{ margin:0;  }
+.marginner-top{ margin-top: 5%; }
+.marginner-bottom{ margin-bottom:10%; }
 }/*Mobile*/
 
