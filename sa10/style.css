@@ -111,6 +111,8 @@ html, body {
 
 /*Mobile*/
 @media (max-width: 549px) {
+.specsandinclude{ display:none; }
+.specsandinclude2{ display:block !important; padding: 10% 5%;}
 .guides .six.columns{ width:100%; margin-left:0; }
 .tips{ width:100%; padding:0;}
 .tips .six.columns{padding:10% 10%;}
