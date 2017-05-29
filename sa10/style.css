@@ -91,7 +91,7 @@ html, body {
 .other-images2{ display: block !important; }
 .other-images2 .six.columns{ width:50%; margin-left:0; }
 .other-images2 .twelve.columns{ text-align: center; }
-.main .seven.columns{ width:65%; }
+.main .seven.columns{ width:65%; margin-left:0;}
 .main .five.columns{ width:35%; margin-left:0; }
 .specsandinclude{ display: none; }
 .specsandinclude2{ display: block !important; }
@@ -111,6 +111,16 @@ html, body {
 
 /*Mobile*/
 @media (max-width: 549px) {
+.guides .six.columns{ width:100%; margin-left:0; }
+.tips{ width:100%; }
+.tips .six.columns{ margin: 7% 0; padding:0 5%;}
+.trackandship{ display: none; }
+.trackandship2{ display: block !important; }
+.trackandship2 .twelve.columns{ background-color: #FF6F6F; text-align: center; padding: 3% 0; margin:0;}
+.trackandship2 .track-content, .trackandship2 .ship-content{ width:100%; margin:0 auto; float: none; background-color: #F1F2F2;}
+.trackandship2 .track-content .six.columns,.trackandship2 .shipping .six.columns{ padding-top:5%; padding-left:7%; padding-right:7%;}
+
+
 
 
 }/*Mobile*/
