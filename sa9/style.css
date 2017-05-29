@@ -92,7 +92,7 @@ html, body {
 .main .three.columns{ padding-right: 5%; }
 
 
-.specs, .specs2{ background-color: #7AC9E5; padding:3% 0;}
+.specs, .specs2{ background-color: #F0F0F0; padding:3% 0;}
 .specs .four.columns{ padding-left: 3%; padding-right:3%; }
 
 .tips{ background-color: #7AC9E5;}
@@ -134,7 +134,7 @@ html, body {
 .bl3{ background-color: #7AC9E5; }
 .main{ padding:0; }
 .main .container{ width:100%; margin-left:0; text-align:center;}
-.main .three.columns{ padding-left: 5%; padding-right:5%; }
+.main .three.columns, .main .four.columns{ padding-left: 5%; padding-right:5%; }
 .specs .four.columns{ padding-left:5%; padding-right:5%; }
 .tips .six.columns{ width:100%; margin-left:0; padding-left: 10%; padding-right:10%;}
 
