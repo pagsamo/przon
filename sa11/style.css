@@ -113,6 +113,7 @@ html, body {
 
 /*Mobile*/
 @media (max-width: 549px) {
+.specsandinclude .seven.columns .row .six.columns{ padding-left:7%; padding-right:7%; }
 .specsandinclude .five.columns{ border-top: 3px solid #37C1AA; border-left:0 !important; border-right:0; text-align: center;}
 .trackandship{ display: none; }
 .trackandship2{ display: block !important;}
