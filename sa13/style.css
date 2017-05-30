@@ -75,6 +75,7 @@ html, body {
   
 }
 
+
 .main .row{ width:70%; float:none; margin:0 auto;}
 .main .row .title{ padding: 5% 5%; text-align: center;}
 .specs{ background-color: #D7DCB3; border-top: 10px solid #B7D0CD; border-bottom: 10px solid #B7D0CD; padding:3% 0;}
