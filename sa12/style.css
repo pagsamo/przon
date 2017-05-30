@@ -80,20 +80,22 @@ hr{ border: 3px solid #C8CEC4 }
 .shipping hr{ width:30%; float:left; margin:0;}
 .other-images{ background-color: white; }
 .mnninc .five.columns{ width:43%; }
-.mnninc .seven.columns{ width:55%; margin-left:2%; }
+.mnninc .seven.columns{ width:55%; margin-left:2%;  }
+.title .twelve.columns{ background-color: #FBF9ED; padding:0 10%; }
 .mnninc, .spandtr, .shipping, .tips{ padding:2%; }
-.spandtr{ padding-top:0; }
+.spandtr, .tips{ padding-top:0; }
 .specs{ background-color: #FBF9ED; padding:5% 2%; }
 .specs .six.columns{ padding:0 5%; }
-.row.title{ background-color: #FBF9ED; padding: 3%; }
 .include{ margin-top:4%; }
 .include-info{ padding:3%; background-color:#FBF9ED ;}
-.tracking{ background-color: #C2B59B; padding:5% 10%; }
 .tracking h1{ margin-top:0;  }
+.tracking1 { background-color: #C2B59B; padding:5% 10%; }
 .guides .six.columns{ width:50%; margin-left:0; }
 .shipping .container{ background-color: #C2B59B ; padding:5% 7%; }
 .tips .six.columns{ background-color: #FBF9ED; width:49%; margin-left:0; padding:3% 5%;}
 .tip2{ margin-left:2% !important; }
+.tracking2 h1, .tracking h1, .shipping h1{ margin-bottom:0; }
+
 
 @media (min-width: 550px) and (max-width: 1024px) {
 .other-images .four.columns{ width:50%; margin-left:0; }
@@ -102,8 +104,23 @@ hr{ border: 3px solid #C8CEC4 }
 .main2{ display: block !important; padding:2%; }
 .main2 .main .seven.columns{ width:55%; }
 .main2 .main .five.columns{ width:43%; margin-left:2%; background-color: #FBF9ED; padding:5% 7%;}
-.main2 .inc .seven.columns{ width:55%; margin-left:2%; }
-.main2 .inc .five.columns{ width:43%;  background-color: #FBF9ED; padding:5% 7%;}
+.main2 .inc{ padding-top:2%; }
+.main2 .inc .seven.columns{ width:55%; margin-left:2%; background-color: #FBF9ED; padding:5% 7%; }
+.main2 .inc .five.columns{ width:43%;}
+.spandtr .eight.columns{ width:100% !important; margin-left:0; }
+.spandtr .eight.columns .row .six.columns{ width:50%; margin-left:0; }
+.spandtr .four.columns{ width:100% !important; margin-left:0 !important; margin-top: 2%; }
+.tracking1{ display: none; }
+.tracking2{ display: block !important; background-color: #C2B59B; }
+.tracking2 .twelve.columns{ padding:0 7%; }
+.tracking2 hr{ width:100%; float:left;}
+.tracking2 .six.columns{ width:50%; margin-left:0; padding:0 7%;  }
+.tracking2 .six.columns{ padding-right: 9%; }
+.guides .six.columns{ width:100%; margin-left:0; }
+.shipping .six.columns{ width:50%; margin-left:0; }
+.shipping hr{ width:100%; }
+.tips .six.columns{ width:100%; margin-left:0 !important; margin-top:2%; padding:5% 7%;}
+.t1{ margin-top:0 !important; }
 }
 /*Tablets and Laptop*/
 
@@ -111,6 +128,19 @@ hr{ border: 3px solid #C8CEC4 }
 
 /*Mobile*/
 @media (max-width: 549px) {
-
+.mnninc{ display: none; }
+.main2{ display:block !important; padding:2%; }
+.main2 .main .five.columns{ background-color: #FBF9ED; padding:5% 7%; margin:2% 0; text-align: center;}
+.main2 .inc .seven.columns{ background-color: #FBF9ED; padding:5% 7%; text-align: center; margin-top: 2%; }
+.spandtr .eight.columns{ width:100% !important; margin-left:0;}
+.spandtr .eight.columns .row .six.columns{  padding:0 10%;  }
+.guides .six.columns{ width:100%; margin-left:0; }
+.tracking1{ display: none; }
+.tracking2{ display: block !important; text-align: center; padding:5% 10%; background-color: #C2B59B; margin-top:2%;}
+.shipping{ text-align: center; }
+.shipping hr{ width: 100% }
+.shipping .six.columns{ padding:0 7%; }
+.tips .six.columns{ width:100%; margin-left:0 !important; margin-top: 2%; padding:5% 10%;}
+.t1{ margin-top: 0 !important; }
 }/*Mobile*/
 
