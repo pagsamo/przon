@@ -82,13 +82,13 @@ hr{ border: 3px solid #C8CEC4 }
 .mnninc .five.columns{ width:43%; }
 .mnninc .seven.columns{ width:55%; margin-left:2%; }
 .mnninc, .spandtr, .shipping, .tips{ padding:2%; }
-.spandtr, .tips{ padding-top:0; }
+.spandtr{ padding-top:0; }
+.specs{ background-color: #FBF9ED; padding:5% 2%; }
+.specs .six.columns{ padding:0 5%; }
 .row.title{ background-color: #FBF9ED; padding: 3%; }
 .include{ margin-top:4%; }
 .include-info{ padding:3%; background-color:#FBF9ED ;}
-.specs{ background-color: #FBF9ED; padding:3%; }
-.specs .six.columns{ padding-left:5%; padding-right:5%; width:50%; margin-left:0;}
-.tracking{ background-color: #C2B59B; padding:5% 7%; }
+.tracking{ background-color: #C2B59B; padding:5% 10%; }
 .tracking h1{ margin-top:0;  }
 .guides .six.columns{ width:50%; margin-left:0; }
 .shipping .container{ background-color: #C2B59B ; padding:5% 7%; }
@@ -96,7 +96,14 @@ hr{ border: 3px solid #C8CEC4 }
 .tip2{ margin-left:2% !important; }
 
 @media (min-width: 550px) and (max-width: 1024px) {
-  
+.other-images .four.columns{ width:50%; margin-left:0; }
+.other-images .last{ width:100% !important; text-align: center; }
+.mnninc{ display: none }
+.main2{ display: block !important; padding:2%; }
+.main2 .main .seven.columns{ width:55%; }
+.main2 .main .five.columns{ width:43%; margin-left:2%; background-color: #FBF9ED; padding:5% 7%;}
+.main2 .inc .seven.columns{ width:55%; margin-left:2%; }
+.main2 .inc .five.columns{ width:43%;  background-color: #FBF9ED; padding:5% 7%;}
 }
 /*Tablets and Laptop*/
 

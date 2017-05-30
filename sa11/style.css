@@ -81,16 +81,24 @@ html, body {
 .maintospecs .container{ width:100%; border: 3px solid #37C1AA; }
 .maintospecs .container .row.main{ width:70%; float:none; margin: 0 auto; padding: 3%;}
 .specsandinclude .seven.columns, .specsandinclude .five.columns{ padding:5%; }
+.specs .six.columns{ padding:0 7%; width:50%; margin-left:0;}
 .trackandship .title{ text-align: center; background-color: #F2DB5A; padding:2% 0; }
 .trackandship .content{ border:3px solid #37C1AA; width: 90%; float:none; margin:2% auto;}
 .ship-content{ padding: 3%; }
-.ship-conent .six.columns{ padding:0 3%; }
+.ship-content .six.columns{ padding:0 3%; }
 .trackandship .track-content{ padding:3%; border-right: 3px solid #37C1AA;}
 .row.tips{ border-top: 3px solid #37C1AA; }
 .row.tips .six.columns{ width:50%; margin-left:0; padding:3%;}
 .t1{ border-right:3px solid #37C1AA; }
 .guides{ width:75%; float:none; margin:0 auto; margin-bottom: 3%;}
 .pic2{ margin-top: 2%; }
+.specs{ border-right:3px solid #37C1AA !important; }
+
+
+@media (min-width: 1313px){
+  .specs{ border-right:0 !important; }
+  .include{ border-left: 3px solid  #37C1AA !important; }  
+}
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
@@ -100,8 +108,8 @@ html, body {
   .specsandinclude .five.columns{ border-top: 3px solid #37C1AA; border-left:0 !important; border-right:0; text-align: center;}
   .trackandship .title .five.columns{ width:40%; margin-left: 0; }
   .trackandship .title .seven.columns{ width:60%; margin-left:0; }
-  .trackandship .track-content{ width:40%; margin-left:0; border-right:0; }
-  .trackandship .ship-content{ width:60%; margin-left:0; border-left:3px solid #37C1AA;}
+  .trackandship .track-content{ width:40%; margin-left:0; border-right:0; padding:0 5%; }
+  .trackandship .ship-content{ width:60%; margin-left:0; border-left:3px solid #37C1AA; padding:5% 5%;}
   .row.tips .six.columns{ width:100%; margin-left:0; padding:7%; }
   .t1{border-right:0; border-bottom:3px solid #37C1AA;}
   .guides{ width:100%; }
@@ -120,7 +128,7 @@ html, body {
 .trackandship2 .u-full-width{ background-color: #F2DB5A; text-align: center; padding: 3% 2%;}
 .trackandship2 .container{  padding:2%; width:100%; }
 .track2-content, .ship2-content{ text-align: center; border:3px solid #37C1AA; padding-top: 7%; padding-bottom:7%;}
-.ship2-content .twelve.columns{ padding:0% 7%; }
+.ship2-content .twelve.columns{ padding:0% 10%; }
 .tip1a{ border:3px solid #37C1AA; border-top:0;}
 .topper{ border-top: 3px solid #37C1AA; padding-top: 10% !important; padding-bottom:10% !important;}
 .guides{ width:100%; }
