@@ -95,10 +95,10 @@ html, body {
 .specs{ border-right:3px solid #37C1AA !important; }
 
 
-@media (min-width: 1313px){
+/*@media (min-width: 1313px){
   .specs{ border-right:0 !important; }
   .include{ border-left: 3px solid  #37C1AA !important; }  
-}
+}*/
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
@@ -114,6 +114,7 @@ html, body {
   .t1{border-right:0; border-bottom:3px solid #37C1AA;}
   .guides{ width:100%; }
   .pic2{ margin:0;  }
+  .specs{ border-right:0 !important; }
 }
 /*Tablets and Laptop*/
 
@@ -122,7 +123,9 @@ html, body {
 /*Mobile*/
 @media (max-width: 549px) {
 .specsandinclude .seven.columns .row .six.columns{ padding-left:7%; padding-right:7%; }
-.specsandinclude .five.columns{ border-top: 3px solid #37C1AA; border-left:0 !important; border-right:0; text-align: center;}
+.specsandinclude .five.columns{ border-top: 3px solid #37C1AA; border-left:0 !important; border-right:0 !important; text-align: center;}
+.specs{ border-right:0 !important; }
+.specs .six.columns{ width:100%; }
 .trackandship{ display: none; }
 .trackandship2{ display: block !important;}
 .trackandship2 .u-full-width{ background-color: #F2DB5A; text-align: center; padding: 3% 2%;}
