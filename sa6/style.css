@@ -12,6 +12,7 @@ html, body {
   font-family: "Tahoma", Arial, sans-serif;
   background-color: #E1E8EE;
 }
+img[src*="spacer.jpg"] {display: none;}
 
 .container {
   position: relative;

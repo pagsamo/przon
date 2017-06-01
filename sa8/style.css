@@ -6,6 +6,8 @@ html, body {
   font-family: "Tahoma", Arial, sans-serif;
 }
 
+img[src*="spacer.jpg"] {display: none;}
+
 
 h1,h2,h3{ color: #7D7256; }
 

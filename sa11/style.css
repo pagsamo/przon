@@ -8,6 +8,8 @@ html, body {
 }
 
 .label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
 
 .container {
   position: relative;

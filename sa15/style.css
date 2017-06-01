@@ -5,6 +5,8 @@ html, body {
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
 }
+img[src*="spacer.jpg"] {display: none;}
+
 
 .container {
   position: relative;

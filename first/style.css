@@ -26,6 +26,8 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+img[src*="spacer.jpg"] {display: none;}
+
 
 .columns {
   width: 100%;

@@ -6,6 +6,8 @@ html, body {
   font-family: "Bebas", Arial, sans-serif;
   background-color: #D7D3CA;
 }
+img[src*="spacer.jpg"] {display: none;}
+
 
 h1,h2,h3,{ font-family: "Bebas", Arial, sans-serif; }
 p,span{ font-family: "Cambria", serif;  }
