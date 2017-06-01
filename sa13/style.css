@@ -7,6 +7,7 @@ html, body {
 }
 
 .label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
 
 .container {
   position: relative;
@@ -76,8 +77,9 @@ html, body {
 }
 
 
-.main .row{ width:70%; float:none; margin:0 auto;}
-.main .row .title{ padding: 5% 5%; text-align: center;}
+.main .row{ width:92%; float:none; margin:0 auto;}
+.main .row .seven.columns{ width:60%; margin-left:0; }
+.main .row .five.columns{ width:40%; margin-left:0; padding:7%; }
 .specs{ background-color: #D7DCB3; border-top: 10px solid #B7D0CD; border-bottom: 10px solid #B7D0CD; padding:3% 0;}
 .specs .row{ width:70%; float:none; margin:0 auto; }
 .includeAndResistanceChart{ border-top: 10px solid #B7D0CD; border-bottom: 10px solid #B7D0CD; }
@@ -89,10 +91,10 @@ html, body {
 .watchmeasurementAndTracking{ background-color: #D7DCB3; border-bottom: 10px solid #B7D0CD;}
 .watchmeasurementAndTracking .four.columns{ width:35%; margin-left:0; }
 .watchmeasurementAndTracking .four.columns h1{ width:100%; margin:0; text-align: center; background-color: #B7D0CD; padding:7% 0;}
-.watchmeasurementAndTracking .four.columns .row{ width:50%; float:none; margin:0 auto; }
+.watchmeasurementAndTracking .four.columns .row{ width:50%; float:none; margin:0 auto; padding-bottom:10%;}
 .watchmeasurementAndTracking .eight.columns{ width:65%; }
 .shipping{ margin-bottom:5%; }
-.shipping h1{ width:100%; margin:0; text-align: center;padding:3.5% 0; background-color: #B7D0CD; }
+.shipping h1{ width:90%; margin:0; text-align: center;padding:3.5% 5%; background-color: #B7D0CD; }
 .shipping .row{ width:70%; margin:0 auto; float:none; }
 
 @media (min-width: 550px) and (max-width: 1024px) {
@@ -113,7 +115,6 @@ html, body {
   .shipping .row{ width:90%; float:none; margin:0 auto; }
   .shipping .six.columns{ width: 50%; margin-left:0; padding:3% 5%;}
   .tips .six.columns{ width:100%; padding:5% 7%; }
-
 }
 /*Tablets and Laptop*/
 
@@ -121,11 +122,13 @@ html, body {
 
 /*Mobile*/
 @media (max-width: 549px) {
+  .main .row .seven.columns, .main .row .five.columns{ width:100%; margin-left:0; text-align: center;}
   .includeAndResistanceChart .four.columns, .includeAndResistanceChart .eight.columns, .tips .six.columns, .watchmeasurementAndTracking .four.columns, .watchmeasurementAndTracking .eight.columns{ width: 100%; margin-left:0;  }
   .includeAndResistanceChart .four.columns{ padding:10%; }
   .tips .six.columns{ padding:10%; }
   .watchmeasurementAndTracking .four.columns .row{ padding:10%; }
   .shipping .row{ padding:0 10%; }
   .shipping{ margin-bottom:10%; }
+
 }/*Mobile*/
 
