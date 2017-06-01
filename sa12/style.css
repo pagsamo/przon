@@ -76,8 +76,7 @@ html, body {
   
 }
 
-hr{ border: 3px solid #C8CEC4 }
-.shipping hr{ width:30%; float:left; margin:0;}
+hr{ border: 3px solid #FBF9ED }
 .other-images{ background-color: white; }
 .mnninc .five.columns{ width:43%; }
 .mnninc .seven.columns{ width:55%; margin-left:2%;  }
@@ -92,6 +91,7 @@ hr{ border: 3px solid #C8CEC4 }
 .tracking1 { background-color: #C2B59B; padding:5% 10%; }
 .guides .six.columns{ width:50%; margin-left:0; }
 .shipping .container{ background-color: #C2B59B ; padding:5% 7%; }
+.shipping .container .row { width:80%; float:none; margin:0 auto; }
 .tips .six.columns{ background-color: #FBF9ED; width:49%; margin-left:0; padding:3% 5%;}
 .tip2{ margin-left:2% !important; }
 .tracking2 h1, .tracking h1, .shipping h1{ margin-bottom:0; }
@@ -111,16 +111,17 @@ hr{ border: 3px solid #C8CEC4 }
 .spandtr .eight.columns .row .six.columns{ width:50%; margin-left:0; }
 .spandtr .four.columns{ width:100% !important; margin-left:0 !important; margin-top: 2%; }
 .tracking1{ display: none; }
-.tracking2{ display: block !important; background-color: #C2B59B; }
+.tracking2{ display: block !important; background-color: #C2B59B; padding:7% 3%; }
 .tracking2 .twelve.columns{ padding:0 7%; }
 .tracking2 hr{ width:100%; float:left;}
 .tracking2 .six.columns{ width:50%; margin-left:0; padding:0 7%;  }
 .tracking2 .six.columns{ padding-right: 9%; }
 .guides .six.columns{ width:100%; margin-left:0; }
-.shipping .six.columns{ width:50%; margin-left:0; }
-.shipping hr{ width:100%; }
 .tips .six.columns{ width:100%; margin-left:0 !important; margin-top:2%; padding:5% 7%;}
 .t1{ margin-top:0 !important; }
+.shipping .container .row{ width:90%; float:none; margin:0 auto;}
+.shipping .row .six.columns{ width:50%; margin-left:0; }
+.withpadding{ padding-right:7%; }
 }
 /*Tablets and Laptop*/
 
