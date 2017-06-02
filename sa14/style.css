@@ -86,7 +86,7 @@ img[src*="spacer.jpg"] {display: none;}
 
 .resistanceAndTracking .eight.columns{ width:65%; }
 .resistanceAndTracking .four.columns{ width:35%; margin-left:0; }
-.resistanceAndTracking .four.columns .row{ width:50%; margin:0 auto; float:none; }
+.resistanceAndTracking .four.columns .row{ width:50%; margin:0 auto; float:none; padding-bottom:10%; }
 .resistanceAndTracking .four.columns h1{ margin:0; width:100%; text-align: center; background-color: #FFCE00; padding:6% 0;}
 
 .main{ background-color: white;}
