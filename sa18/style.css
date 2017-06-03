@@ -102,9 +102,22 @@ img[src*="spacer.jpg"] {display: none;}
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
+h1{margin:0; padding:20px 30px !important; text-align: center;}
 .other-images{ text-align: center; }
 .mainSpecs{ display: none; }
-.specsLaptop{ display: block !important; }
+.row.specsLaptop{ display: block !important; }
+.specsLaptop .six.columns{ width:50%; margin-left:0; padding:5% 5%; }
+.tip1AndMeasurement .four.columns{ display: none; }
+.shippingAndTracking .eight.columns{ width:48%; margin-left:0; }
+.shippingAndTracking .eight.columns .row .six.columns{ padding:3% 20%; }
+.shippingAndTracking .four.columns{ width:48%; margin-left:4%; }
+.resistanceAndTips .four.columns{ display: none; }
+.tips2{ display: block !important; }
+.tips2 .six.columns:first-child{ width:48%; margin-left:0; background-color: #EBEBEB; margin-top:4%; }
+.tips2 .six.columns:last-child{ width:48%; margin-left:4%; background-color: #EBEBEB;  margin-top:4%; }
+.tips2 .six.columns .row:first-child{ padding:5% 15%; }
+.tips2 .six.columns .row:last-child{ text-align: center; background-color:  #FFBD65}
+
 
 }
 /*Tablets and Laptop*/
@@ -113,6 +126,19 @@ img[src*="spacer.jpg"] {display: none;}
 
 /*Mobile*/
 @media (max-width: 549px) {
-
+h1{margin:0; padding:4% 7% !important; text-align: center;}
+.mainSpecs{ padding:10% !important; }
+.resistanceAndTips .four.columns{ display: none; }
+.tips2{ display: block !important; }
+.tip1AndMeasurement .four.columns{ display: none; }
+.shippingAndTracking{ margin:0; }
+.shippingAndTracking .four.columns .row:first-child, .shippingAndTracking .eight.columns .row .six.columns{ padding-left:10%; padding-right:10%; }
+.content1{ padding-top:7%; }
+.content2{ padding-bottom:7%; }
+.tips2 .six.columns:first-child{ width:100%; margin-left:0; background-color: #EBEBEB;}
+.tips2 .six.columns:last-child{ width:100%; margin-left:0%; background-color: #EBEBEB;  }
+.tips2 .six.columns .row:first-child{ padding:5% 15%; }
+.tips2 .six.columns .row:last-child{ text-align: center; background-color:  #FFBD65}
+.main .four.columns{ padding:7%; }
 }/*Mobile*/
 
