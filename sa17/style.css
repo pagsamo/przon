@@ -75,15 +75,19 @@ img[src*="spacer.jpg"] {display: none;}
   
 }
 
+
+
 hr{ border:3px solid black; }
-.main .eight.columns,.main .four.columns{ text-align: center; }
-.main .eight.columns .row .five.columns{ padding:5% 3%; }
-.main .four.columns{ padding:5% 3%; }
+.main .eight.columns .row{  display: flex;
+  justify-content: center; }
+.main .eight.columns .row .five.columns{ align-self: center; }
+.main{ text-align: center; }
+.main .four.columns{ padding:0 3%; }
 .specs h1{ padding-left:3%; }
 .specs .four.columns{ padding:3% 5%; }
 .shippingAndWatch .four.columns{ width:35%; margin-left:0; }
 .shippingAndWatch .eight.columns{ width:65%; margin-left:0; }
-.shippingAndWatch .four.columns h1{ padding-left:10%; }
+.shippingAndWatch .four.columns h1{ padding-left:10%; padding-right:10%; }
 .shippingAndWatch .four.columns .row{ padding:3% 10%; }
 .tips h1{ padding-left:3%; }
 .tips .six.columns{ padding:3% 5%; }
@@ -93,9 +97,9 @@ hr{ border:3px solid black; }
 .resistanceAndTracking .four.columns .row{ padding:3% 10%; }
 
 @media (min-width: 550px) and (max-width: 1024px) {
-.main .eight.columns{ width:100%; margin-left:0; }
-.main .eight.columns .row .seven.columns{ width:60%; margin-left:0; }
-.main .eight.columns .row .five.columns{ width:40%; margin-left:0; padding:3% 7%; }
+.main .eight.columns{ width:100%; margin-left:0; display: block; }
+.main .eight.columns .row{ display: block; }
+.main .eight.columns .row .five.columns{ padding:0 10%; }
 .mainSpecs{ display: none; }
 .specsLaptop{ display: block !important; }
 .specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 7%;}
@@ -116,11 +120,13 @@ h1{ padding:0 !important; text-align: center; }
 
 /*Mobile*/
 @media (max-width: 549px) {
+  .main .eight.columns .row{ display: block !important; }
+  .main .eight.columns .row .five.columns{ padding:0 7%; }
 h1{ padding:3% 7% !important; text-align: center; }
 .specs .row{ padding:3% 5%; }
 .shippingAndWatch .four.columns{ width:100%; margin-left:0; }
-.shippingAndWatch .eight.columns{ width:100%; margin-left:0; }
-.resistanceAndTracking .eight.columns{ width:100%; margin-left:0; }
+.shippingAndWatch .eight.columns{ width:100%; margin-left:0; margin-top: 5%;}
+.resistanceAndTracking .eight.columns{ width:100%; margin-left:0; margin-top:5%;}
 .resistanceAndTracking .four.columns{ width:100%; margin-left:0; }
 .tips .row{ padding:3% 5%; }
 }/*Mobile*/
