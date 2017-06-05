@@ -79,6 +79,8 @@ img[src*="spacer.jpg"] {display: none;}
 .specs .row.mainSpecs{ padding:3% 5%;  }
 .specs .row:last-child{ background-color: #FFBD65; }
 .specs .row:last-child h1{ margin:0; padding:2% 5%; }
+.main .eight.columns .row{ display: flex; justify-content: center; }
+.main .eight.columns .row .five.columns{ align-self: center; }
 .main .eight.columns,.main .four.columns{ text-align: center; }
 .main .eight.columns .row .five.columns{ padding:5% 3%; }
 .main .four.columns{ padding:5% 3%; }
@@ -102,6 +104,8 @@ img[src*="spacer.jpg"] {display: none;}
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
+  .main .eight.columns .row{ display: block; }
+  .main .eight.columns .row .five.columns{ padding:0 7%; }
 h1{margin:0; padding:20px 30px !important; text-align: center;}
 .other-images{ text-align: center; }
 .mainSpecs{ display: none; }
@@ -137,8 +141,12 @@ h1{margin:0; padding:4% 7% !important; text-align: center;}
 .content2{ padding-bottom:7%; }
 .tips2 .six.columns:first-child{ width:100%; margin-left:0; background-color: #EBEBEB;}
 .tips2 .six.columns:last-child{ width:100%; margin-left:0%; background-color: #EBEBEB;  }
-.tips2 .six.columns .row:first-child{ padding:5% 15%; }
+.tips2 .six.columns .row:first-child{ padding:5% 15%; padding-top:20%; }
 .tips2 .six.columns .row:last-child{ text-align: center; background-color:  #FFBD65}
+.main .eight.columns .row{ display: block; }
+.main .eight.columns .row .five.columns{ padding:0 7%; }
 .main .four.columns{ padding:7%; }
+.main{ margin-top:10%; }
+.shippingAndTracking .four.columns{ padding-top:20%; }
 }/*Mobile*/
 
