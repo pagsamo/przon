@@ -93,6 +93,12 @@ img[src*="spacer.jpg"] {display: none;}
 .specs, .specs2{ background-color: #60B4D0; padding:3% 5%; }
 .specs .four.columns{ padding:0 3%; }
 
+@media (max-width: 700px){
+.tips .six.columns{ width:100%; margin-left:0; padding:5% 12.5%;}
+
+
+
+}
 
 @media (min-width: 550px) and (max-width: 1024px) {
 .guides .six.columns{ width:100%; margin-left:0; }
@@ -121,7 +127,8 @@ img[src*="spacer.jpg"] {display: none;}
 .shippingAndTracking .eight.columns{ width:100%; margin-left:0; }
 .shippingAndTracking .eight.columns .row .six.columns{ width:100%; margin-left:0; padding:3% 12.5%; }
 .shippingAndTracking .four.columns{ width:100%; margin-left:0; }
-.shippingAndTracking .four.columns .row{ padding:3% 12.5%; }
+.shippingAndTracking .four.columns .row{ padding:0 12.5%; }
+.shippingAndTracking .four.columns .row .first p{ margin-top:0; }
 .bl2{ background-color:#60B4D0; }
 .bl3{ background-color: #FEF3D7; }
 .main .eight.columns{ width:100%; margin-left:0; }
