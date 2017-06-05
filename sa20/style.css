@@ -76,16 +76,27 @@ img[src*="spacer.jpg"] {display: none;}
 }
 
 fieldset{ border:2px solid black; }
-legend{ background-color: #18D7C2; width:70%;}
-legend h1{ text-align: center;  margin:0; padding:5%;}
+legend{ background-color: #18D7C2; width:100%;}
+legend h1{ text-align: center;  margin:0; padding:20px 30px;}
 
 .main .container .row{ display: flex; justify-content: center;}
-.main .container .row .four.columns{ align-self: center; }
-
+.main .container .row .four.columns{ align-self: center; padding:7% 3%; text-align: center; height: auto }
+.tracking{ padding:2% 15%; }
+.tipsAndSpecs .eight.columns .row .six.columns{ padding:0 7%; }
+.other-images{ margin:3% 0; }
+.tipsAndInclude{ margin-bottom:3%; }
+.tip2{ background-color: #18D7C2; padding:3% 5%; }
+.tipsAndInclude .row .six.columns .row .six.columns{ text-align: center; }
+.shipping{ padding:0 7%; }
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
-
+.container{ width:100%; }
+.main .container .row{ display: block; }
+.tracking{ padding:2% 7%; }
+.measureAndTracking .four.columns{ width:92%; margin:0 auto; float:none; }
+.measureAndTracking .four.columns fieldset{ margin-top:5%; }
+.tracking .twelve.columns{ width:50%; margin-left:0; padding:0 7%; }
 }
 /*Tablets and Laptop*/
 
