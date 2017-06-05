@@ -141,12 +141,12 @@ h1{margin:0; padding:4% 7% !important; text-align: center;}
 .content2{ padding-bottom:7%; }
 .tips2 .six.columns:first-child{ width:100%; margin-left:0; background-color: #EBEBEB;}
 .tips2 .six.columns:last-child{ width:100%; margin-left:0%; background-color: #EBEBEB;  }
-.tips2 .six.columns .row:first-child{ padding:5% 15%; padding-top:20%; }
+.tips2 .six.columns .row:first-child{ padding:5% 15%; padding-top:7%; }
 .tips2 .six.columns .row:last-child{ text-align: center; background-color:  #FFBD65}
 .main .eight.columns .row{ display: block; }
 .main .eight.columns .row .five.columns{ padding:0 7%; }
 .main .four.columns{ padding:7%; }
 .main{ margin-top:10%; }
-.shippingAndTracking .four.columns{ padding-top:20%; }
+.shippingAndTracking .four.columns{ padding-top:7%; }
 }/*Mobile*/
 
