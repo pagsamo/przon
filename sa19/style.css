@@ -130,6 +130,6 @@ img[src*="spacer.jpg"] {display: none;}
 .main .four.columns{ padding:3% 10%; }
 .main .eight.columns .row{ display: block; }
 .specs h1{ background-color: white;margin:0; padding:3% 0; padding-top:10%; }
-
+html,body{background-color:white !important;  }
 }/*Mobile*/
 

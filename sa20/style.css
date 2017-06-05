@@ -10,7 +10,7 @@ html, body {
 img[src*="spacer.jpg"] {display: none;}
 .container {
   position: relative;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
   box-sizing: border-box; }
 .column,
@@ -42,13 +42,13 @@ img[src*="spacer.jpg"] {display: none;}
 
 @media (min-width: 400px) {
   .container {
-    width: 100%;
+    width: 92%;
     padding: 0; }
 }
 
 @media (min-width: 1025px) {
   .container {
-    width: 100%; }
+    width:92%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -75,8 +75,12 @@ img[src*="spacer.jpg"] {display: none;}
   
 }
 
-legend{ background-color: #18D7C2; width:50%;}
-legend h1{ text-align: center;  margin:0; padding:3% 5%;}
+fieldset{ border:2px solid black; }
+legend{ background-color: #18D7C2; width:70%;}
+legend h1{ text-align: center;  margin:0; padding:5%;}
+
+.main .container .row{ display: flex; justify-content: center;}
+.main .container .row .four.columns{ align-self: center; }
 
 
 
