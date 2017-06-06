@@ -95,8 +95,13 @@ legend h1{ text-align: center;  margin:0; padding:20px 30px;}
 .main .container .row{ display: block; }
 .tracking{ padding:2% 7%; }
 .measureAndTracking .four.columns{ width:92%; margin:0 auto; float:none; }
-.measureAndTracking .four.columns fieldset{ margin-top:5%; }
+.measureAndTracking .eight.columns{ margin-bottom:5%; }
 .tracking .twelve.columns{ width:50%; margin-left:0; padding:0 7%; }
+.tipsAndSpecs .four.columns{ margin:5% auto; padding:0 7%;}
+.tipsAndSpecs .eight.columns .row .six.columns{ width:50%; margin-left:0; padding:0 5%;}
+.other-images{ text-align: center; }
+.tipsAndInclude .tip2{ padding:5% 7%;  margin:5% 0;}
+.shippingAndResistance .eight.columns{ margin-top:5%; }
 }
 /*Tablets and Laptop*/
 
@@ -104,6 +109,16 @@ legend h1{ text-align: center;  margin:0; padding:20px 30px;}
 
 /*Mobile*/
 @media (max-width: 549px) {
+.container{ width:100%; }
+.main .container .row{ display: block; }
+.tracking{ padding:2% 7%; }
+.measureAndTracking .four.columns{ width:92%; margin:0 auto; float:none; }
+.measureAndTracking .eight.columns{ margin-bottom:10%; }
+.tipsAndSpecs .four.columns{ margin:5% auto; padding:0 7%;}
+.other-images{ text-align: center; }
+.include-info{ padding:2% 9%; }
+.tipsAndInclude .tip2{ padding:5% 7%;  margin:5% 0;}
+.shippingAndResistance .eight.columns{ margin-top:10%; }
 
 }/*Mobile*/
 
