@@ -4,6 +4,7 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
+  background-color: #FCE1D0;
 }
 
 .label{ font-weight: bolder; }
@@ -75,40 +76,61 @@ img[src*="spacer.jpg"] {display: none;}
   
 }
 
-hr{ border:3px solid black; }
-.main .eight.columns,.main .four.columns{ text-align: center; }
-.main .eight.columns .row .five.columns{ padding:5% 3%; }
-.main .four.columns{ padding:5% 3%; }
-.specs h1{ padding-left:3%; }
-.specs .four.columns{ padding:3% 5%; }
-.shippingAndWatch .four.columns{ width:35%; margin-left:0; }
+.pre { width:100%; height: 100px; background-color: #FCE1D0; margin-bottom:-50px;}
+.ovaler{position: relative; z-index: 2; background-color: #18488D; color: white; width: 70%; margin:0 auto; text-align: center; height: 100px; border-radius: 50%; display: flex; justify-content: center;}
+.ovaler h1{ align-self: center; }
+
+.specs .ovaler{ width:50%; }
+.shippingAndWatch .ovaler{ width: 100%; }
+.shippingAndWatch .ovaler h1{ padding:0 20%; }
+.tips .ovaler{ width:50%; }
+
+
+
+.measureAndTracking{ background-color: #E2B393; }
+.measureAndTracking .eight.columns{ width:65%; margin-left:0; }
+.measureAndTracking .four.columns{ width:35%; margin-left:0; }
+.measureAndTracking .four.columns .row:last-child, .specs .row:last-child{ background-color: #E2B393; padding:10%; padding-top:50px; margin-top:-50px; z-index: 1; position: relative;}
+
+
+.main{ text-align: center; }
+.main .eight.columns .row{ display: flex; justify-content: center; }
+.main .eight.columns .row .five.columns{ align-self: center;  }
+
+.include-info{ padding:0 10%; }
+
+.specs .row:last-child{ padding-top:100px; }
+
+.other-images{ background-color: white; }
+
 .shippingAndWatch .eight.columns{ width:65%; margin-left:0; }
-.shippingAndWatch .four.columns h1{ padding-left:10%; }
-.shippingAndWatch .four.columns .row{ padding:3% 10%; }
-.tips h1{ padding-left:3%; }
-.tips .six.columns{ padding:3% 5%; }
-.resistanceAndTracking .four.columns{ width:35%; margin-left:0; }
-.resistanceAndTracking .eight.columns{ width:65%; margin-left:0; }
-.resistanceAndTracking .four.columns h1{ padding-left:10%; }
-.resistanceAndTracking .four.columns .row{ padding:3% 10%; }
+.shippingAndWatch .four.columns{ width:35%; margin-left:0; }
+.shippingAndWatch .four.columns .row:last-child{ padding:5% 7%; background-color: #E2B393; margin-top:-50px; padding-top:13%;}
+
+
+.tips .row:last-child{ padding:5% 7%; background-color: #E2B393; margin-top:-50px;}
+
 
 @media (min-width: 550px) and (max-width: 1024px) {
-.main .eight.columns{ width:100%; margin-left:0; }
-.main .eight.columns .row .seven.columns{ width:60%; margin-left:0; }
-.main .eight.columns .row .five.columns{ width:40%; margin-left:0; padding:3% 7%; }
-.mainSpecs{ display: none; }
-.specsLaptop{ display: block !important; }
-.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 7%;}
-.other-images .four.columns{ width:50%; margin-left:0; text-align: center; }
-.other-images .four.columns:last-child{ width:100% !important; }
+.shippingAndWatch .ovaler{ width: 50%; }
+.shippingAndWatch .ovaler h1{ padding:0 20%; }
+.tips .ovaler{ width:50%; }
+
+
+.measureAndTracking .eight.columns{ width: 100%; margin-left:0; }
+.measureAndTracking .four.columns{ width:100%; margin-left:0; }
+.measureAndTracking .four.columns .row:last-child{ padding-top:100px; }
+.measureAndTracking .four.columns .row .twelve.columns{ width:50%; margin-left:0; text-align: center; padding:0% 7%;}
+.main .eight.columns .row .five.columns{ width:40%; padding:0 7%; }
+.main .four.columns{ padding-top:5%; }
+.specs .row:last-child{ padding-left:5%; padding-right:5%; }
+.specs .six.columns{ width:50%; margin-left:0; padding:0 5%;}
+.other-images{ text-align: center; }
 .shippingAndWatch .four.columns{ width:100%; margin-left:0; }
+.shippingAndWatch .four.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
 .shippingAndWatch .eight.columns{ width:100%; margin-left:0; }
-.shippingAndWatch .four.columns .row .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
-.tips .row .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
-.resistanceAndTracking .eight.columns{ width:100%; margin-left:0; }
-.resistanceAndTracking .four.columns{ width:100%; margin-left:0; }
-.resistanceAndTracking .four.columns .twelve.columns{ width:50%; margin-left:0; padding:3% 5%;}
-h1{ padding:0 !important; text-align: center; }
+.tips .six.columns:first-child{ padding-top:25px; }
+
 }
 /*Tablets and Laptop*/
 
@@ -116,12 +138,26 @@ h1{ padding:0 !important; text-align: center; }
 
 /*Mobile*/
 @media (max-width: 549px) {
-h1{ padding:3% 7% !important; text-align: center; }
-.specs .row{ padding:3% 5%; }
+
+.pre { width:100%; height: 50px; background-color: #FCE1D0; margin-bottom:-25px;}
+.specs .ovaler{ width:100%; }
+.tips .ovaler{ width:100%; }
+
+
+
+
+.measureAndTracking .eight.columns{ width: 100%; margin-left:0; }
+.measureAndTracking .four.columns{ width:100%; margin-left:0;}
+.measureAndTrackig .four.columns .row:last-child{ margin-top:-25px;}
+.main .eight.columns .row{ display: block; }
+.main .eight.columns .row .five.columns{ padding:5% 10%; }
+
 .shippingAndWatch .four.columns{ width:100%; margin-left:0; }
+.shippingAndWatch .four.columns .row:last-child{ padding-left:15%; padding-right:15%; padding-bottom:15%;}
 .shippingAndWatch .eight.columns{ width:100%; margin-left:0; }
-.resistanceAndTracking .eight.columns{ width:100%; margin-left:0; }
-.resistanceAndTracking .four.columns{ width:100%; margin-left:0; }
-.tips .row{ padding:3% 5%; }
+
+.tips .six.columns:first-child{ padding-top:35px; }
+.tips .six.columns{ padding:0 7%; }
+
 }/*Mobile*/
 
