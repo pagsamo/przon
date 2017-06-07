@@ -4,13 +4,14 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
+  background-color: #231F20;
 }
 
 .label{ font-weight: bolder; }
 img[src*="spacer.jpg"] {display: none;}
 .container {
   position: relative;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
   box-sizing: border-box; }
 .column,
@@ -42,13 +43,13 @@ img[src*="spacer.jpg"] {display: none;}
 
 @media (min-width: 400px) {
   .container {
-    width: 100%;
+    width: 92%;
     padding: 0; }
 }
 
 @media (min-width: 1025px) {
   .container {
-    width: 100%; }
+    width: 92%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -81,9 +82,10 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 
 
+.row.title{ background-color: #79C7AD; text-align: center; padding:20px 30px; border-top-left-radius: 2%; border-top-right-radius: 2%}
+.row.title h1{ margin:0; }
 
-
-
+.shippingAndTracking .six.columns .row:last-child{ background-color: #FCF0D6; }
 
 /************************************************************************************************/
 /************************************************************************************************/
