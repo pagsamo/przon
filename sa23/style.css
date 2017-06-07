@@ -4,13 +4,14 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
+  background-color: #F7F7F7;
 }
 
 .label{ font-weight: bolder; }
 img[src*="spacer.jpg"] {display: none;}
 .container {
   position: relative;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
   box-sizing: border-box; }
 .column,
@@ -42,13 +43,13 @@ img[src*="spacer.jpg"] {display: none;}
 
 @media (min-width: 400px) {
   .container {
-    width: 100%;
+    width: 92%;
     padding: 0; }
 }
 
 @media (min-width: 1025px) {
   .container {
-    width: 100%; }
+    width: 92%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -79,10 +80,19 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.row.title{ text-align: right; background-color: #314A54; color:white; padding:20px 30px;}
+.row.title h1{ margin:0; }
 
+.other-images{ background-color: white; }
+.main .highlight{ width:60%; margin:5% auto; }
+.titleAndInclude{ display: flex; justify-content: center; text-align: center;}
+.titleAndInclude .six.columns{ align-self: center; }
 
+.specs .container{ background-color: white; margin:4% auto;}
+.specs .mainSpecs{ padding:3% 5%; }
 
-
+.tipAndWater .four.columns .row:first-child, .tipAndWatch .four.columns .row:first-child, .shippingAndTracking .six.columns .row:first-child{ background-color: white; padding:5% 10%;}
+.tipAndWater, .tipAndWatch{ margin-bottom:4%; }
 
 
 /************************************************************************************************/
@@ -98,8 +108,18 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 
 @media (min-width: 550px) and (max-width: 1024px) {
+.other-images .four.columns{ width:50%; margin-left:0; text-align: center; }
+.other-images .four.columns:last-child{ width:100% !important; }
+.mainSpecs{ display: none; }
+.specsLaptop{ display: block !important; }
+.specsLaptop .six.columns{ width:50%; margin-left:0; padding:2% 5%; }
+.tipAndWater .container, .tipAndWatch .container{ width:100%; }
 
+.tipAndWater .four.columns, .tipAndWatch .four.columns{ display: inline-block; width:92%; margin:4% 4%; }
 
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
+.main .highlight{ width:90%; margin:5% auto; }
 
 
 
@@ -115,6 +135,13 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 @media (max-width: 549px) {
+.main .highlight{ width:100%; }
+.titleAndInclude{ display: block; }
+.titleAndInclude .six.columns{ padding:0 7%; }
+.specs .mainSpecs{ padding:3% 10%; }
+.tipAndWater .container, .tipAndWatch .container{ width:100%; }
+.tipAndWater .four.columns, .tipAndWatch .four.columns{ display: inline-block; width:92%; margin:4% 4%; }
+.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
 
 
 

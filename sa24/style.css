@@ -10,7 +10,7 @@ html, body {
 img[src*="spacer.jpg"] {display: none;}
 .container {
   position: relative;
-  width: 100%;
+  width: 92%;
   margin: 0 auto;
   box-sizing: border-box; }
 .column,
@@ -42,13 +42,13 @@ img[src*="spacer.jpg"] {display: none;}
 
 @media (min-width: 400px) {
   .container {
-    width: 100%;
+    width: 92%;
     padding: 0; }
 }
 
 @media (min-width: 1025px) {
   .container {
-    width: 100%; }
+    width: 92%; }
   .column,
   .columns {
     margin-left: 4%; }
