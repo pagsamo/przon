@@ -121,7 +121,9 @@ img[src*="spacer.jpg"] {display: none;}
 .main .eight.columns .row .five.columns{ width:40%; margin-left:0; padding:2% 5%; }
 .mainSpecs{ display: none; }
 .specsLaptop{ display: block !important; }
-.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 10%; }
+.specsLaptop{ padding:5% 3% !important; }
+
 
 
 }
@@ -146,7 +148,6 @@ body{ text-align: center; }
 .main .eight.columns .row{ display: block; }
 .main .eight.columns .row .seven.columns{ padding:0 5%; }
 .main .four.columns{ padding:5%; }
-
 
 }
 /************************************************************************************************/
