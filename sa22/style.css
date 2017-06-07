@@ -82,10 +82,21 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 
 
-.row.title{ background-color: #79C7AD; text-align: center; padding:20px 30px; border-top-left-radius: 2%; border-top-right-radius: 2%}
+.row.title{ background-color: #79C7AD; text-align: center; padding:20px 30px; border-top-left-radius: 20px; border-top-right-radius: 20px;}
 .row.title h1{ margin:0; }
 
-.shippingAndTracking .six.columns .row:last-child{ background-color: #FCF0D6; }
+
+.shippingAndTracking{ margin:4% 0; }
+.shippingAndTracking .six.columns .row:last-child, .resistanceAndTip .four.columns .row:last-child, .measurementAndTip .four.columns .row:last-child, .mainSpecs, .specsLaptop{ background-color: #FCF0D6; padding:5% 10%;}
+
+
+.resistanceAndTip, .measurementAndTip, .other-images, .main{ margin-bottom:4%; }
+.other-images, .main .container{ background-color: white; text-align: center; }
+
+.main .eight.columns .row{ display: flex; justify-content: center; }
+.main .eight.columns .row .five.columns{ align-self: center; }
+.main .four.columns{ padding:3% 5%; }
+
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -101,8 +112,16 @@ img[src*="spacer.jpg"] {display: none;}
 
 @media (min-width: 550px) and (max-width: 1024px) {
 
+.tracking{  margin-top:4%; }
+.resistanceAndTip .container{ width:100%; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ width:92%; margin:4%; margin-bottom:0; float:none; display: inline-block;}
+.measurementAndTip .container{ width:100%; }
+.other-images{ margin:4% 0; }
 
-
+.main .eight.columns .row .five.columns{ width:40%; margin-left:0; padding:2% 5%; }
+.mainSpecs{ display: none; }
+.specsLaptop{ display: block !important; }
+.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
 
 
 }
@@ -117,10 +136,16 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 @media (max-width: 549px) {
+body{ text-align: center; }
+.tracking{  margin-top:4%; }
+.resistanceAndTip .container{ width:100%; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ width:92%; margin:4%; margin-bottom:0; float:none; display: inline-block;}
+.measurementAndTip .container{ width:100%; }
+.other-images{ margin:4% 0; }
 
-
-
-
+.main .eight.columns .row{ display: block; }
+.main .eight.columns .row .seven.columns{ padding:0 5%; }
+.main .four.columns{ padding:5%; }
 
 
 }
