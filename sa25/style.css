@@ -93,6 +93,7 @@ img[src*="spacer.jpg"] {display: none;}
 .shippingAndTracking .six.columns.boxed, .tips .six.columns{ background-color: #E9E9E9; padding:3%;  box-shadow: 5px 5px 5px #888888; }
 .shippingAndTracking .six.columns .row .twelve.columns{ width:50%; margin-left:0; padding:2% 5%; }
 .row.title{ padding-left:5%; }
+.tips{ margin-bottom:3%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
