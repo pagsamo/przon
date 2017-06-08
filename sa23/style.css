@@ -93,6 +93,7 @@ img[src*="spacer.jpg"] {display: none;}
 
 .tipAndWater .four.columns .row:first-child, .tipAndWatch .four.columns .row:first-child, .shippingAndTracking .six.columns .row:first-child{ background-color: white; padding:5% 10%;}
 .tipAndWater, .tipAndWatch{ margin-bottom:4%; }
+.shippingAndTracking{ margin-bottom:4%; }
 
 
 /************************************************************************************************/
