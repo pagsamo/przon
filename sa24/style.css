@@ -96,7 +96,7 @@ img[src*="spacer.jpg"] {display: none;}
 .shippingAndTracking .shipping .wrapper{ width:70%;  }
 .shippingAndTracking .six.columns .row:last-child{ padding:2% 15%;}
 
-.tipAndWater .four.columns, .tipAndWatch .four.columns{ text-align: center; padding:2% 5%;}
+.tipAndWater .four.columns, .tipAndWatch .four.columns{ text-align: center; padding:3%;}
 .tipAndWater .four.columns .wrapper, .tipAndWatch .four.columns .wrapper{ width: 70%;}
 
 
@@ -118,7 +118,7 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 .mainSpecs{ display: none; }
-.specsLaptop{ display: block !important; }
+.specsLaptop{ display: block !important; padding-bottom:5%;}
 .specsLaptop .six.columns{ padding:2% 7%; width:50%; margin-left:0;}
 .other-images{ text-align: center; }
 .tipAndWater .four.columns .wrapper, .tipAndWatch .four.columns .wrapper{ width: 40%;}
@@ -143,7 +143,7 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 .wrapper{ width:100%; padding-left:0; padding-right:0; }
-.specs .wrapper{ width:100%; padding-left: 0; padding-right:0;}
+.specs .wrapper{ width:80%; padding-left: 0; padding-right:0;}
 .specs .four.columns{ padding:0; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding-bottom:7%;}
 .tipAndWater .four.columns, .tipAndWatch .four.columns{ width:100%; margin-left:0;}
@@ -153,6 +153,8 @@ img[src*="spacer.jpg"] {display: none;}
 .specs .mainSpecs{ padding:3% 7%; }
 .shipping .wrapper{ width:70% !important; padding-left:15%; padding-right:15%; }
 .main .wrapper{ width:80% !important; padding-left:10%; padding-right:10%;}
+.tipAndWater .four.columns .wrapper, .tipAndWatch .four.columns .wrapper{ width: 100%;}
+
 
 /************************************************************************************************/
 /************************************************************************************************/
