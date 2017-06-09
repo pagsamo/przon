@@ -76,7 +76,7 @@ img[src*="spacer.jpg"] {display: none;}
 }
 
 
-a{ color: white; font-weight: bolder; text-decoration: none; }
+a{ color: white; }
 .label{ font-weight: bold; }
 .red{ background-color: #BC1B23; }
 .title{ width: 45%; margin: 5% auto; text-align: center; color: white; border: 3px solid #ffffff;}
