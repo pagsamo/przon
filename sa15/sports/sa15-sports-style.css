@@ -75,37 +75,28 @@ img[src*="spacer.jpg"] {display: none;}
   
 }
 
+
 a{ color: white; }
 .label{ font-weight: bold; }
 .red{ background-color: #BC1B23; }
 .title{ width: 45%; margin: 5% auto; text-align: center; color: white; border: 3px solid #ffffff;}
 .specs{ background-color: #EDEDED; }
-.specs .row{ width: 50%; margin: 0 auto; padding: 3% 0;}
-.specs .six.columns{ padding: 0 5%; }
-.main{ width: 90%; float: none; margin: 0 auto; }
-.include{ text-align:center; }
-.include img{ width: 70%; }
-.tips{ background-color: #EDEDED; padding: 3% 0;}
-.tips .row h3{ border: 3px solid #BC1B23; padding: 3%; color: #BC1B23;}
-.tips .row{ width: 80%; margin: 0 auto; float: none; }
-.tips .row .six.columns{ padding: 0 5%; }
-.section1 .row .four.columns, .section2 .row .four.columns{ width: 35%; color: white; text-align: center; padding: 3%; margin-left:0;}
-.section1 .row .eight.columns, .section2 .row .eight.columns{ width: 65%; margin-left:0;}
-.section1 h1, .section2 h1{ border: 3px solid white; padding:5%;}
-
+.specs .row{ width: 30%; margin: 0 auto; padding: 3% 0;}
+.main .row{ width: 70%; float: none; margin: 0 auto; text-align: center; }
+.shippingAndTracking{ background-color:#BC1B23;  }
+.shippingAndTracking .six.columns{ color:white; text-align: center; padding:3% 5%;}
+.shippingAndTracking .six.columns h1{ margin:0; padding:3% 5%; border:2px solid white; }
+.tips .row{ width:70%; margin:0 auto; float: none; text-align: center; }
 /*Tablets and Laptop*/
 @media (min-width: 550px) and (max-width: 1024px) {
 .title{ width: 70%; }
-.specs .row{ width: 90%; }
+.specs .row{ width: 70%; }
 .main{ margin: 7% auto; }
-.specs .row .six.columns{ width: 50%; margin-left: 0; padding: 0 5%; }
-.main .row .six.columns{ width: 50%; margin-left: 0; }
-.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
-.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 50%; float: none; margin:0 auto; }
-.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
 .other-images{ text-align: center; }
-.tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
-.tips .row h3{ text-align: center; }
+.tips .row{ width:100%; margin:0 auto; float: none; }
+.shippingAndTracking .six.columns{ width:100%; margin:0 auto; float:none; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:2% 5%; }
+.main .row{ width: 100%; }
 }
 /*Tablets and Laptop*/
 
@@ -113,10 +104,7 @@ a{ color: white; }
 @media (max-width: 549px) {
 .title{ width:92%; }
 .specs .row{ width:80%; padding-top: 5%; padding-bottom: 5%;}
-.include{ margin: 5% auto; }
-.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; padding-bottom: 20%; padding-top: 10%;}
-.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 80%; float: none; margin:0 auto; }
-.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
-.tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
-.tips .row h3{ text-align: center; }
+.tips .row{ width:100%; margin:0 auto; float: none; }
+.main .row{ width: 100%; }
+.shippingAndTracking .six.columns{ padding:7% 10%; }
 }/*Mobile*/
