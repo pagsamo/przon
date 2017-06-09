@@ -79,35 +79,29 @@ img[src*="spacer.jpg"] {display: none;}
 .pinker{ vertical-align: middle; background-color: #F08A92; padding:15px 30px;}
 .circlet{ width: 20px; height: 20px; border-radius: 50%; background: #E7E5E6; display: inline-block; margin-top:0; margin-bottom: 0;}
 
-.tipsAndResistance .four.columns .row:last-child, .tipsAndMeasurement .four.columns .row:last-child{ padding: 2% 10%; text-align: center; background-color: white; padding-bottom:10%; }
-
 .shippingAndTracking{ margin:3% 0; }
 .shippingAndTracking .six.columns .row:last-child{ background-color: white; padding:2% 20%; text-align: center; padding-bottom:10%;}
 
 .main{ text-align: center; margin:3% 0; background-color:white; }
-.main .four.columns{ padding: 2% 3%; }
-.main .eight.columns .row{ display: flex; justify-content: center; }
-.main .eight.columns .five.columns{ align-self: center; padding:2% 5%; }
+.main .twelve.columns .row{ display: flex; justify-content: center; }
+.main .twelve.columns .five.columns{ align-self: center; padding:2% 5%; }
 
 .specs .pinker{ text-align: left; }
 .specs{ text-align: center; }
-.specs .mainSpecs{ background-color:white; }
+.specs .row:last-child{ background-color:white; padding-bottom:8%; }
 .specs h1{ background-color: white;margin:0; padding:3% 0; }
-.specs .mainSpecs .four.columns{ padding:0 5%; }
 .other-images{ margin:3% 0; }
+
+.tips{ text-align: center; }
 
 @media (min-width: 550px) and (max-width: 1024px) {
 
 .container{ width:100%; }
 .tipsAndResistance .four.columns, .shippingAndTracking .six.columns{ width:92%; margin:3% auto; float: none; }
 .tipsAndMeasurement .four.columns{ margin-left: 4%; margin-right:4%; width:92%; margin-top:3%; display: block;}
-.main .eight.columns{ width:100%; margin-left:0; }
-.main .eight.columns .row .seven.columns{width:60%; margin-left:0;}
-.main .eight.columns .row .five.columns{ width:40%; margin-left:0; }
-.main .four.columns{ margin-top:3%; }
-.main .four.columns .row{ display: flex; justify-content: center; }
-.main .four.columns  .row .twelve.columns:first-child{ width:60%; margin-left:0; }
-.main .four.columns .row .twelve.columns:last-child{ width:40%; margin-left:0; padding:5% 5%; align-self: center;}
+.main .twelve.columns{ width:100%; margin-left:0; }
+.main .twelve.columns .row .seven.columns{width:50%; margin-left:0;}
+.main .twelve.columns .row .five.columns{ width:50%; margin-left:0; padding:0 5%;}
 .mainSpecs{ display: none; }
 .specsLaptop{ display: block !important; }
 .specs{ background-color:white; }
@@ -123,13 +117,10 @@ img[src*="spacer.jpg"] {display: none;}
 .pinker{ vertical-align: middle; background-color: #F08A92; padding:10px 30px;}
 .circlet{ width: 15px; height: 15px; border-radius: 50%; background: #E7E5E6; display: inline-block; margin-top:0; margin-bottom: 0;}
 .container{ width:100%; }
-.tipsAndResistance .four.columns .row:last-child, .tipsAndMeasurement .four.columns .row:last-child{ padding: 5% 10%; text-align: center; background-color: white; }
-.shippingAndTracking .six.columns .row:last-child{ background-color: white; padding:5% 10%; text-align: center; }
 .specs .row:last-child{ padding-bottom:10%; }
-.specs .mainSpecs .four.columns{ padding:0 10%; }
-.main .four.columns{ padding:3% 10%; }
-.main .eight.columns .row{ display: block; }
+.main .twelve.columns .row{ display: block; }
 .specs h1{ background-color: white;margin:0; padding:3% 0; padding-top:10%; }
+.main .twelve.columns .row .five.columns{ padding:3% 5%; }
 html,body{background-color:white !important;  }
 }/*Mobile*/
 
