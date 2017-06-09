@@ -84,7 +84,8 @@ img[src*="spacer.jpg"] {display: none;}
 .title-info .twelve.columns{ padding:10% 7%; box-shadow: 5px 5px 5px #888888;}
 .title-info .twelve.columns:first-child{ background-color: #4D4D4D; color: white; text-align: center; margin-bottom:3%;  }
 .title-info .twelve.columns:last-child{ background-color: #E8E9EB; text-align: center; }
-.infoAndSpecs .eight.columns{ border: 1px solid black; padding:3% 5%; }
+.infoAndSpecs .eight.columns{ border: 1px solid black; padding:3%; }
+.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
 
 .other-images{ margin:3% 0;}
 
@@ -112,9 +113,9 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 .main{ margin-bottom:0; }
 .infoAndSpecs .four.columns{ margin-top:3%; }
-.infoAndSpecs .four.columns .twelve.columns:first-child{ width:48%; margin-left:0; margin-right:0;}
-.infoAndSpecs .four.columns .twelve.columns:last-child{ width:48%; margin-left:4%; margin-right:0;}
-
+.infoAndSpecs .four.columns .twelve.columns:first-child{ width:48%; margin-left:0; margin-right:0;height:250px; vertical-align: middle;}
+.infoAndSpecs .four.columns .twelve.columns:last-child{ width:48%; margin-left:4%; margin-right:0;height:250px; vertical-align: middle;}
+.infoAndSpecs .four.columns .twelve.columns div{  }
 
 .infoAndSpecs .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
 .other-images{ text-align: center; }
