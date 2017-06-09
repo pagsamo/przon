@@ -122,6 +122,8 @@ img[src*="spacer.jpg"] {display: none;}
 .specsLaptop .six.columns{ padding:2% 7%; width:50%; margin-left:0;}
 .other-images{ text-align: center; }
 .tipAndWater .four.columns .wrapper, .tipAndWatch .four.columns .wrapper{ width: 40%;}
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:0 17%;}
+
 
 
 
@@ -154,6 +156,8 @@ img[src*="spacer.jpg"] {display: none;}
 .shipping .wrapper{ width:70% !important; padding-left:15%; padding-right:15%; }
 .main .wrapper{ width:80% !important; padding-left:10%; padding-right:10%;}
 .tipAndWater .four.columns .wrapper, .tipAndWatch .four.columns .wrapper{ width: 100%;}
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:0 10%;}
+
 
 
 /************************************************************************************************/
