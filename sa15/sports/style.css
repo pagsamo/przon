@@ -80,11 +80,11 @@ img[src*="spacer.jpg"] {display: none;}
 .title{ width: 45%; margin: 5% auto; text-align: center; color: white; border: 3px solid #ffffff;}
 .specs{ background-color: #EDEDED; }
 .specs .row{ width: 30%; margin: 0 auto; padding: 3% 0;}
-.main .row{ width: 70%; float: none; margin: 0 auto; }
+.main .row{ width: 70%; float: none; margin: 0 auto; text-align: center; }
 .shippingAndTracking{ background-color:#BC1B23;  }
 .shippingAndTracking .six.columns{ color:white; text-align: center; padding:3% 5%;}
 .shippingAndTracking .six.columns h1{ margin:0; padding:3% 5%; border:2px solid white; }
-.tips .row{ width:70%; margin:0 auto; float: none; }
+.tips .row{ width:70%; margin:0 auto; float: none; text-align: center; }
 /*Tablets and Laptop*/
 @media (min-width: 550px) and (max-width: 1024px) {
 .title{ width: 70%; }
