@@ -88,7 +88,7 @@ img[src*="spacer.jpg"] {display: none;}
 
 .specs .pinker{ text-align: left; }
 .specs{ text-align: center; }
-.specs .row:last-child{ background-color:white; padding-bottom:8%; }
+.specs .row:last-child{ background-color:white; padding-bottom:3%;}
 .specs h1{ background-color: white;margin:0; padding:3% 0; }
 .other-images{ margin:3% 0; }
 
