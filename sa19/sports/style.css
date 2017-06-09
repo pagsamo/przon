@@ -122,5 +122,6 @@ img[src*="spacer.jpg"] {display: none;}
 .specs h1{ background-color: white;margin:0; padding:3% 0; padding-top:10%; }
 .main .twelve.columns .row .five.columns{ padding:3% 5%; }
 html,body{background-color:white !important;  }
+.twelve.columns.holder{ padding:3% 7%; }
 }/*Mobile*/
 
