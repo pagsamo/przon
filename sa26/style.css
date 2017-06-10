@@ -80,8 +80,22 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 
+.row .title{ background-color: #FFD866; padding:2% 5%; width:50%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
+.row .title h3{ margin:0; }
+.wrapper{ background-color: #CAAA4C; text-align: center; padding:20px 5%; }
+.wrapper h1{ margin:0; }
+.wrapper h1 span{ text-align: center; }
+.bger{ width:30px; float:right;}
+.bgerx{ width:100%; height:10px; background-color: #FFD866; margin-top:2px; }
+.specs{ text-align: center; }
+.row.mainSpecs, .row.specsLaptop{ background-color: #E3C058; padding:3% 5%; }
+.row.mainSpecs .four.columns{ padding:0 3%; }
 
+.main .five.columns{ padding:3%; text-align: center; }
 
+.shippingAndTracking .six.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 12%;}
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 5%; }
+.tipAndWatch{ margin:3% 0; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -98,9 +112,20 @@ img[src*="spacer.jpg"] {display: none;}
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
-
-
+.row .title{ background-color: #FFD866; padding:2% 5%; width:70%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
+.row.mainSpecs{ display: none; }
+.row.specsLaptop{ display: block !important; }
+.row.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.shippingAndTracking .six.columns .row:last-child{ padding:3% 5%; }
+.shippingAndTracking .twelve.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.other-images{ text-align: center; }
+.tipAndWater .container, .tipAndWatch .container{ width:100%; }
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:5% 10%; }
+.tipAndWater .eight.columns{ margin-bottom: 4% }
+.tipAndWater .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; }
+.tipAndWatch .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; margin-bottom:4%; }
+.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 10%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -118,8 +143,18 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
+.row .title{ background-color: #FFD866; padding:2% 7%; width:86%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
 
-
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 10%; }
+.row.mainSpecs{ padding:5% 7%; }
+.main .five.columns{ padding:5% 7%; }
+.tipAndWater .container, .tipAndWatch .container{ width:100%; }
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:5% 10%; }
+.tipAndWater .eight.columns{ margin-bottom: 4% }
+.tipAndWater .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; }
+.tipAndWatch .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; margin-bottom:4%; }
+.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:5% 10%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
