@@ -79,23 +79,22 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.main{ margin-bottom:3%; }
+.main .container .five.columns{ border:1px solid black; align-self: center; margin-top:5%; padding:3% 5%; text-align: center;}
+.title-info .twelve.columns{ padding:10% 7%; box-shadow: 5px 5px 5px #888888;}
+.title-info .twelve.columns:first-child{ background-color: #4D4D4D; color: white; text-align: center; margin-bottom:3%;  }
+.title-info .twelve.columns:last-child{ background-color: #E8E9EB; text-align: center; }
+.infoAndSpecs .eight.columns{ border: 1px solid black; padding:3%; }
+.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
 
-.row .title{ background-color: #FFD866; padding:2% 5%; width:50%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
-.row .title h3{ margin:0; }
-.wrapper{ background-color: #CAAA4C; text-align: center; padding:20px 5%; }
-.wrapper h1{ margin:0; }
-.wrapper h1 span{ text-align: center; }
-.bger{ width:30px; float:right;}
-.bgerx{ width:100%; height:10px; background-color: #FFD866; margin-top:2px; }
-.specs{ text-align: center; }
-.row.mainSpecs, .row.specsLaptop{ background-color: #E3C058; padding:3% 5%; }
-.row.mainSpecs .four.columns{ padding:0 3%; }
+.other-images{ margin:3% 0;}
 
-.main .five.columns{ padding:3%; text-align: center; }
+.row.guide .twelve.columns{ width:85%; margin:3% auto; display: block; float: none;}
 
-.shippingAndTracking .six.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 12%;}
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 5%; }
-.tipAndWatch{ margin:3% 0; }
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ background-color: #E9E9E9; padding:3%;  box-shadow: 5px 5px 5px #888888; }
+.shippingAndTracking .six.columns .row .twelve.columns{ width:50%; margin-left:0; padding:2% 5%; }
+.row.title{ padding-left:5%; }
+.tips{ margin-bottom:3%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -112,20 +111,18 @@ img[src*="spacer.jpg"] {display: none;}
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-.row .title{ background-color: #FFD866; padding:2% 12.5%; width:60%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
-.row.mainSpecs{ display: none; }
-.row.specsLaptop{ display: block !important; }
-.row.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
-.shippingAndTracking .six.columns .row:last-child{ padding:3% 5%; }
-.shippingAndTracking .twelve.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.main{ margin-bottom:0; }
+.infoAndSpecs .four.columns{ margin-top:3%; }
+.infoAndSpecs .four.columns .twelve.columns:first-child{ width:48%; margin-left:0; margin-right:0;height:250px; vertical-align: middle;}
+.infoAndSpecs .four.columns .twelve.columns:last-child{ width:48%; margin-left:4%; margin-right:0;height:250px; vertical-align: middle;}
+.infoAndSpecs .four.columns .twelve.columns div{  }
+
+.infoAndSpecs .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
 .other-images{ text-align: center; }
-.tipAndWater .container, .tipAndWatch .container{ width:100%; }
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:5% 10%; }
-.tipAndWater .eight.columns{ margin-bottom: 4% }
-.tipAndWater .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; }
-.tipAndWatch .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; margin-bottom:4%; }
-.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 10%; }
+.row.guide .twelve.columns{ width:100%; margin:3% auto; display: block; float: none;}
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ margin-top:3%; }
+.shippingAndTracking .six.columns.boxed:last-child{ margin-bottom:3%; }
+.tips .six.columns{ padding:3% 7%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -143,18 +140,15 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
-.row .title{ background-color: #FFD866; padding:2% 7%; width:86%; float:none; margin:3% auto; text-align: center; border-radius: 100px;}
-.row .title h3{ width:75%; padding-left:12.5%; padding-right:12.5%; }
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 10%; }
-.row.mainSpecs{ padding:5% 7%; }
-.main .five.columns{ padding:5% 7%; }
-.tipAndWater .container, .tipAndWatch .container{ width:100%; }
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ padding:5% 10%; }
-.tipAndWater .eight.columns{ margin-bottom: 4% }
-.tipAndWater .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; }
-.tipAndWatch .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; margin-bottom:4%; }
-.shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:5% 10%; }
+.main{ margin-bottom:0; }
+.infoAndSpecs .four.columns .twelve.columns{ margin-top:3%; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-top:0; margin-bottom:6%;}
+.infoAndSpecs .eight.columns{ padding:3% 10%; }
+.row.guide .twelve.columns{ width:100%; margin:3% auto; display: block; float: none;}
+.shippingAndTracking .six.columns:last-child{ margin-bottom:3%; }
+.shippingAndTracking .six.columns .row .twelve.columns{ width:100%; margin-left:0; }
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ margin-top:3%; }
+.tips .six.columns{ padding:5% 10%; }
 
 
 /************************************************************************************************/
