@@ -155,6 +155,8 @@ img[src*="spacer.jpg"] {display: none;}
 .tipAndWatch .four.columns{ width:92%; display: inline-block; float: none; margin-left:4%; margin-right:4%; margin-bottom:4%; }
 .shippingAndTracking .six.columns:last-child{ margin-top: 4%; }
 .tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:5% 10%; }
+
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
