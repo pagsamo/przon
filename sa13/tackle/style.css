@@ -96,6 +96,11 @@ img[src*="spacer.jpg"] {display: none;}
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
+body{ text-align: center; }
+.main .row{ display: block; }
+.tracking .row, .shipping .row{ width:94%; }
+.tracking .row .six.columns, .shipping .row .six.columns{ width:50%; margin-left:0; padding:0 5%; }
+
 
 }
 /*Tablets and Laptop*/
@@ -104,6 +109,8 @@ img[src*="spacer.jpg"] {display: none;}
 
 /*Mobile*/
 @media (max-width: 549px) {
+body{ text-align: center; }
+.main .row{ display: block; }
 
 
 }/*Mobile*/

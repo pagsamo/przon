@@ -1,0 +1,152 @@
+US TACKLE TEMPLATE
+
+
+
+Title:
+
+#ItemAttribute.Description# #Item.ItemCode#
+
+
+
+
+Key feature 1:
+#ItemAttribute.Description#
+
+
+
+
+Key feature 2:
+IF #ItemAttribute.StoreCat#=”Reels” THEN IF #ItemAttribute.Hand# #ItemAttribute.Hand#<>”0” #ItemAttribute.Hand#<>”” THEN #ItemAttribute.Hand# ELSE No string to be added, IF #ItemAttribute.Type#<>”0” #ItemAttribute.Type#<>”” THEN “Gear Ratio: ” #ItemAttribute.Type# ELSE No string to be added, IF  #ItemAttribute.WidthC#<>”0” OR #ItemAttribute.WidthC#<>”” THEN #ItemAttribute.WidthC# ELSE No string to be added. 
+
+
+IF #ItemAttribute.StoreCat#=”Rods” THEN “Type: ”#ItemAttribute.SubCat# “-” #ItemAttribute.Lug# “pc Length:” #ItemAttribute.Length# ELSE No string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Tools” THEN IF #ItemAttribute.CaseDia#<>”” #ItemAttribute.CaseDia#<>”0” THEN “Dimensions: ” #ItemAttribute.CaseDia# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Wears” THEN IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “Type: ” #ItemAttribute.Type# ELSE no string to be added
+
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Storage” THEN IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “Type: ” #ItemAttribute.Type# ELSE no string to be added, IF #ItemAttribute.Feature#<>”” #ItemAttribute.Feature#<>”0” THEN “Features: ” #ItemAttribute.Feature# ELSE no string to be added
+
+
+
+IF #ItemAttribute.StoreCat#=”Reel Parts” THEN IF #ItemAttribute.SubCat#<>”” #ItemAttribute.SubCat#<>”0” THEN “Part: ” #ItemAttribute.SubCat# ELSE no string to be added, IF #ItemAttribute.Weight#<>”” #ItemAttribute.Weight#<>”0” THEN “Weight: ” #ItemAttribute.Weight# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Lines” THEN IF #ItemAttribute.Mov#<>”” #ItemAttribute.Mov#<>”0” THEN “Model: ” #ItemAttribute.Mov# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Terminals” THEN IF #ItemAttribute.Thickness#<>”” #ItemAttribute.Thickness#<>”0” THEN “Size: ” #ItemAttribute.Thickness# ELSE no string to be added, IF #ItemAttribute.Weight#<>”” #ItemAttribute.Weight#<>”0” THEN “Weight: ” #ItemAttribute.Weight# ELSE no string to be added, IF #ItemAttribute.Feature#<>”” #ItemAttribute.Feature#<>”0” THEN “Strength: ” #ItemAttribute.Feature# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Lures” THEN IF #ItemAttribute.Mov#<>”” #ItemAttribute.Mov#<>”0” THEN #ItemAttribute.Mov# ELSE no string to be added, IF #ItemAttribute.SubCat#<>”” #ItemAttribute.SubCat#<>”0” THEN “-” #ItemAttribute.SubCat# ELSE no string to be added, IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “- ” #ItemAttribute.Type# ELSE no string to be added, IF #ItemAttribute.Face#<>”” #ItemAttribute.Face#<>”0” THEN “Sound: ” #ItemAttribute.Face# ELSE no string to be added
+
+
+
+
+
+
+Key Feature 3:
+
+IF #ItemAttribute.StoreCat#=”Reels” THEN IF #ItemAttribute.Feature#<>”” AND #ItemAttribute.Feature#<>”0” THEN #ItemAttribute.Feature# Else No string to be added.
+
+
+IF #ItemAttribute.StoreCat#=”Rods” THEN IF #ItemAttribute.Clasp#<>”” AND #ItemAttribute.Clasp#<>”0” THEN “Lure: ” #ItemAttribute.Clasp# ELSE No string to be added, IF #ItemAttribute.Bracelet#<>”” AND #ItemAttribute.Bracelet#<>”0” THEN “Line: “ #ItemAttribute.Bracelet# ELSE No string to be added, IF #Item.Weight#<>”” AND #Item.Weight#<>”0” THEN “Weight: ” #Item.Weight# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Tools” THEN IF #ItemAttribute.StrapColor#<>”” AND #ItemAttribute.StrapColor#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Wears” THEN IF #ItemAttribute.StrapColor#<>”” #ItemAttribute.StrapColor#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Storage” THEN IF #ItemAttribute.CaseDia#<>”” #ItemAttribute.CaseDia#<>”0” THEN “Dimensions: ” #ItemAttribute.CaseDia# ELSE no string to be added, IF #ItemAttribute.Thickness#<>”” #ItemAttribute.Thickness#<>”0” THEN “Size: ” #ItemAttribute.Thickness# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Reel Parts” THEN IF #ItemAttribute.Length#<>”” #ItemAttribute.Length#<>”0” THEN “Length: ” #ItemAttribute.Length# ELSE no string to be added, IF #ItemAttribute.CaseDia#<>”” #ItemAttribute.CaseDia#<>”0” THEN “Diameter: ” #ItemAttribute.CaseDia# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Lines” THEN IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “Type: ” #ItemAttribute.Type# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Terminals” THEN IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “Type: ” #ItemAttribute.Type# ELSE no string to be added, IF #ItemAttribute.StrapColor#<>”” #ItemAttribute.StrapColour#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Lures” THEN IF #ItemAttribute.Weight#<>”” #ItemAttribute.Weight#<>”0” THEN “Weight: ” #ItemAttribute.Weight# ELSE no string to be added, IF #ItemAttribute.Length#<>”” #ItemAttribute.Length#<>”0” THEN “Length: ” #ItemAttribute.Length# ELSE no string to be added, IF #ItemAttribute.Feature#<>”” #ItemAttribute.Feature#<>”0” THEN “Highlight: ” #ItemAttribute.Feature# ELSE no string to be added
+
+
+
+
+Key feature 4:
+IF #ItemAttribute.StoreCat#=”Reels” THEN IF #ItemAttribute.Function#<>”” AND #ItemAttribute.Function#<>”0” THEN “Max Drag:” #ItemAttribute.Function# Else No string to be added.
+
+
+IF #ItemAttribute.StoreCat#=”Rods” THEN IF #ItemAttribute.Hand#<>”” AND #ItemAttribute.Hand#<>”0” THEN “Power: ” #ItemAttribute.Hand# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Tools” THEN “” 
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Wears” THEN IF #ItemAttribute.Feature#<>”” #ItemAttribute.Feature#<>”0” THEN “Material: ” #ItemAttribute.Feature# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Storage” THEN IF #ItemAttribute.Weight#<>”” #ItemAttribute.Weight#<>”0” THEN “Weight: ” #ItemAttribute.Weight# ELSE no string to be added, IF #ItemAttribute.StrapColor#<>”” #ItemAttribute.StrapColor#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Reel Parts” THEN IF #ItemAttribute.Type#<>”” #ItemAttribute.Type#<>”0” THEN “Reel Type: ” #ItemAttribute.Type# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Lines” THEN IF #ItemAttribute.Hand#<>”” #ItemAttribute.Hand#<>”0” THEN “Line Class: ” #ItemAttribute.Hand# ELSE no string to be added, IF #ItemAttribute.Length #<>”” #ItemAttribute.Length#<>”0” THEN “Length: ” #ItemAttribute.Length# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Terminals” THEN IF #ItemAttribute.Lug#<>”” #ItemAttribute.Lug#<>”0” THEN “Quantity in Pack: ” #ItemAttribute.Lug# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Lures” THEN IF #ItemAttribute.Function#<>”” #ItemAttribute.Function#<>”0” THEN “Fishing Type: ” #ItemAttribute.Function# ELSE no string to be added
+
+
+
+
+
+Key feature 5:
+IF #ItemAttribute.StoreCat#=”Reels” THEN IF #Item.Weight#<>”” AND #ItemAttribute.Feature#<>”0” THEN “Weight:” #Item.Weight# Else No string to be added.
+
+
+IF #ItemAttribute.StoreCat#=”Rods” THEN "Fishing Type: "IF #ItemAttribute.Type#<>”” AND #ItemAttribute.Type#<>”0” THEN #ItemAttribute.Type# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Tools” THEN IF #ItemAttribute.Feature#<>”” AND #ItemAttribute.Feature#<>”0” THEN “Features: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Wears” THEN IF #ItemAttribute.Thickness#<>”” #ItemAttribute.Thickness#<>”0” THEN “Size: ” #ItemAttribute.Thickness# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Storage” THEN IF #ItemAttribute.Function#<>”” #ItemAttribute.Function#<>”0” THEN  #ItemAttribute.Function# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Reel Parts” THEN IF #ItemAttribute.StrapColor#<>”” #ItemAttribute.StrapColor#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added, IF #ItemAttribute.Feature#<>”” #ItemAttribute.Feature#<>”0” THEN “Features: ” #ItemAttribute.Feature# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Fishing Lines” THEN IF #ItemAttribute.CaseDia#<>”” #ItemAttribute.CaseDia#<>”0” THEN “Diameter: ” #ItemAttribute.CaseDia# ELSE no string to be added, IF #ItemAttribute.StrapColor#<>”” #ItemAttribute.StrapColor#<>”0” THEN “Color: ” #ItemAttribute.StrapColor# ELSE no string to be added
+
+
+IF #ItemAttribute.StoreCat#=”Tackle Terminals” THEN IF #ItemAttribute.Length#<>”” #ItemAttribute.Length#<>”0” THEN “Length: ” #ItemAttribute.Length# ELSE no string to be added, IF #ItemAttribute.CaseDia#<>”” #ItemAttribute.CaseDia#<>”0” THEN “Diameter: ” #ItemAttribute.CaseDia# ELSE no string to be added
+
+
+
+IF #ItemAttribute.StoreCat#=”Lures” THEN IF #ItemAttribute.Accuracy#<>”” #ItemAttribute.Accuracy#<>”0” THEN “Fishing Species: ” #ItemAttribute.Accuracy# ELSE no string to be added
+
+
+
+
+
+
+
+Condition Note:
+
+“Note: Buy more than $20 for FREE shipping. Shipping & Delivery Time 8-20 working days by Registered Airmail. Return accepted within 30 days in ORIGINAL Condition. Description and images are by first seller that created this listing. Please write to us if you have any quires. Ship from Asia.”
+
+
