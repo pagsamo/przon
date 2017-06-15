@@ -80,6 +80,18 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 
+.sh{background-color: #F0F0F1; box-shadow: 5px 5px 5px #888888; }
+.main .five.columns.include{  padding:2% 5%; margin-top:3%; text-align: center; }
+.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 3%; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-top:5%; }
+.infoAndSpecs .eight.columns{ padding: 3%;}
+.infoAndSpecs .eight.columns .six.columns{ padding:0 3%; }
+.other-images{ margin:3% 0; }
+.row.guide{ width:80%; margin:3% auto; float: none; }
+.shippingAndTracking .six.columns, .tips .six.columns{ padding:3%; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 3%; }
+.tips{ margin:3% 0; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -95,8 +107,19 @@ img[src*="spacer.jpg"] {display: none;}
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
-
+.main .five.columns{  width:48%; margin-left:0; }
+.main .seven.columns{ width:48%; margin-left:4%; margin-top:5%; }
+.infoAndSpecs .four.columns{ display: flex; justify-content: center; }
+.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 3%; width:48%; margin-left:0; margin-top:5%; margin-bottom: 5%; height:200px; display: flex;}
+.infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
+.infoAndSpecs .four.columns .twelve.columns h3{ width:80%; margin:0 10%; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-left:4%; }
+.infoAndSpecs .eight.columns .six.columns{ width:50%; padding:0 5%; }
+.other-images{ text-align: center; }
+.row.guide{ width:100%; }
+.shippingAndTracking .six.columns, .tips .six.columns{ margin:3% 0; }
+.shippingAndTracking .six.columns h1{ margin-left:3%; }
+.tips .six.columns{ padding:3% 7%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -113,9 +136,16 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
-
-
+.main .five.columns.include{ padding:5% 7%; }
+.main .seven.columns{ margin-top: 5%; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-bottom:5%; }
+.infoAndSpecs .eight.columns{ text-align: center; padding:5% 7%; }
+.row.guide{ width:100%; }
+.shippingAndTracking{ text-align: center; }
+.shippingAndTracking .six.columns{ padding:7% 5%; }
+.shippingAndTracking .six.columns .twelve.columns{ width:100%; margin-left:0; padding:0 7%; }
+.shippingAndTracking .six.columns, .tips .six.columns{ margin:3% 0; }
+.tips .six.columns{ padding:7%; text-align: center;}
 /************************************************************************************************/
 /************************************************************************************************/
 }
