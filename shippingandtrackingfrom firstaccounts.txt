@@ -1,0 +1,101 @@
+<!-- After Var -->
+	<div id="content">
+		<p><h1 class="title" style="background-color:#d70909; text-align:center;">Uhr-Tipps</h1></p>
+		<div class="tips">
+			<h2 style="text-align:center; color:#373598;">Tipps für automatische Uhren</h2>
+			<h3 style="text-align:center;">Alle Automatischen Uhren gewinnen / verlieren Zeit</h3>
+			<p>Jede automatische Uhr wird gewinnen oder verlieren Zeit, wenn sie neu oder nicht am Handgelenk die ganze Zeit getragen werden.<br>Die Uhr ist "nach unten" zu einem vernünftigen Maß an Genauigkeit, nachdem sie für ein paar Monate getragen. Wenn Ihre Uhr verliert oder gewinnt ein paar Sekunden pro Tag, können Sie es nachts abnehmen und:<br><br>
+			<br>- Legen Sie die Uhr flach mit dem oberen Zifferblatt (um ein paar Sekunden zu gewinnen, wenn es langsam ist).<br>
+			<br>- Setzen Sie die Uhr vertikal mit der Wickeltaste nach unten. (Um ein paar Sekunden zu verlieren, wenn es schnell ist).<br>
+			<br>- Die Uhr mit der Wickeltaste senkrecht nach oben stellen. (Mehr zu verlieren, wenn es zu schnell ist).</p>
+		</div>
+		<div class="tips">
+			<h2 style="text-align:center; color:#373598;">Tipps für Eco-Drive und Solaruhren</h2>
+			<h3 style="text-align:center;">Brauchen Sie First Charge haben</h3>
+			<p>Sie müssen die Batterie vorschriftsgemäß aufladen. Setzen Sie bitte die Uhr unter die Sonne oder die Lichtquelle für 5-6 Stunden auf, um sie aufzuladen. Da alle diese Uhren sind neu, müssen wir Sie aufladen und drehen Sie die Hände und das Datum der Uhr 10 Runden, um den Mechanismus innen zu lösen.</p>
+		</div>
+
+		<p><h1 class="title" style="background-color:#d70909; text-align:center;">Watch Guides</h1></p>
+		<p><a href="http://reviews.ebay.com/How-To-Shorten-A-Watch-Bracelet_W0QQugidZ10000000007785027">- Wie Sie Ihre Armbanduhr verkürzen</a></p>
+		<p><img class="img-responsive" src="http://www.productszon.com/images/products/watchmeasurement.jpg"><br><br>
+		<img class="img-responsive" src="http://www.productszon.com/images/products/waterresistancechart.jpg"></p>
+
+<!-- Shipping -->
+		
+		<h1 class="terms" style="background-color:#ecf8cc; color:#000000; padding-top:25px;">Versand</h1>
+		<ul class="conditions">
+			<li><img src="http://www.productszon.com/images/products/germany-shippinglogo.png"></li>
+			<li><p>Pack & Ship heraus innerhalb 1-3 Arbeitstage.</p></li>
+			<li><p><span style="font-weight:bold; font-size:17px; color:#606958;">Versand aus unserem Lager:</span><br><br>Germany-First (SE007)<br>Continental Global Service Limited<br>Tingting Zöllner<br>Sokelantstr. 8, Tor 5<br>Hannover, 30165<br>Germany<br><br>
+			<span style="font-weight:bold;">* Versenden Sie nicht Rückkehr zu dieser Adresse. *</span><br>Kindly treten Sie mit uns für Rückkehr in Verbindung, da eine andere Adresse gegeben wird.</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#ecf8cc; color:#000000;">Lieferung<strong>KOSTENLOS</strong></h1>
+		<ul class="conditions">
+			<li><img src="http://www.productszon.com/images/products/dhl-logo.png" width="200" height="auto"></li>
+			<li><p><span style="color:red; font-weight:bold;">Bitte informieren Sie, dass das Produkt innerhalb Deutschlands versandt wird.</span></p></li>
+			<li><p>8 - 15 Arbeitstage</p></li>
+			<li><p>Wir versenden nur zur bestätigten Verschiffen-Adresse.</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#ecf8cc; color:#000000;">Zahlung</h1>
+		<ul class="conditions">
+			<li><img src="http://www.productszon.com/images/products/paypalcc.png" id="paypalcc"></li>
+			<li><p>Wir akzeptieren nur PayPal und Kreditkartenzahlung per PayPal.</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#ecf8cc; color:#000000;">Mühe geben Rückholpolitik frei</h1>
+		<ul class="conditions">
+			<li><img src="http://www.productszon.com/images/products/returns.jpg"></li>
+			<li><p style="font-weight:bold; font-size:20px; color:#606958;">Keine Bange!</p><p>Rückkehr wird innerhalb 30 Tage, in seinem ursprünglichen Zustand angenommen.</p></li>
+			<li><p>Es gibt eine Lagerauffüllungsgebühr für Rückholeinzelteile, die nicht im ursprünglichen Zustand sind.</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#ecf8cc; color:#000000;">Kontaktiere uns</h1>
+		<ul class="conditions">
+			<li><img src="http://www.productszon.com/images/products/germany-contactus.png"></li>
+			<li><p>Treten Sie mit uns bitte für Änderung / Annullierung des Auftrages oder bestes Angebot für Großaufträge in Verbindung.</p></li>
+			<li><p>Wiederverkäufer sind willkommen.</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#606958; color:#FFFFFF;">Firmendetails / Absenderadresse</h1>
+		<ul class="conditions">
+			<li><p><span style="font-weight:bold;">Firmenname: Germany First</span><br>Firmensprecher: Sharon<br>Phone: 1-702-9973290<br><br>Absenderadresse: <br>Tingting Zöllner<br>Sokelantstr. 8, Tor 5<br>Hannover, 30165<br>Germany</p></li>
+		</ul>
+		<h1 class="terms" style="background-color:#606958; color:#FFFFFF;">Rücknahmebedingungen</h1>
+		<ul class="tips">
+			<p>Verbraucher haben das Recht, den Artikel unter den angegebenen Bedingungen zurückzugeben., Käufer trägt die unmittelbaren Kosten der Rücksendung der Waren, einen Monat.</p>
+			<p style="font-weight:bold;">Sie tragen die unmittelbaren Kosten der Rücksendung der Waren.</p>
+			<p>**Alle Uhren müssen in neuen und ungetragenen Zustand zurückgebracht werden.Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.</p>
+			<p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen einen Monat ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.</p>
+		</ul>
+	</div>
+
+
+
+<div id="content">
+		<h1 class="terms" style="background-color:#cdf9ff; text-align:center; color:#00b7d0;">Wie kann ich mein Paket verfolgen?</h1>
+		<div style="font-family:arial;">
+			<br>
+			<p>Tracking-Nummer Beispiele:</p>
+			<p>FH000000000GB</p>
+			<p>RZ000000000GB</p>
+			<p><a href="https://www.royalmail.com/track-your-item">Klicken Sie hier, um zu verfolgen</a></p>
+			<br>
+			<p>XXXXXXXXXXXXXXXXXXXX (20 digits)</p>
+			<p><a href="https://nolp.dhl.de/nextt-online-public/en/">Klicken Sie hier, um zu verfolgen</a></p>
+			<br>
+			<p>9V00000000000</p>
+			<p><a href="http://www.laposte.fr/particulier/outils/en/track-a-parcel">Klicken Sie hier, um zu verfolgen</a></p>
+			<br>
+			<p>PKXXXXXXXXXXXXXXXXXXXXX</p>
+			<p><a href="http://www.17track.net/en">Klicken Sie hier, um zu verfolgen</a></p>
+			<br><br>
+		</div>
+
+		<ul class="conditions" style="background-color:transparent;">
+			<img id="guarantee" src="http://www.productszon.com/images/products/30moneyback-guarantee.png">
+		</ul>
+
+	</div>
+
+
+</body>
+
+</html>
