@@ -4,6 +4,7 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
+  background-color: #E2EAED;
 }
 
 .label{ font-weight: bolder; }
@@ -79,6 +80,18 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.row.guides{ text-align: center; }
+.shippingAndTracking{ margin:4% 0; }
+.shippingAndTracking .six.columns{ background-color: white; padding:3%; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
+.tips{ margin:4% 0; }
+.tips .six.columns{ background-color: white; padding:3% 7%; }
+.main .five.columns{ padding:3%; text-align: center; }
+.infoAndSpecs{ margin:4% 0; }
+.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 7%; background-color: #150D40; color: white;}
+.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: #EFF3F6; color: black; padding:40px 3%;}
+.infoAndSpecs .eight.columns{ background-color: white; padding:3%; }
+.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
 
 
 /************************************************************************************************/
@@ -96,8 +109,13 @@ img[src*="spacer.jpg"] {display: none;}
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
-
+.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
+.shippingAndTracking h1{ padding-left:5%; }
+.tips .six.columns{ padding:4% 10%; }
+.tips .six.columns:last-child{ margin-top:4%; }
+.infoAndSpecs .four.columns{ margin-bottom:4%; }
+.infoAndSpecs .eight.columns .six.columns{ width:50%; margin-left:0; padding:0 5%; }
+.other-images{ text-align: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -114,7 +132,12 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
+.shippingAndTracking .six.columns .twelve.columns{ width:100%; padding:0 7%; }
+.shippingAndTracking h1{ padding:0 7%; }
+.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
+.tips .six.columns{ padding:5% 10%; }
+.tips .six.columns:last-child{ margin-top:4%; }
+.infoAndSpecs .four.columns{ margin-bottom:4%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
