@@ -79,12 +79,23 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.prod-info{ background-color: #FAD91A; padding:20px 0; text-align: center;}
+.prod-info h3{ margin:0; width:70%; padding-left:15%; padding-right:15%; }
+.specs{ background-color: #FBCD99; text-align: center; padding-top:3%}
+.specs h1{ margin:0; width:70%; padding:20px 15%; text-align: center; }
+.mainSpecs, .specsLaptop{ padding:0 5%; padding-bottom:5%; }
+.mainSpecs .four.columns{ padding:0 3%; }
+.main{ text-align: center; }
+.main .five.columns{ padding:2% 5%; padding-top:7%; }
 
-.specs{ background-color: #FBCD99; }
+.shippingAndTracking{ text-align: center; }
+.shippingAndTracking .six.columns{ padding:3% 5%; width:50%; margin-left:0; }
 .shippingAndTracking .six.columns:first-child{ background-color: #FBCD99;; }
 .shippingAndTracking{ background-color: #69D1D0; }
 .measurementAndTip{ background-color: #69D1D0; }
 .resistanceAndTip{ background-color: #FBCD99; }
+.measurementAndTip .eight.columns, .resistanceAndTip .eight.columns{ width:65%; margin-left:0; }
+.measurementAndTip .four.columns, .resistanceAndTip .four.columns{ width:35%; margin-left:0; padding:5%; text-align: center; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -102,7 +113,13 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 
-
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
+.other-images{ text-align: center; }
+.measurementAndTip .eight.columns, .resistanceAndTip .eight.columns, .measurementAndTip .four.columns, .resistanceAndTip .four.columns{ width: 100%; margin-left: 0; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:5% 15%; }
+.main .five.columns{ padding-bottom:7%; }
+.specs{ padding-bottom:7%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -119,7 +136,12 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
+.specs{ padding:3% 10%; padding-bottom:7%;  }
+.measurementAndTip .eight.columns, .resistanceAndTip .eight.columns, .measurementAndTip .four.columns, .resistanceAndTip .four.columns{ width: 100%; margin-left: 0; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:5% 15%; }
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:5% 10%; padding-bottom:7%; }
+.main .five.columns{ padding-bottom:7%; }
+.prod-info{ padding-top:7%; padding-bottom:7%; }
 
 
 /************************************************************************************************/
