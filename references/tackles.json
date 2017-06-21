@@ -1,0 +1,313 @@
+{
+  "File": {
+    "rod": {
+      "link": "D:\\PacklistWB\\Masterdata - Rod.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "PicURL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "Weight": "C:RodWeight",
+          "ImagePath": "PicURL"
+
+        },
+        "ItemAttribute": {
+          "StoreCat": "Rods",
+          "SubCat": "C:RodType",
+          "Type": "C:FishingType",
+          "Mov": "C:Model",
+          "Hand": "C:RodPower",
+          "ItemLocation": "C:Country/RegionofManufacture:",
+          "Length": "C:RodLength",
+          "Bracelet": "C:Line",
+          "Clasp": "C:Lure",
+          "Lug": "C:NumberofPieces"
+        }
+      }
+    },
+    "lure": {
+      "link": "D:\\PacklistWB\\Masterdata - Lure.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "Name",
+          "ShortDescription": "C:Model",
+          "Weight": "C:Weight",
+          "ImagePath": "PicURL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Lures",
+          "SubCat": "ITEMTYPE",
+          "Type": "ITEMTYPE",
+          "Mov": "C:MPN",
+          "Hand": "C:Type",
+          "ItemLocation": "C:Country/RegionofManufacture:",
+          "Feature": "C:ProductHighlight",
+          "Function": "C:FishingType",
+          "Length": "C:Length",
+          "Thickness": "C:HookSize",
+          "DialColor": "Relationship",
+          "StrapColor": "RelationshipDetails",
+          "Face": "C:Sound",
+          "Lug": "C:Quantity",
+          "Accuracy": "C:FishSpecies"
+        }
+      }
+    },
+    "cloth": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - Cloth.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "ImagePath": "Pic_URL"
+
+        },
+        "ItemAttribute": {
+          "StoreCat": "Fishing Wears",
+          "SubCat": "C:Type",
+          "Type": "C:Type",
+          "Mov": "C:Model",
+          "Thickness": "C:Size",
+          "StrapColor": "C:Color",
+          "Feature": "C:Material"
+        }
+      }
+    },
+    "decal": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - DECAL.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "ImagePath": "Pic_URL"
+
+        },
+        "ItemAttribute": {
+          "StoreCat": "Decal",
+          "Type": "C:Type",
+          "Mov": "C:Model",
+          "StrapColor": "C:Color",
+          "CaseDia": "C:Dimensions"
+        }
+      }
+    },
+    "line": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - LINE.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "ImagePath": "Pic_URL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Fishing Lines",
+          "Type": "C:Type",
+          "Mov": "C:Model",
+          "Hand": "C:LineClass",
+          "Length": "C:Length",
+          "StrapColor": "C:Color",
+          "CaseDia": "C:Diameter"
+        }
+      }
+    },
+    "reelparts": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - REEL PARTS.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "Weight": "C:Weight",
+          "ImagePath": "Pic_URL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Reels Parts",
+          "SubCat": "C:Part",
+          "Type": "C:ReelType",
+          "Mov": "C:Model",
+          "Feature": "C:Features",
+          "Length": "C:Length",
+          "StrapColor": "C:Color",
+          "CaseDia": "C:Diameter"
+        }
+      }
+    },
+    "reels": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - REELS.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "PicURL"
+      },
+      "ExcelHeaderType": "Single",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "Brand",
+          "ItemCode": "Barcode",
+          "Description": "Name",
+          "ShortDescription": "Model",
+          "Weight": "C:Weight",
+          "ImagePath": "PicURL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Reels",
+          "Type": "C:Gear Ratio",
+          "Mov": "Model",
+          "Made": "Maker",
+          "Function": "C:MaxDrag",
+          "Feature": "Blank4",
+          "Movement": "C:GearRatio",
+          "WidthC": "C:BallBearings",
+          "Lug": "Quantity",
+          "Manuallink": "PartsList",
+          "Box": "Box",
+          "Hand": "C:Hand Retrieve"
+        }
+      }
+    },
+    "storage": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - STORAGE.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "Weight": "C:Weight",
+          "ImagePath": "Pic_URL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Tackle Storage",
+          "Type": "C:Type",
+          "Mov": "C:Model",
+          "Function": "C:Remarks",
+          "Feature": "C:Features",
+          "Thickness": "C:Size",
+          "StrapColor": "C:Color",
+          "CaseDia": "C:Dimensions"
+        }
+      }
+    },
+    "terminal": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - TERMINAL.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "Weight": "C:Weight",
+          "ImagePath": "Pic_URL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Tackle Terminals",
+          "Type": "C:Type",
+          "Mov": "C:Model",
+          "ItemLocation": "C:Country/RegionofManufacture:",
+          "Feature": "C:Strength",
+          "Length": "C:Length",
+          "Thickness": "C:Size",
+          "StrapColor": "C:Color",
+          "Lug": "C:QuantityinPacket",
+          "CaseDia": "C:Diameter"
+        }
+      }
+    },
+    "tools": {
+      "link": "D:\\PacklistWB\\Masterdata Accessories - TOOLS.xlsx",
+      "categoryid": "79",
+      "departmentid": "3",
+      "imageColumn": {
+        "1": "Pic_URL"
+      },
+      "ExcelHeaderType": "Group",
+      "mappingTable": {
+        "Item": {
+          "CategoryID": "C:Brand",
+          "ItemCode": "CUSTOMLABEL",
+          "Description": "ITEM",
+          "ShortDescription": "C:MPN",
+          "ImagePath": "Pic_URL"
+        },
+        "ItemAttribute": {
+          "StoreCat": "Tackle Tools",
+          "Mov": "C:Model",
+          "ItemLocation": "C:Country/RegionofManufacture:",
+          "Feature": "C:Features",
+          "StrapColor": "C:Color",
+          "CaseDia": "C:Dimensions"
+        }
+      }
+    },
+    "stocklist": {
+      "link": "D:\\PacklistWB\\STOCKLIST.xlsx",
+      "ExcelHeaderType": "Single",
+      "mappingTable": {
+        "Item": {
+          "ItemCode": "Code",
+          "Description": "Name",
+          "CostPrice": "Price",
+          "AddOnPrice": "shipping"
+        }
+      }
+    }
+  }
+}
