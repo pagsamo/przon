@@ -83,7 +83,7 @@ img[src*="spacer.jpg"] {display: none;}
 
 .specs{ background-color: #D7DCB3; border-top: 10px solid #B7D0CD; border-bottom: 10px solid #B7D0CD; padding:3% 0;}
 
-.specs .row{ width:80%; float:none; margin:0 auto; }
+.specs .row{ width:80%; float:none; margin:0 auto; text-align: center; }
 
 
 .tracking h1, .shipping h1{ margin:0; text-align: center; padding:2% 7%; }
