@@ -1,0 +1,164 @@
+html, body {
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: "Tahoma", Arial, sans-serif;
+  background-color: #E1F4F9;
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.container {
+  position: relative;
+  width: 92%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/*Utilities*/
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+/*Utilities*/
+
+@media (min-width: 400px) {
+  .container {
+    width: 92%;
+    padding: 0; }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 92%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+  .one-half.column                { width: 48%; }
+  
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+.rad-border{ border:3px solid black; border-radius: 50px; }
+
+.prod-info{ margin:4% 0; }
+.prod-info h3{ margin:0; width:70%; padding:20px 15%; text-align: center; border: 3px solid black; border-radius:50px; }
+.main .five.columns{ padding:5% 7%; text-align: center; }
+.specs{ text-align: center; margin-top:4%;}
+.specs .container{ padding:5%; }
+.mainSpecs .four.columns{ padding:0 3%; }
+.other-images{ background-color: white; margin:5% 0; }
+.shippingAndTracking { text-align: center; }
+.shippingAndTracking .six.columns{ padding:5% 7%; }
+.resistanceAndTip .eight.columns,
+.measurementAndTip .eight.columns{ width:65%; margin-left:0; }
+.resistanceAndTip .four.columns,
+.measurementAndTip .four.columns{ width:35%; margin-left:0; text-align: center; padding:5% 3%; }
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+@media (min-width: 550px) and (max-width: 1024px) {
+/************************************************************************************************/
+/************************************************************************************************/
+.other-images .four.columns{ width:50%; margin-left:0; }
+.other-images .four.columns:last-child{ width:100%; text-align: center; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
+.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
+.resistanceAndTip .eight.columns,
+.measurementAndTip .eight.columns{ width:100%; margin-left:0; }
+.resistanceAndTip .four.columns,
+.measurementAndTip .four.columns{ width:100%; margin-left:0; text-align: center; padding:4% 20%; }
+.measurementAndTip .four.columns{ padding-top: 10%; }
+.resistanceAndTip .four.columns{ padding-bottom:10%; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+@media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
+.main .five.columns{ padding:3% 7%; }
+.specs .container{ padding-left:10%; padding-right:10%; }
+.shippingAndTracking .six.columns{ padding:7% 10%; }
+.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
+.resistanceAndTip .eight.columns,
+.measurementAndTip .eight.columns{ width:100%; margin-left:0; }
+.resistanceAndTip .four.columns,
+.measurementAndTip .four.columns{ width:100%; margin-left:0; text-align: center; padding:4% 10%; }
+.measurementAndTip .four.columns{ padding-top: 10%; }
+.resistanceAndTip .four.columns{ padding-bottom:10%; }
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+
