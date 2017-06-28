@@ -89,6 +89,7 @@ ul {
 .resistanceAndTip .eight.columns, .measurementAndTip .eight.columns{ width:65%; margin-left:0; }
 .resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:3% 3%; width:35%; margin-left:0;}
 .resistanceAndTip .four.columns h1, .measurementAndTip .four.columns h1{ color: #C24032; }
+.measurementAndTip .four.columns{ padding-bottom:5%; }
 .shippingAndTracking{ background-color: #E4EADC; }
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
 .shippingAndTracking .six.columns h1{ padding-left:6%; color:#C24032; ; }
