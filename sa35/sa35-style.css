@@ -4,11 +4,17 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
-  background-color: #231F20;
+  background-color: #FDECDC;
 }
 
 .label{ font-weight: bolder; }
 img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
 .container {
   position: relative;
   width: 92%;
@@ -80,24 +86,23 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-
-
-.row.title{ background-color: #79C7AD; text-align: center; padding:20px 30px; border-top-left-radius: 20px; border-top-right-radius: 20px;}
-.row.title h1{ margin:0; }
-
-
-.shippingAndTracking{ margin:4% 0; }
-.shippingAndTracking .six.columns .row:last-child, .resistanceAndTip .four.columns .row:last-child, .measurementAndTip .four.columns .row:last-child, .mainSpecs, .specsLaptop{ background-color: #FCF0D6; padding:5% 10%;}
-
-
-.resistanceAndTip, .measurementAndTip, .other-images, .main{ margin-bottom:4%; }
-.other-images, .main .container{ background-color: white; text-align: center; }
-
-.main .eight.columns .row{ display: flex; justify-content: center; }
-.main .eight.columns .row .five.columns{ align-self: center; }
-.main .four.columns{ padding:3% 5%; }
-
-
+.resistanceAndTip .eight.columns, .measurementAndTip .eight.columns{ width:65%; margin-left:0; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:3% 3%; width:35%; margin-left:0;}
+.resistanceAndTip .four.columns h1, .measurementAndTip .four.columns h1{ color: #C24032; }
+.shippingAndTracking{ background-color: #E4EADC; }
+.shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
+.shippingAndTracking .six.columns h1{ padding-left:6%; color:#C24032; ; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left: 0; padding:0 5%; }
+.main{ background-color: white; }
+.main .five.columns{ padding:5%; text-align: center; }
+.infoAndSpecs .four.columns{ width:35%; margin-left:0; }
+.infoAndSpecs .four.columns .twelve.columns{ padding:50px 10%; text-align: center; }
+.infoAndSpecs .four.columns .twelve.columns h1{ margin:0; }
+.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: #C8DAB8; color: #C24032; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: #E4EADC; }
+.infoAndSpecs .eight.columns{ width:65%; margin-left:0; padding:3% 5%;}
+.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
+.other-images{ background-color: white; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -111,21 +116,21 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 
 @media (min-width: 550px) and (max-width: 1024px) {
-
-.tracking{  margin-top:4%; }
-.resistanceAndTip .container{ width:100%; }
-.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ width:92%; margin:4%; margin-bottom:0; float:none; display: inline-block;}
-.measurementAndTip .container{ width:100%; }
-.other-images{ margin:4% 0; }
-
-.main .eight.columns .row .five.columns{ width:40%; margin-left:0; padding:2% 5%; }
-.mainSpecs{ display: none; }
-.specsLaptop{ display: block !important; }
-.specsLaptop .six.columns{ width:50%; margin-left:0; padding:3% 10%; }
-.specsLaptop{ padding:5% 3% !important; }
-
-
-
+/************************************************************************************************/
+/************************************************************************************************/
+.resistanceAndTip .eight.columns, .measurementAndTip .eight.columns, 
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns,
+.shippingAndTracking .six.columns,
+.infoAndSpecs .four.columns,
+.infoAndSpecs .eight.columns{ width:100%; margin-left:0; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:5% 15%; }
+.infoAndSpecs .four.columns{ background-color: #E4EADC; }
+.infoAndSpecs .four.columns .twelve.columns{ width:50%; margin-left:0; }
+.infoAndSpecs .eight.columns .six.columns{ width:50%; margin-left:0; }
+.other-images .four.columns{ width:50%; margin-left:0; }
+.other-images .four.columns:last-child{ width:100% !important; text-align: center; }
+/************************************************************************************************/
+/************************************************************************************************/
 }
 /************************************************************************************************/
 /************************************************************************************************/
@@ -138,17 +143,23 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 /************************************************************************************************/
 @media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
 body{ text-align: center; }
-.tracking{  margin-top:4%; }
-.resistanceAndTip .container{ width:100%; }
-.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ width:92%; margin:4%; margin-bottom:0; float:none; display: inline-block;}
-.measurementAndTip .container{ width:100%; }
-.other-images{ margin:4% 0; }
-
-.main .eight.columns .row{ display: block; }
-.main .eight.columns .row .seven.columns{ padding:0 5%; }
-.main .four.columns{ padding:5%; }
-
+.resistanceAndTip .eight.columns, .measurementAndTip .eight.columns, 
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns,
+.shippingAndTracking .six.columns,
+.infoAndSpecs .four.columns,
+.infoAndSpecs .eight.columns{ width:100%; margin-left:0; }
+.resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:5% 10%; }
+.shippingAndTracking .six.columns h1{ padding-left:6%; color:#C24032; ; }
+.shippingAndTracking .six.columns .twelve.columns{ width:100%; margin-left: 0; padding:0 10%; }
+.shippingAndTracking .six.columns:first-child{ padding-top:10%; }
+.shippingAndTracking .six.columns:last-child{ padding-bottom: 10%; }
+.main .five.columns{ padding:5% 15%; padding-bottom:10%;}
+.infoAndSpecs .eight.columns{ padding:10%; }
+/************************************************************************************************/
+/************************************************************************************************/
 }
 /************************************************************************************************/
 /************************************************************************************************/
