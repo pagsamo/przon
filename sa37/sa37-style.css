@@ -4,11 +4,16 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
-  background-color: #E2EAED;
 }
 
 .label{ font-weight: bolder; }
 img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
 .container {
   position: relative;
   width: 92%;
@@ -80,20 +85,23 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-.row.guides{ text-align: center; }
-.shippingAndTracking{ margin:4% 0; }
-.shippingAndTracking .six.columns{ background-color: white; padding:3%; }
+.shippingAndTracking{ background-color: #D4E7F9; padding:4% 5%;}
+.shippingAndTracking h1{ color: #2B486E; padding-left:5%;}
+.shippingAndTracking h2{ color: #2F2F2F; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
-.tips{ margin:4% 0; }
-.tips .six.columns{ background-color: white; padding:3% 7%; }
-.main .five.columns{ padding:3%; text-align: center; }
-.infoAndSpecs{ margin:4% 0; }
-.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 7%; background-color: #150D40; color: white;}
-.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: #EFF3F6; color: black; padding:40px 3%;}
-.infoAndSpecs .eight.columns{ background-color: white; padding:3%; }
-.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
-
-
+.measurementAndTip .eight.columns,
+.resistanceAndTip .eight.columns,
+.infoAndSpecs .eight.columns{ width:65%; margin-left:0; }
+.measurementAndTip .four.columns,
+.resistanceAndTip .four.columns,
+.infoAndSpecs .four.columns{ width:35%; margin-left:0; padding:5%; }
+.main .five.columns{ padding:5%; text-align: center; }
+.infoAndSpecs .four.columns{ padding:0; display: flex; justify-content: center; }
+.infoAndSpecs .four.columns .twelve.columns{ padding:60px 5%; text-align: center; }
+.infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
+.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: #2B486E; color: white; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: #D4E7F9; }
+.infoAndSpecs .eight.columns{ background-color: #E9F3FC; padding:3% 5%;}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -109,13 +117,8 @@ img[src*="spacer.jpg"] {display: none;}
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
-.shippingAndTracking h1{ padding-left:5%; }
-.tips .six.columns{ padding:4% 10%; }
-.tips .six.columns:last-child{ margin-top:4%; }
-.infoAndSpecs .four.columns{ margin-bottom:4%; }
-.infoAndSpecs .eight.columns .six.columns{ width:50%; margin-left:0; padding:0 5%; }
-.other-images{ text-align: center; }
+
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -132,13 +135,6 @@ img[src*="spacer.jpg"] {display: none;}
 @media (max-width: 549px) {
 /************************************************************************************************/
 /************************************************************************************************/
-.shippingAndTracking .six.columns{ padding-bottom:15%; }
-.shippingAndTracking .six.columns .twelve.columns{ width:100%; padding:0 7%; }
-.shippingAndTracking h1{ padding:0 7%; }
-.shippingAndTracking .six.columns:last-child{ margin-top:4%; }
-.tips .six.columns{ padding:5% 10%; }
-.tips .six.columns:last-child{ margin-top:4%; }
-.infoAndSpecs .four.columns{ margin-bottom:4%; }
 
 /************************************************************************************************/
 /************************************************************************************************/

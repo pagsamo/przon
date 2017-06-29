@@ -83,7 +83,7 @@ img[src*="spacer.jpg"] {display: none;}
 .sh{background-color: #F0F0F1; box-shadow: 5px 5px 5px #888888; }
 .main .five.columns.include{  padding:2% 5%; margin-top:3%; text-align: center; }
 .infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 3%; }
-.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-top:5%; }
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-top:1%; }
 .infoAndSpecs .eight.columns{ padding: 3%;}
 .infoAndSpecs .eight.columns .six.columns{ padding:0 3%; }
 .other-images{ margin:3% 0; }
@@ -115,7 +115,7 @@ img[src*="spacer.jpg"] {display: none;}
 .main .five.columns{  width:48%; margin-left:0; }
 .main .seven.columns{ width:48%; margin-left:4%; margin-top:5%; }
 .infoAndSpecs .four.columns{ display: flex; justify-content: center; }
-.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 3%; width:48%; margin-left:0; margin-top:5%; margin-bottom: 5%; height:200px; display: flex;}
+.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:20px 3%; width:48%; margin-left:0; margin-top:5%; margin-bottom: 1%; height:200px; display: flex;}
 .infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
 .infoAndSpecs .four.columns .twelve.columns h3{ width:80%; margin:0 10%; }
 .infoAndSpecs .four.columns .twelve.columns:last-child{ margin-left:4%; }
