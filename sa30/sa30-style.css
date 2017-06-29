@@ -119,7 +119,6 @@ img[src*="spacer.jpg"] {display: none;}
 .measurementAndTip .eight.columns, .resistanceAndTip .eight.columns, .measurementAndTip .four.columns, .resistanceAndTip .four.columns{ width: 100%; margin-left: 0; }
 .resistanceAndTip .four.columns, .measurementAndTip .four.columns{ padding:5% 15%; }
 .main .five.columns{ padding-bottom:7%; }
-.specs{ padding-bottom:7%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
