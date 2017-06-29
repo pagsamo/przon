@@ -94,7 +94,7 @@ img[src*="spacer.jpg"] {display: none;}
 .main .five.columns{ padding:3%; text-align: center; }
 
 .shippingAndTracking .six.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 12%;}
-.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:3% 5%; }
+.tipAndWater .four.columns .row:last-child, .tipAndWatch .four.columns .row:last-child{ background-color: #E3C058; text-align: center; padding:7% 10%; }
 .tipAndWatch{ margin:3% 0; }
 
 /************************************************************************************************/
