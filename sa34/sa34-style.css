@@ -4,7 +4,7 @@ html, body {
   padding:0;
   margin:0;
   font-family: "Tahoma", Arial, sans-serif;
-  background-color: #F2F2F2;
+  background-color: #F26E22;
 }
 
 .label{ font-weight: bolder; }
@@ -99,7 +99,7 @@ img[src*="spacer.jpg"] {display: none;}
 .other-images{ margin:4% 0; background-color: white;}
 .shippingAndTracking{ text-align: center; }
 .shippingAndTracking .six.columns{ padding:4% 5%; padding-top:2%;}
-.measurementAndTip .four.columns, .resistanceAndTip .four.columns{ padding:3%; text-align: center; }
+.measurementAndTip .four.columns, .resistanceAndTip .four.columns{ padding:3%; text-align: center; background-color: #F2F2F2;}
 .resistanceAndTip{ margin:4% auto; margin-bottom:0; }
 
 /************************************************************************************************/

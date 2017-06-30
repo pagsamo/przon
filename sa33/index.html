@@ -7,7 +7,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;" />
-    <link rel="stylesheet" href="http://www.watcheszon.com/images/sa33-style.css">
+    <!-- <link rel="stylesheet" href="http://www.watcheszon.com/images/sa33-style.css"> -->
+    <link rel="stylesheet" href="sa33-style.css">
+
 </head>
 
 <body>
@@ -154,6 +156,45 @@
 <div class="infoAndSpecs">
         <div class="row">
             <div class="four columns title-info">
+                <div class="row">
+                    <div class="twelve columns"><div><h3>#ItemCategory.Description# #ItemAttribute.StoreCat# #Item.ItemCode#</h3></div></div>
+                    <div class="twelve columns"><div><h3>Retail Price: US$ #Item.SellingPrice#</h3></div></div>
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="row">
+                        <div class="six columns">
+                            <p><span class="label">Gender: </span>#ItemAttribute.Gender#</p>
+                            <p><span class="label">Style: </span>#ItemAttribute.Type#</p>
+                            <p><span class="label">Display: </span>#ItemAttribute.Display#</p>
+                            <p><span class="label">Dial Color: </span>#ItemAttribute.DialColor# Dial</p>
+                            <p><span class="label">Bracelet Color: </span>#ItemAttribute.Strapcolor#</p>
+                            <p><span class="label">Clasp: </span>#ItemAttribute.Clasp#</p>
+                            <p><span class="label">Case: </span>#ItemAttribute.Case#</p>
+                            <p><span class="label">Bracelet: </span>#ItemAttribute.Bracelet#</p>
+                            <p><span class="label">Caseback: </span>#ItemAttribute.Caseback#</p>
+                            <p><span class="label">Hand: </span>#ItemAttribute.Hand#</p>
+                            <p><span class="label">Dial Glass: </span>#ItemAttribute.Glass#</p>
+                        </div>
+                        <div class="six columns">
+                            <p><span class="label">Case Diameter: </span>#ItemAttribute.CaseDia#</p>
+                            <p><span class="label">Face Height: </span>#ItemAttribute.Face# mm</p>
+                            <p><span class="label">Lug Width: </span>#ItemAttribute.Lug# mm</p>
+                            <p><span class="label">Max Length: </span>#ItemAttribute.Length# mm Circumference</p>
+                            <p><span class="label">Water Resistant: </span>#ItemAttribute.WaterResistant#</p> 
+                            <p><span class="label">Movement: </span>#ItemAttribute.Movement#</p>
+                            <p><span class="label">Movement Country: </span>#ItemAttribute.MovCountry#</p>
+                            <p><span class="label">Weight: </span>#Item.Weight#g</p>
+                            <p><span class="label">Function: </span>#ItemAttribute.Function#</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="flexer">
+        <div class="row">
+            <div class="four columns">
                 <div class="row">
                     <div class="twelve columns"><div><h3>#ItemCategory.Description# #ItemAttribute.StoreCat# #Item.ItemCode#</h3></div></div>
                     <div class="twelve columns"><div><h3>Retail Price: US$ #Item.SellingPrice#</h3></div></div>
