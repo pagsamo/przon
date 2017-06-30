@@ -80,11 +80,21 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.specs,
+.shippingAndTracking
+{ background-color: #F26E22; padding-top:4%;}
+.specs .container,
+.shippingAndTracking .six.columns
+{ background-color: #F2F2F2; }
+.shippingAndTracking
+{
+  padding-bottom:4%;
+}
 .orange-border{ border: 7px solid #F26E22; }
-.prod-info{ text-align: center; padding:3% 7%; border-top:7px solid #F26E22;}
+.prod-info{ text-align: center; padding:3% 7%;}
 .main{ text-align: center; }
 .main .five.columns{ padding:3% 5%; }
-.specs .container{ text-align: center; padding:4% 3%; margin-top:4%; margin-bottom: 4%; padding-top:2%;}
+.specs .container{ text-align: center; padding:4% 3%;}
 .mainSpecs .four.columns{ padding:0 5%; }
 .other-images{ margin:4% 0; background-color: white;}
 .shippingAndTracking{ text-align: center; }
