@@ -85,12 +85,12 @@ img[src*="spacer.jpg"] {display: none;}
 .shippingAndTracking .six.columns, .tips .six.columns{ background-color: #F4E1E5; text-align: center; padding:3% 7%;}
 .tips{ margin-bottom:4%; }
 .other-images{ margin:4% 0; }
-.main .five.columns{ padding:5%; text-align: center;}
+.main .row{ display: flex; justify-content: center; }
+.main .seven.columns{ width:65%; align-self: center; }
+.main .five.columns{ padding:5%; text-align: center; align-self: center; width:35%; margin-left:0;}
 .main{ margin-bottom:4%; }
 .infoAndSpecs{ margin-bottom:4%; }
-.infoAndSpecs .four.columns .twelve.columns{ padding:5% 7%; text-align: center;}
-.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: #F4E1E5; }
-.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: white; }
+.infoAndSpecs .four.columns{ padding:0 5%; text-align: center; }
 .infoAndSpecs .eight.columns{ background-color: #F4E1E5; }
 .infoAndSpecs .eight.columns .six.columns{ padding:3% 5%; }
 /************************************************************************************************/
@@ -115,11 +115,13 @@ img[src*="spacer.jpg"] {display: none;}
 .tips .six.columns{ padding:5% 15%; }
 .tips .six.columns:last-child{ margin-top:4%; }
 .other-images{ text-align: center; }
-.infoAndSpecs .four.columns{ display: flex; justify-content: center}
-.infoAndSpecs .four.columns .twelve.columns{ height:200px; ; width:50%; margin-left:0; align-self: center; }
 .infoAndSpecs .eight.columns{ margin-top:4%; text-align: center;}
 .infoAndSpecs .eight.columns{ padding:0 5%; }
 .infoAndSpecs .eight.columns .six.columns{ width:50%; margin-left:0; padding:4% 5%; }
+.main .row{ display: block; }
+.main .row .seven.columns,
+.main .row .five.columns
+{ width:100%; margin-left:0; text-align: center;}
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -141,7 +143,10 @@ img[src*="spacer.jpg"] {display: none;}
 .tips .six.columns{ padding:5% 7%; }
 .tips .six.columns:last-child{ margin-top:4%; }
 .infoAndSpecs .eight.columns{ margin-top: 4%; text-align: center; padding:5% 10%; }
-
+.main .row{ display: block; }
+.main .row .seven.columns,
+.main .row .five.columns
+{ width:100%; margin-left:0; text-align: center;}
 /************************************************************************************************/
 /************************************************************************************************/
 }
