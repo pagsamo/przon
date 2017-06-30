@@ -91,10 +91,9 @@ img[src*="spacer.jpg"] {display: none;}
   padding-bottom:4%;
 }
 .orange-border{ border: 7px solid #F26E22; }
-.prod-info{ text-align: center; padding:3% 7%;}
-.prod-info .row{ background-color: white; }
+.prod-info{ text-align: center; padding:3% 7%; color:white;}
 .main{ text-align: center; }
-.main .five.columns{ padding:3% 5%; background-color: white;}
+.main .five.columns{ padding:3% 5%; color: white;}
 .specs .container{ text-align: center; padding:4% 3%;}
 .mainSpecs .four.columns{ padding:0 5%; }
 .other-images{ margin:4% 0; background-color: white;}
