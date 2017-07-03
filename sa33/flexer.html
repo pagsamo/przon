@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style type="text/css">
+	body{ margin:0; }
+
+	.infoAndSpecs .row{ display: flex; height:auto; justify-content: center}
+	.infoAndSpecs .eight.columns{ background-color: green; width:70%; margin:0; align-self: center;}
+	.infoAndSpecs .four.columns .row{ display: flex; flex-direction: column; height:100%; align-self: center;}
+	.infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
+	.infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
+	.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: red;}
+	.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: blue;}
+	.infoAndSpecs .eight.columns .row{align-self: center; padding:5%;}
+	.infoAndSpecs .eight.columns .row .six.columns{width:50%; text-align: center; padding:0 5%;}
+</style>
+
+
+
+	<div class="infoAndSpecs">
+        <div class="row">
+            <div class="four columns">
+                <div class="row">
+                    <div class="twelve columns"><h3>#ItemCategory.Description# #ItemAttribute.StoreCat# #Item.ItemCode#</h3></div>
+                    <div class="twelve columns"><h3>Retail Price: US$ #Item.SellingPrice#</h3></div>
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="row">
+                        <div class="six columns">
+                            <p><span class="label">Gender: </span>#ItemAttribute.Gender#</p>
+                            <p><span class="label">Style: </span>#ItemAttribute.Type#</p>
+                            <p><span class="label">Display: </span>#ItemAttribute.Display#</p>
+                            <p><span class="label">Dial Color: </span>#ItemAttribute.DialColor# Dial</p>
+                            <p><span class="label">Bracelet Color: </span>#ItemAttribute.Strapcolor#</p>
+                            <p><span class="label">Clasp: </span>#ItemAttribute.Clasp#</p>
+                            <p><span class="label">Case: </span>#ItemAttribute.Case#</p>
+                            <p><span class="label">Bracelet: </span>#ItemAttribute.Bracelet#</p>
+                            <p><span class="label">Caseback: </span>#ItemAttribute.Caseback#</p>
+                            <p><span class="label">Hand: </span>#ItemAttribute.Hand#</p>
+                            <p><span class="label">Dial Glass: </span>#ItemAttribute.Glass#</p>
+                        </div>
+                        <div class="six columns">
+                            <p><span class="label">Case Diameter: </span>#ItemAttribute.CaseDia#</p>
+                            <p><span class="label">Face Height: </span>#ItemAttribute.Face# mm</p>
+                            <p><span class="label">Lug Width: </span>#ItemAttribute.Lug# mm</p>
+                            <p><span class="label">Max Length: </span>#ItemAttribute.Length# mm Circumference</p>
+                            <p><span class="label">Water Resistant: </span>#ItemAttribute.WaterResistant#</p> 
+                            <p><span class="label">Movement: </span>#ItemAttribute.Movement#</p>
+                            <p><span class="label">Movement Country: </span>#ItemAttribute.MovCountry#</p>
+                            <p><span class="label">Weight: </span>#Item.Weight#g</p>
+                            <p><span class="label">Function: </span>#ItemAttribute.Function#</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
