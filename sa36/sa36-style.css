@@ -100,7 +100,7 @@ ul {
 .resistanceAndTip .eight.columns,
 .measurementAndTip .eight.columns{ width:65%; margin-left:0; }
 .resistanceAndTip .four.columns,
-.measurementAndTip .four.columns{ width:35%; margin-left:0; text-align: center; padding:5% 3%; }
+.measurementAndTip .four.columns{ width:31%; margin:4% 2%; text-align: center; padding:5% 3%; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -123,9 +123,10 @@ ul {
 .resistanceAndTip .eight.columns,
 .measurementAndTip .eight.columns{ width:100%; margin-left:0; }
 .resistanceAndTip .four.columns,
-.measurementAndTip .four.columns{ width:100%; margin-left:0; text-align: center; padding:4% 20%; }
+.measurementAndTip .four.columns{ width:92%; margin-left:4%; margin-right:4%; text-align: center; padding:4% 20%; }
 .measurementAndTip .four.columns{ padding-top: 10%; }
-.resistanceAndTip .four.columns{ padding-bottom:10%; }
+.resistanceAndTip .four.columns.rad-border{ padding-bottom:10%; margin-top:0; }
+
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -150,9 +151,9 @@ ul {
 .resistanceAndTip .eight.columns,
 .measurementAndTip .eight.columns{ width:100%; margin-left:0; }
 .resistanceAndTip .four.columns,
-.measurementAndTip .four.columns{ width:100%; margin-left:0; text-align: center; padding:4% 10%; }
+.measurementAndTip .four.columns{ width:92%; margin-left:4%; margin-right:4%; text-align: center; padding:4% 10%; }
 .measurementAndTip .four.columns{ padding-top: 10%; }
-.resistanceAndTip .four.columns{ padding-bottom:10%; }
+.resistanceAndTip .four.columns{ padding-bottom:10%; margin-top:0;}
 /************************************************************************************************/
 /************************************************************************************************/
 }
