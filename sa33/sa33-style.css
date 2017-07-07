@@ -89,8 +89,19 @@ img[src*="spacer.jpg"] {display: none;}
 .tips .six.columns{ padding:3% 5%; }
 
 
+/*.infoAndSpecs .row{ display: flex; height:auto; justify-content: center;}
+.infoAndSpecs .eight.columns{ background-color: #FFFDE6; width:65%; margin:0; align-self: center;}
+.infoAndSpecs .four.columns{ width:35%;}
+.infoAndSpecs .four.columns .row{ background-color: #1E8FCE; color: white; display: flex; flex-direction: column; height:100%; align-self: center;}
+.infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
+.infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
+.infoAndSpecs .eight.columns .row{align-self: center; padding:5%;}
+.infoAndSpecs .eight.columns .row .six.columns{width:50%; text-align: center; padding:0 5%;}
+*/
+
 .infoAndSpecs .row{ display: flex; height:auto; justify-content: center;}
-.infoAndSpecs .eight.columns{ width:70%; margin:0; align-self: center;}
+.infoAndSpecs .eight.columns{ width:65%; margin:0; align-self: center;}
+.infoAndSpecs .four.columns{ width:35%;}
 .infoAndSpecs .four.columns .row{ display: flex; flex-direction: column; height:100%; align-self: center;}
 .infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
 .infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
@@ -111,7 +122,11 @@ img[src*="spacer.jpg"] {display: none;}
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-
+@media (max-width: 700px){
+.infoAndSpecs .row .four.columns .row{ flex-direction: column !important; }
+.infoAndSpecs .row .four.columns .row .twelve.columns{ width:100%; margin-left:0; }
+.infoAndSpecs .row .four.columns .row .twelve.columns:last-child{ height:auto !important; }
+}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Tablets and Laptop*/
@@ -123,7 +138,12 @@ img[src*="spacer.jpg"] {display: none;}
 /************************************************************************************************/
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:5%; }
 .other-images{ text-align: center; }
-
+.infoAndSpecs .row{ display: block; }
+.infoAndSpecs .row .four.columns{ width:100%; }
+.infoAndSpecs .row .four.columns .row{ flex-direction: row; }
+.infoAndSpecs .row .four.columns .twelve.columns{ width:50%; margin-left:0; }
+.infoAndSpecs .eight.columns{ width:100%; margin-left:0; padding-top:4%; padding-bottom:4%;}
+.infoAndSpecs .row .four.columns .row .twelve.columns:last-child{ height:auto !important; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -143,8 +163,12 @@ img[src*="spacer.jpg"] {display: none;}
 body{ text-align: center; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:5%; }
 .shippingAndTracking .six.columns .twelve.columns{ width:100%; margin-left:0; padding:0 5%; }
-
 .tips, .shippingAndTracking{ padding-top:7%; padding-bottom:7%; }
+.infoAndSpecs .row{ display: block; }
+.infoAndSpecs .four.columns{ width:100%; }
+.infoAndSpecs .row .eight.columns{ width:100%; margin-left:0; }
+.infoAndSpecs .row .eight.columns .six.columns{ width:100%; margin-left:0; }
+.infoAndSpecs .row .four.columns .row .twelve.columns:last-child{ height:auto !important; }
 
 
 

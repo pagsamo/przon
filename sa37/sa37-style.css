@@ -91,35 +91,38 @@ h2{ color: #2B486E; }
 .shippingAndTracking h2{ color: #2F2F2F; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
 .measurementAndTip .eight.columns,
-.resistanceAndTip .eight.columns,
-.infoAndSpecs .eight.columns{ width:65%; margin-left:0; }
+.resistanceAndTip .eight.columns
+{ width:65%; margin-left:0; }
 .measurementAndTip .four.columns,
-.resistanceAndTip .four.columns,
-.infoAndSpecs .four.columns{ width:35%; margin-left:0; padding:5%; }
+.resistanceAndTip .four.columns
+{ width:35%; margin-left:0; padding:5% 3%; }
 .main .five.columns{ padding:5%; text-align: center; }
-.infoAndSpecs .four.columns{ padding:0; display: flex; justify-content: center; }
-.infoAndSpecs .four.columns .twelve.columns{ padding:60px 5%; text-align: center; }
-.infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
-.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: #2B486E; color: white; }
-.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: #D4E7F9; }
-.infoAndSpecs .eight.columns{ background-color: #E9F3FC; padding:3% 5%;}
+
+
+
+.infoAndSpecs .row{ display: flex; height:auto; justify-content: center; }
+.infoAndSpecs .row .eight.columns{ width:65%; background-color: #D4E7F9; margin:0; align-self: center; }
+.infoAndSpecs .row .eight.columns .row{ align-self: center; }
+.infoAndSpecs .row .eight.columns .row .six.columns{ width:50%; text-align: center; padding:0 5%;}
+.infoAndSpecs .row .four.columns{ width:35%; }
+.infoAndSpecs .row .four.columns .row{ display: flex; flex-direction: column; height:100%;}
+.infoAndSpecs .row .four.columns .twelve.columns{ height:50%; text-align: center;display: flex; justify-content: center;}
+.infoAndSpecs .row .four.columns .twelve.columns h3{ align-self: center; padding:0 15%; width:70%;}
+.infoAndSpecs .row .four.columns .twelve.columns:first-child{ background-color: #2B486E; color: white; }
+.infoAndSpecs .row .four.columns .twelve.columns:last-child{ background-color: #D4E7F9; }
+
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-
+/*color: #2B486E #D4E7F9*/
 /************************************************************************************************/
 /************************************************************************************************/
 /*Tablets and Laptop*/
 /************************************************************************************************/
 /************************************************************************************************/
-@media (max-width: 700px){
-  .infoAndSpecs .four.columns{ width:100% !important; margin-left:0; }
-  .infoAndSpecs .four.columns .twelve.columns{ width:100% !important; margin-left:0; height:150px !important; padding-left:5%; padding-right:5%; text-align: center; display: flex; justify-content: center;}
-  .infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
-}
-
 
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
@@ -128,16 +131,17 @@ h2{ color: #2B486E; }
 .resistanceAndTip .eight.columns,
 .measurementAndTip .four.columns,
 .resistanceAndTip .four.columns,
-.infoAndSpecs .four.columns,
-.infoAndSpecs .eight.columns
 { width:100%; margin-left:0; }
 .measurementAndTip .four.columns,
 .resistanceAndTip .four.columns
 { padding:7% 10%; }
-.infoAndSpecs .four.columns .twelve.columns{ width:50%; margin-left:0; height:300px; padding-left:5%; padding-right:5%; text-align: center; display: flex; justify-content: center;}
-.infoAndSpecs .four.columns .twelve.columns div{ align-self: center; }
-.infoAndSpecs .eight.columns .six.columns{ width:50%; margin-left:0; padding:0 5%; }
 .other-images{ text-align: center; }
+.infoAndSpecs .row{ display: block; }
+.infoAndSpecs .row .four.columns,
+.infoAndSpecs .row .eight.columns{ width:100%; margin-left:0; }
+.infoAndSpecs .row .four.columns .row{ flex-direction: row; }
+.infoAndSpecs .row .four.columns .row .twelve.columns{ width:50%; margin-left:0; height:auto;}
+.infoAndSpecs .eight.columns{ margin-left:0; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -159,16 +163,16 @@ body{ text-align: center; }
 .resistanceAndTip .eight.columns,
 .measurementAndTip .four.columns,
 .resistanceAndTip .four.columns,
-.infoAndSpecs .four.columns,
-.infoAndSpecs .eight.columns,
-.shippingAndTracking .six.columns .twelve.columns
-{ width:100%; margin-left:0; }
 .measurementAndTip .four.columns,
-.resistanceAndTip .four.columns,
-.infoAndSpecs .eight.columns
-{ padding:7% 10%; }
+.resistanceAndTip .four.columns
+{ width:100%; margi-left:0; }
 .main .five.columns{ padding-left:10%; padding-right:10%; }
 .shippingAndTracking{ padding-bottom: 10%; }
+.infoAndSpecs .row{ display: block; }
+.infoAndSpecs .four.columns{ width:100% !important;  }
+.infoAndSpecs .row .eight.columns{ width:100%; margin-left:0; }
+.infoAndSpecs .row .eight.columns .six.columns{ width:100% !important; margin-left:0; }
+.infoAndSpecs .eight.columns{ padding-top:8%; padding-bottom:8%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
