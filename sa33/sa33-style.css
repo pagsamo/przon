@@ -89,15 +89,7 @@ img[src*="spacer.jpg"] {display: none;}
 .tips .six.columns{ padding:3% 5%; }
 
 
-/*.infoAndSpecs .row{ display: flex; height:auto; justify-content: center;}
-.infoAndSpecs .eight.columns{ background-color: #FFFDE6; width:65%; margin:0; align-self: center;}
-.infoAndSpecs .four.columns{ width:35%;}
-.infoAndSpecs .four.columns .row{ background-color: #1E8FCE; color: white; display: flex; flex-direction: column; height:100%; align-self: center;}
-.infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
-.infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
-.infoAndSpecs .eight.columns .row{align-self: center; padding:5%;}
-.infoAndSpecs .eight.columns .row .six.columns{width:50%; text-align: center; padding:0 5%;}
-*/
+
 
 .infoAndSpecs .row{ display: flex; height:auto; justify-content: center;}
 .infoAndSpecs .eight.columns{ width:65%; margin:0; align-self: center;}
@@ -113,10 +105,6 @@ img[src*="spacer.jpg"] {display: none;}
 
 
 
-/*.infoAndSpecs .four.columns .twelve.columns{ text-align: center; padding:10%; text-align: center; }
-.infoAndSpecs .four.columns .twelve.columns:first-child{ background-color: #32768E; }
-.infoAndSpecs .four.columns .twelve.columns:last-child{ background-color: white; }
-.infoAndSpecs .eight.columns .six.columns{ padding:3% 5%; }*/
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
