@@ -1,0 +1,46 @@
+<link media="all" href="http://statictmpl.i-ways.net/ebay_fashion/template/v2/base.css" type="text/css" rel="stylesheet">
+<link media="all" href="http://statictmpl.i-ways.net/ebay_fashion/template/v2/c598b75b-0af8-4417-a2ef-af7887b36f18/0/skin.css" type="text/css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<div id="it--header">
+    <div class="it--banner"></div>
+    <div class="it--wrapper">
+        <a class="it--logo" target="_blank"></a>
+        <div class="it--slogan"></div>
+        <div class="it--description"></div>
+    </div>
+</div>
+<div id="it--content">
+    <div class="it--wrapper">
+        <div class="it-clearfix">
+            <h2 class="title">***Add your product title here***</h2>
+            <div class="content-wrapper">
+                <div class="left">
+                    <div class="etc-description">***Add your product description here*** <br>
+                Add product picture in the code.<br>
+                How to edit this file?<br>
+                1. Open free-item-template.html with text editor<br>
+                2. Change code.<br>
+                3. Save. Copy all code from this file.<br>
+                4. Create eBay product.<br>
+                5. In product description form, choose HTML, Paste the code.<br>
+                6. Save the product.<br>
+                7. Voila!</div>
+                    <div class="attributes"></div>
+                </div>
+                
+                <div class="right">
+                    <div class="image"><img src="http://statictmpl.i-ways.net/ebay_fashion/img/i-ways-logo.png"></div>
+                </div>
+            </div>
+        </div>
+        <div class="promo"></div>
+    </div>
+</div>
+<div id="it--footer">
+    <div class="it--wrapper">
+        <a class="it--logo" target="_blank"></a>
+        <div class="it--slogan"></div>
+        <div class="it--description"></div>
+    </div>
+</div>
