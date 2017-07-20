@@ -1,0 +1,326 @@
+html, body {
+
+  max-width:100vw;
+  overflow-y:scroll;
+  width:100%;
+
+  height:100%;
+
+  padding:0;
+
+  margin:0;
+
+  font-family: "Tahoma", Arial, sans-serif;
+
+}
+
+
+
+.label{ font-weight: bolder; }
+
+img[src*="spacer.jpg"] {display: none;}
+
+.container {
+
+  position: relative;
+
+  width: 92%;
+
+  margin: 0 auto;
+
+  box-sizing: border-box; }
+
+.column,
+
+.columns {
+
+  width: 100%;
+
+  float: left;
+
+  box-sizing: border-box; }
+
+
+
+/*Utilities*/
+
+.u-full-width {
+
+  width: 100%;
+
+  box-sizing: border-box; }
+
+.u-max-full-width {
+
+  max-width: 100%;
+
+  box-sizing: border-box; }
+
+.u-pull-right {
+
+  float: right; }
+
+.u-pull-left {
+
+  float: left; }
+
+
+
+
+
+.container:after,
+
+.row:after,
+
+.u-cf {
+
+  content: "";
+
+  display: table;
+
+  clear: both; }
+
+/*Utilities*/
+
+
+
+@media (min-width: 400px) {
+
+  .container {
+
+    width: 92%;
+
+    padding: 0; }
+
+}
+
+
+
+@media (min-width: 1025px) {
+
+  .container {
+
+    width: 92%; }
+
+  .column,
+
+  .columns {
+
+    margin-left: 4%; }
+
+  .column:first-child,
+
+  .columns:first-child {
+
+    margin-left: 0; }
+
+
+
+  .one.column,
+
+  .one.columns                    { width: 4.66666666667%; }
+
+  .two.columns                    { width: 13.3333333333%; }
+
+  .three.columns                  { width: 22%;            }
+
+  .four.columns                   { width: 30.6666666667%; }
+
+  .five.columns                   { width: 39.3333333333%; }
+
+  .six.columns                    { width: 48%;            }
+
+  .seven.columns                  { width: 56.6666666667%; }
+
+  .eight.columns                  { width: 65.3333333333%; }
+
+  .nine.columns                   { width: 74.0%;          }
+
+  .ten.columns                    { width: 82.6666666667%; }
+
+  .eleven.columns                 { width: 91.3333333333%; }
+
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  
+
+}
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Main*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+.main{ margin-bottom:3%; }
+
+.main .container .five.columns{ border:1px solid black; align-self: center; margin-top:5%; padding:3% 5%; text-align: center;}
+
+.title-info .twelve.columns{ padding:10% 7%; box-shadow: 5px 5px 5px #888888;}
+
+.title-info .twelve.columns:first-child{ background-color: #4D4D4D; color: white; text-align: center; margin-bottom:3%;  }
+
+.title-info .twelve.columns:last-child{ background-color: #E8E9EB; text-align: center; }
+
+.infoAndSpecs .eight.columns{ border: 1px solid black; padding:3%; }
+
+.infoAndSpecs .eight.columns .six.columns{ padding:0 5%; }
+
+
+
+.other-images{ margin:3% 0;}
+
+
+
+.row.guide .twelve.columns{ width:85%; margin:3% auto; display: block; float: none;}
+
+
+
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ background-color: #E9E9E9; padding:3%;  box-shadow: 5px 5px 5px #888888; }
+
+.shippingAndTracking .six.columns .row .twelve.columns{ width:50%; margin-left:0; padding:2% 5%; }
+
+.row.title{ padding-left:5%; }
+
+.tips{ margin-bottom:3%; }
+
+
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Main*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Tablets and Laptop*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+
+
+@media (min-width: 550px) and (max-width: 1024px) {
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+.main{ margin-bottom:0; }
+
+.infoAndSpecs .four.columns{ margin-top:3%; }
+
+.infoAndSpecs .four.columns .twelve.columns:first-child{ width:48%; margin-left:0; margin-right:0;height:250px; vertical-align: middle;}
+
+.infoAndSpecs .four.columns .twelve.columns:last-child{ width:48%; margin-left:4%; margin-right:0;height:250px; vertical-align: middle;}
+
+.infoAndSpecs .four.columns .twelve.columns div{  }
+
+
+
+.infoAndSpecs .six.columns{ width:50%; margin-left:0; padding:3% 5%; }
+
+.other-images{ text-align: center; }
+
+.row.guide .twelve.columns{ width:100%; margin:3% auto; display: block; float: none;}
+
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ margin-top:3%; }
+
+.shippingAndTracking .six.columns.boxed:last-child{ margin-bottom:3%; }
+
+.tips .six.columns{ padding:3% 7%; }
+
+
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+}
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Tablets and Laptop*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Mobile*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+@media (max-width: 549px) {
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+.main{ margin-bottom:0; }
+
+.infoAndSpecs .four.columns .twelve.columns{ margin-top:3%; }
+
+.infoAndSpecs .four.columns .twelve.columns:last-child{ margin-top:0; margin-bottom:6%;}
+
+.infoAndSpecs .eight.columns{ padding:3% 10%; }
+
+.row.guide .twelve.columns{ width:100%; margin:3% auto; display: block; float: none;}
+
+.shippingAndTracking .six.columns:last-child{ margin-bottom:3%; }
+
+.shippingAndTracking .six.columns .row .twelve.columns{ width:100%; margin-left:0; }
+
+.shippingAndTracking .six.columns.boxed, .tips .six.columns{ margin-top:3%; }
+
+.tips .six.columns{ padding:5% 10%; }
+
+
+
+
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+}
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+/*Mobile*/
+
+/************************************************************************************************/
+
+/************************************************************************************************/
+
+
+
