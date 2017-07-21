@@ -96,7 +96,6 @@ ul {
 .measurementAndTip h2,
 .resistanceAndTip h2
 { color: #42210A; }
-.shippingAndTracking{ background-color: #FBF6E2; }
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:3% 3%; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
 .shippingAndTracking .six.columns h1{ padding-left:5%; color: #42210A; }
@@ -105,9 +104,9 @@ ul {
 .main .row .five.columns{ align-self: center; text-align: center; padding:0 5%; }
 
 
-.infoAndSpecs .row{ display: flex; justify-content: center; height: auto;}
-.infoAndSpecs .row .eight.columns{ width:65%; margin-left:0; align-self: center; background-color: #FBF6E2;}
-.infoAndSpecs .row .four.columns{ width:35%; margin-left:0; background-color: #42210A; color: white;}
+.infoAndSpecs .row{ display: flex; justify-content: center; height: auto; background-color: #F4E2D2;}
+.infoAndSpecs .row .eight.columns{ width:65%; margin-left:0; align-self: center; }
+.infoAndSpecs .row .four.columns{ width:35%; margin-left:0; }
 .infoAndSpecs .row .four.columns .row{ display: flex; flex-direction: column; height:100%; align-self: center;}
 .infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
 .infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
