@@ -87,33 +87,31 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-.shippingTrackingTips .six.columns{ width:50%; margin-left:0; padding:3% 5%;}
-.shippingTrackingTips{ background-color: #DCCDAE; }
-.shippingTrackingTips .six.columns:first-child{ background-color: #DDF4E2; }
+.guides{ text-align: center; }
+.guides:first-child{ background-color: #E9DBC2; }
+.guides:last-child{ background-color: #FDDDCC; }
+
+.main .row{ display: flex; justify-content: center; text-align: center;}
+.main .seven.columns{ align-self: center;  }
+.main .five.columns{ align-self: center;}
+.main .five.columns h3{ width:70%; padding:0 15%; }
 
 
+.specsAndInclude .row{ display: flex; justify-content: center; padding:3%;}
+.specsAndInclude .eight.columns{ width:65%; margin-left:0; align-self: center; }
+.specsAndInclude .eight.columns .six.columns{ width:50%; margin-left:0; padding:0 5%; }
+.specsAndInclude .four.columns{ width:35%; margin-left:0; align-self: center; padding:0 5%;}
+
+.shippingTrackingTips{ background-color: #FDDDCC; }
+.shippingTrackingTips .six.columns{ width:50%; margin-left:0; padding:3%;}
+.shippingTrackingTips .six.columns:first-child{ background-color: #E9DBC2; }
 .shipping .twelve.columns,
 .tracking .twelve.columns
-{ width:50%; margin-left:0; padding:0 5%;}
-.shipping h1, .tracking h1{ padding-left:5%; }
-.tips .row{ padding:5% 0; }
-
-.guides{ text-align: center; }
-
-
-.infoAndSpecs .row{ display: flex; justify-content: center; height: auto;}
-.infoAndSpecs .row .eight.columns{ width:65%; margin-left:0; align-self: center; background-color: #DCCDAE; }
-.infoAndSpecs .row .four.columns{ width:35%; margin-left:0; background-color: #DDF4E2; }
-.infoAndSpecs .row .four.columns .row{ display: flex; flex-direction: column; height:100%; align-self: center;}
-.infoAndSpecs .four.columns .twelve.columns{  height:50%;text-align: center; display: flex; justify-content: center;}
-.infoAndSpecs .four.columns .twelve.columns h3{ align-self: center; width:70%; padding:0 15%; }
-.infoAndSpecs .eight.columns .row{align-self: center; padding:5%;}
-.infoAndSpecs .eight.columns .row .six.columns{width:50%; text-align: center; padding:0 5%;}
-
-.main .row{ display: flex; justify-content: center; }
-.main .row .seven.columns{ align-self: center; }
-.main .row .five.columns{ align-self: center; padding:0 5%; text-align: center; }
-
+{ width:50%; margin-left:0; padding:0 5%; }
+.shipping h1,
+.tracking h1
+{ padding-left:5%; }
+.tips .row{ padding:3% 10%; }
 
 
 /************************************************************************************************/
@@ -127,24 +125,11 @@ ul {
 /*Tablets and Laptop*/
 /************************************************************************************************/
 /************************************************************************************************/
-@media (max-width: 700px){
-}
-
 
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
 
-.shippingTrackingTips .six.columns{ width:100%; margin-left:0; }
-.tips .row{ padding:5% 15%; }
-.other-images{ text-align: center; }
-.main .row{ display: block; }
-.main .row .five.columns{ padding-bottom:10%; }
-.infoAndSpecs .row{ display: block; }
-.infoAndSpecs .row .four.columns{ width:100%;  padding:10% 3%;}
-.infoAndSpecs .row .four.columns .row{ flex-direction: row; }
-.infoAndSpecs .row .four.columns .twelve.columns{ width:50%; margin-left:0; height:auto;}
-.infoAndSpecs .row .eight.columns{ width:100%; margin-left:0; padding-top:4%; padding-bottom:4%;}
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -163,18 +148,7 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/
-body{ text-align: center; }
-.shippingTrackingTips .six.columns{ width:100%; margin-left:0; }
-.shippingTrackingTips .six.columns .twelve.columns{ width:100%; margin-left:0; }
-.tips .row{ padding:5% 10%; }
-.main .row{ display: block; }
-.main .row .five.columns{ padding-bottom:10%; }
-.infoAndSpecs .row{ display: block; }
-.infoAndSpecs .row .four.columns{ width:100%; }
-.infoAndSpecs .row .four.columns .row{ flex-direction: column; }
-.infoAndSpecs .row .four.columns .twelve.columns{ width:100%; margin-left:0; height:auto;}
-.infoAndSpecs .row .eight.columns{ width:100%; margin-left:0; padding-top:4%; padding-bottom:4%;}
-.infoAndSpecs .row .eight.columns .six.columns{ width:100%; margin-left:0; height:auto;}
+
 
 /************************************************************************************************/
 /************************************************************************************************/
