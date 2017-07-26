@@ -129,7 +129,16 @@ ul {
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
+.main .row{ display: block; }
+.main .row .five.columns{ background-color: #FDDDCC; padding:5% 0;}
+.specsAndInclude  .row{ display: block; padding:0; }
+.specsAndInclude .row .eight.columns{ background-color: #E9DBC2; padding:4% 0;}
+.specsAndInclude .row .four.columns{ padding:4% 0;}
+.specsAndInclude .row .eight.columns, .specsAndInclude .row .four.columns{ width:100%; margin-left:0; }
+.specsAndInclude .row .four.columns{ text-align: center; }
+.shippingTrackingTips .six.columns{ width:100%; margin-left:0; }
+.other-images{ text-align: center; }
+.tracking{ padding-bottom:5%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -148,7 +157,17 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/
-
+.main .row{ display: block; }
+.main .row .five.columns{ background-color: #FDDDCC; padding:5% 0;}
+.specsAndInclude  .row{ display: block; padding:0; }
+.specsAndInclude .row .eight.columns{ background-color: #E9DBC2; padding:4% 0;}
+.specsAndInclude .row .eight.columns .six.columns{ width:100%; margin-left:0; padding:0 10%;}
+.specsAndInclude .row .four.columns{ padding:5%;}
+.specsAndInclude .row .eight.columns, .specsAndInclude .row .four.columns{ width:100%; margin-left:0; }
+.specsAndInclude .row .four.columns{ text-align: center; }
+.shippingTrackingTips .six.columns, .tracking .twelve.columns, .shipping .twelve.columns{ width:100%; margin-left:0; }
+.other-images{ text-align: center; }
+.tracking{ padding-bottom:5%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
