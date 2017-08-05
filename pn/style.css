@@ -87,9 +87,21 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-.row{ text-align: center; }
-
-
+.main .row{ text-align: center; }
+.specs{ width:80%; margin:0 auto; }
+.specs h1{ width:50%; padding:2% 3%; margin:0 auto; text-align: center; color:#AA0000;  }
+.other-info h2{ color: white; margin:0 auto; background-color:#AA0000; padding:2%; border-radius: 5px; width:50%;}
+.specs h3{ text-align: center; color: #AA0000; width:50%; margin:2% auto; padding-bottom:2%; border-bottom:1px solid #ccc;}
+.specs p{ margin:0; }
+.specs .four.columns{ text-align: right; }
+.specs .eight.columns{ text-align: left; }
+.other-info .six.columns{ width:50%; margin-left:0; padding:4%; }
+.other-info .row{ text-align: center; }
+.shippingAndTracking { margin:5% 0; }
+.shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 4%;}
+.shippingAndTracking .six.columns h1{ padding-left:5%; color: #880002;}
+.shippingAndTracking .six.columns h2{ color:#AA0000; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 5%; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -105,7 +117,13 @@ ul {
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-
+.other-images{ text-align: center; }
+.specs h3{ text-align: center; color: #AA0000; width:80%; margin:2% auto; padding-bottom:2%; border-bottom:1px solid #ccc;}
+.specs{ width:90%; margin:0 auto; }
+.specs .four.columns{ width:40%; margin-left:0; text-align: right; padding-right:5%;}
+.specs .eight.columns{ width:60%; margin-left:0; }
+.other-info .six.columns{ width:100%; margin-left:0; }
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -124,8 +142,17 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/
-
-
+.other-images{ text-align: center; }
+.specs h1{ width:80%; padding:2% 3%; margin:0 auto; text-align: center; color:#AA0000;  }
+.specs h3{ text-align: center; color: #AA0000; width:80%; margin:2% auto; padding-bottom:2%; border-bottom:1px solid #ccc;}
+.other-info h2{ color: white; margin:0 auto; background-color:#AA0000; padding:2%; border-radius: 5px; width:80%;}
+.specs{ width:90%; margin:0 auto; }
+.specs .four.columns{ width:40%; margin-left:0; text-align: right; padding-right:5%;}
+.specs .eight.columns{ width:60%; margin-left:0; }
+.other-info .six.columns{ width:100%; margin-left:0; }
+.shippingAndTracking{ text-align: center; }
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; }
+.shippingAndTracking .six.columns .twelve.columns{ width:100%; margin-left:0; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
