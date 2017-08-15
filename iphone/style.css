@@ -106,6 +106,8 @@ ul {
 .specs{ background-color: #EAEAEA; }
 .specs .twelve.columns h1, .specs2 .twelve.columns h1{ padding-left:4%; }
 .specs .six.columns, .specs2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
+.specs .liner{ background-color: black; margin-left:4% }
+.specs h1{ margin-top:; }
 .shippingAndTracking{ background-color: #131114; color: white; padding:4%; }
 .shippingAndTracking a{ color: white; }
 .shippingAndTracking .six.columns{ text-align: right; }
@@ -171,6 +173,7 @@ ul {
 .shippingAndTracking .six.columns{ text-align: center; }
 .ico{ width:30%; }
 .shippingAndTracking .six.columns .liner{ float: none; margin:0 auto; margin-top:2%; }
+.specs .liner{ margin:0 auto;}
 
 /************************************************************************************************/
 /************************************************************************************************/
