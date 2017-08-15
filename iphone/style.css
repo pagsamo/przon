@@ -92,7 +92,7 @@ ul {
 .section.right .five.columns{ text-align: right; }
 .section.left .five.columns{ text-align: left; }
 .section h1, h2{ margin:1% 0; }
-.ico{ width:40%; }
+.ico{ height:40%; }
 .liner{ background-color: white; width:50px; height:10px; }
 .right .liner{ float: right; }
 .left .liner{ float: left; }
@@ -108,13 +108,15 @@ ul {
 .specs .six.columns, .specs2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
 .specs .liner{ background-color: black; margin-left:4% }
 .specs h1{ margin-top:; }
-.shippingAndTracking{ background-color: #131114; color: white; padding:4%; }
-.shippingAndTracking a{ color: white; }
-.shippingAndTracking .six.columns{ text-align: right; }
-.shippingAndTracking .six.columns .liner{ float: right; }
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: flex; justify-content: center;}
 .main .seven.columns, .unlocked .seven.columns, .box .seven.columns, .warranty .seven.columns, .package .seven.columns{ align-self: center; }
 .main .five.columns, .unlocked .five.columns, .box .five.columns, .warranty .five.columns, .package .five.columns{ align-self: center; }
+.main h3{ margin:1% 0; }
+.shippingAndTracking{ padding:2%; background-color: #131114; color: white;}
+.shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:2%;}
+.shippingAndTracking a{ color: white; }
+.other-info{ padding:4%; }
+.other-info h2, .other-info h3{ color: #2CBDA5; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -132,10 +134,7 @@ ul {
 /************************************************************************************************/
 .section .seven.columns{ width:60%; margin-left:0; }
 .section .five.columns{ width:40%; margin-left:0; }
-.shippingAndTracking{ text-align: center; }
-.shippingAndTracking .six.columns{ text-align: center; padding:0 15%;}
 .ico{ width:30%; }
-.shippingAndTracking .six.columns .liner{ float: none; margin:0 auto; margin-top:2%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -146,10 +145,7 @@ ul {
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
 .switch1{ display: none; }
 .switch2{ display: block !important; }
-.shippingAndTracking{ text-align: center; }
-.shippingAndTracking .six.columns{ text-align: center; padding:0 10%;}
 .ico{ width:30%; }
-.shippingAndTracking .six.columns .liner{ float: none; margin:0 auto; margin-top:2%; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -165,16 +161,16 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
+.main.section.right .five.columns{ text-align: center !important; }
+.main.section.right .liner{ display: none !important;}
 .switch1{ display: none; }
 .switch2{ display: block !important; }
 .specs, .specs2{ text-align: center; }
 .specs .six.columns, .specs2 .six.columns{ width:100%; margin-left:0; padding:0 7%; }
-.shippingAndTracking{ text-align: center; }
-.shippingAndTracking .six.columns{ text-align: center; }
 .ico{ width:30%; }
-.shippingAndTracking .six.columns .liner{ float: none; margin:0 auto; margin-top:2%; }
 .specs .liner{ margin:0 auto;}
-
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; text-align: center;}
+.shippingAndTracking .six.columns .liner{ margin:0 auto; float: none}
 /************************************************************************************************/
 /************************************************************************************************/
 }
