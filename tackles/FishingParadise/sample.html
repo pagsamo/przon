@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Tab 1</label>
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Tab 2</label>
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Tab 3</label>
+  <input id="tab4" type="radio" name="tabs">
+  <label for="tab4">Tab 4</label>
+  <section id="content1">
+	Tab 1 Content
+  </section>
+  <section id="content2">
+	Tab 2 Content
+  </section>
+  <section id="content3">
+	Tab 3 Content
+  </section>
+  <section id="content4">
+	Tab 4 Content
+  </section>
+</main>
+<style>
+	main {
+  min-width: 320px;
+  max-width: 400px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+	font-size: 0;
+  }
+  label:before {
+	margin: 0;
+	font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+	padding: 15px;
+  }
+}
+</style>
+</body>
+</html>
