@@ -166,8 +166,9 @@ img[src*="spacer.jpg"] {display: none;}
 
 
 
-.specs{ width:92%; margin:0 auto; background-color: #D7DCB3; border: 10px solid #B7D0CD; padding:3% 0;}
+.specs{ width:92%; margin:0 auto; border: 10px solid #B7D0CD; padding:3% 0;}
 .specs .row{ width:80%; float:none; margin:0 auto; text-align: center; }
+.specs h1{ color: red; }
 
 
 
