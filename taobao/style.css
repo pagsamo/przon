@@ -3,18 +3,23 @@ div{ box-sizing: border-box; }
 .main-container{ width:745px; }
 .headers{ display: flex; justify-content: center; margin-bottom:15px; }
 .headers h3{ padding-left:30px; float: left;}
-.headers .spacer{ display: inline-block; float: left; height: auto; width:10%; background-color: #E72229  }
-.headers .header-info{ display: inline-block; width:90%; background-color: black; color: white; float:left; }
+.headers .spacer{ display: inline-block; float: left; height: auto; width:20%; background-color: #FA0115  }
+.headers .header-info{ display: inline-block; width:80%; background-color: black; color: white; float:left; }
 
 .specs{ width:100%; }
-.info-specs .sections{ width:33.33%; float:left; height:100px; display: inline-block; padding:0 10px; }
-.sections .label{ display: inline-block; font-weight:bolder; color: #E72229; width:35%; text-align: left; float:left;}
-.sections .ii{ display: inline-block; width:65%; }
+.info-specs{ display: flex; }
+.info-specs .sections{ width:32%; float:left; display: inline-block; padding:0 10px; height:auto; background-color: #F5F5F5; padding:10px; margin:1%;}
+.sections .label{ display: inline-block; font-weight:bolder; color: #E72229; width:45%; text-align: left; float:left;}
+.sections .section-d{  }
+.sections .ii{ display: inline-block; width:55%; }
 
 
 .warranty{ text-align: center; }
 .chart{ text-align: center; }
 
-.infos .sub{ display: flex; justify-content: center; background-color: #F5F5F5 }
+.infos .sub{ display: flex; justify-content: center; background-color: #F5F5F5; margin:25px 0; }
 .infos .ico{ display: inline-block; width:20%; float:left; align-self: center; text-align: center; }
 .infos .sub-ii{ display: inline-block; width:80%; float:left; align-self: center; padding:0 20px; }
+
+.footers-ii{ padding:0 20px; }
+.footers ul{ list-style: none; }
