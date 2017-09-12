@@ -92,7 +92,7 @@ ul {
 .section.right .five.columns{ text-align: right; }
 .section.left .five.columns{ text-align: left; }
 .section.center{ text-align: center; }
-.section h1, h2{ margin:1% 0; padding-top:4%; }
+.section h1, h2{ margin:1% 0; }
 .caption{ width:50%; margin:0 auto;}
 .ico{ height:40%; }
 .liner{ background-color: white; width:50px; height:7px; }
@@ -105,7 +105,8 @@ ul {
 .package{ color: black; }
 .package .liner{ background-color: black; }
 .center{ text-align: center; }
-
+.switch2{ display: none; }
+.ico-envi{ width:100%; }
 
 .specs{ padding:4% 0; padding-bottom:0;}
 .specs .twelve.columns h1, .specs2 .twelve.columns h1{ padding-left:4%; padding-bottom:3%; padding-top:3%; }
@@ -114,8 +115,8 @@ ul {
 .row.sector{ padding:2% 0; }
 .row .details{ width:85%; margin:0 auto;}
 .row .details .two.columns{ width:20%; margin-left:0; text-align: right;}
-.row .details .five.columns{ width:40%; margin-left:0; padding:0 6%;}
 .row .details .ten.columns{ width:80%; margin-left:0; padding:0 6%; }
+.row .details .ten.columns>p{ padding:0 4%; }
 .row .details p{ margin:1% 0; }
 .row.grey{ background-color:#F1F2F2; }
 .row.highlight{ background-color: #97C942 !important; display: flex; justify-content: center;}
@@ -128,14 +129,17 @@ ul {
 .main .seven.columns, .unlocked .seven.columns, .box .seven.columns, .warranty .seven.columns{ align-self: center; }
 .main .five.columns, .unlocked .five.columns, .box .five.columns, .warranty .five.columns{ align-self: center; }
 .main h3{ margin:1% 0; }
-.shippingAndTracking{ padding:2%; background-color: #131114; color: white;}
-.shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:2%;}
-.shippingAndTracking a{ color: white; }
-.other-info{ padding:4%; }
-.other-info h2, .other-info h3{ color: #2CBDA5; }
+
 .package .row:nth-child(3){ width:65%; margin:0 auto; }
 .package-ii{ text-align: center; }
 .package-ii img{ height:180px; }
+
+
+.shippingAndTracking{ background-color: #131114; color: white;}
+.shippingAndTracking a{ color: white; }
+.shippingAndTracking img{ width:150px; }
+.shippingAndTracking .row{ width:85%; margin:0 auto; padding:4% 0;}
+.shippingAndTracking .six.columns{ width:50%; margin-left:0;}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -160,11 +164,17 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 @media (min-width: 550px) and (max-width: 810px){
-.ico{ width:30%; }
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
 .switch1{ display: none; }
-.switch2{ display: block !important; }
-.ico{ width:30%; }
+.switch2{ display: block !important; margin-bottom:-2px;}
+.section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
+.liner{ display: none; }
+.specs .twelve.columns h1{ padding:4%; text-align: center; }
+.specs .six.columns{ width:100%; margin-left:0; }
+.row.envi .details .two.columns, .row.envi .details .ten.columns{ width:100%; margin-left:0; text-align: center; }
+.row.envi .details .ten.columns .highlight{ padding:0 5%; }
+.ico-envi{ max-width: 50% !important; }
+.row.sector.envi{ padding-bottom:4%; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -180,16 +190,21 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
-.main.section.right .five.columns{ text-align: center !important; }
-.main.section.right .liner{ display: none !important;}
 .switch1{ display: none; }
-.switch2{ display: block !important; }
-.specs, .specs2{ text-align: center; }
-.specs .six.columns, .specs2 .six.columns{ width:100%; margin-left:0; padding:0 7%; }
-.ico{ width:30%; }
-.specs .liner{ margin:0 auto;}
+.switch2{ display: block !important; margin-bottom:-2px;}
+.section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
+.liner{ display: none; }
+.specs .twelve.columns h1{ padding:4%; text-align: center; }
+.specs .six.columns{ width:100%; margin-left:0; }
+.row.envi .details .two.columns, .row.envi .details .ten.columns{ width:100%; margin-left:0; text-align: center; }
+.row.envi .details .ten.columns .highlight{ padding:5%; }
+.ico-envi{ max-width: 50% !important; }
+.row.sector.envi{ padding-bottom:4%; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; text-align: center;}
 .shippingAndTracking .six.columns .liner{ margin:0 auto; float: none}
+.row .details .two.columns{ width:100%; margin-left:0; text-align: center;}
+.row .details .ten.columns{ width:100%; margin-left:0; text-align: center;}
+.row.sector{ padding:4% 0; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
