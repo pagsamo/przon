@@ -104,6 +104,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 .main h3, .infos h2{ color: red; }
 .other-images .row{ display: flex; justify-content: center; }
 .other-images .six.columns{ align-self: center; }
+/**/
+.other-images .three.columns{ width:25%; margin-left:0; }
+.other-images .four.columns{ width:33.33%; margin-left:0; }
+/**/
 .infos .row{ border:4px solid #aaa; width:80%; margin:2% auto; padding:2% 0; }
 /************************************************************************************************/
 /************************************************************************************************/
@@ -124,7 +128,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 .s1{ display: none; }
 .s2{ display: block !important; }
 .other-images .row{ display: block; }
-.other-images .row .six.columns{ width:100%; }
+.other-images .row .six.columns{ width:100%; margin-left:0;}
+.other-images .row .three.columns{ width:50%; margin-left:0; }
+.other-images .row .four.columns{ width:50%; margin-left:0; }
+.other-images .row .four.columns:last-child{ width:100% !important; margin-left:0; text-align: center; }
+.other-images .row .four.columns:last-child img{ width:50%; }
 .infos .six.columns, .infos .twelve.columns{ width:100%; margin-left:0; }
 /************************************************************************************************/
 /************************************************************************************************/
@@ -147,7 +155,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 body{ text-align: center; }
 .main .row .six.columns{ width:100%; margin-left:0; }
 .other-images .row{ display: block; }
-.other-images .row .six.columns{ width:100%; }
+.other-images .row .six.columns, .other-images .three.columns, .other-images .four.columns{ width:100%; margin-left:0; }
 .infos .six.columns, .infos .twelve.columns{ width:100%; margin-left:0; }
 /************************************************************************************************/
 /************************************************************************************************/
