@@ -95,37 +95,52 @@ ul {
 
 
 .wrapper{ margin:2% 0; }
-.ico{ width:200px; }
+.ico{ width:100px; }
 .brown{ background-color: #DDCBBA; }
+.grey{ background-color: #EEEEEE; color: #666666;}
+.c-gray{ color: #666666; }
+.content-ii{ text-align: center; }
 
 .main .five.columns,
 .unlocked .five.columns,
-.warranty .five.columns,
-.box .five.columns,
-.package .five.columns,
-.gift .five.columns
+.warranty .five.columns
 { width:40%; margin-left:0; }
 
 .main .seven.columns,
 .unlocked .seven.columns,
-.warranty .seven.columns,
-.box .seven.columns,
-.package .seven.columns,
-.gift .seven.columns
+.warranty .seven.columns
 { width:60%; margin-left:0; }
 
-.main{ margin-bottom:4%; }
+.box .six.columns,
+.package .six.columns,
+.gift .six.columns
+{ width:50%; margin-left:0; }
+
+
+
+.main{ margin-bottom:4%; color: #444444; }
 .main>.row{ display: flex; justify-content: center; }
 .main .five.columns{ align-self: center; }
 .mian .six.columns:last-child{ padding:0 4%; }
 
-.unlocked>.row{ display: flex; justify-content: center; }
+.unlocked>.row{ display: flex; justify-content: center; color: #776655;}
 .unlocked .five.columns img{ margin-top:-30%; }
 .unlocked .row .seven.columns{ align-self: center;}
 .unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
-.unlocked .row .seven.columns>.row>div{ display: flex; justify-content: left; align-items: flex-end;}
+.unlocked .row .seven.columns>.row>div{ display: flex;}
 .unlocked .row .seven.columns>.row>div>div{ align-self: center; }
-.unlocked .row .seven.columns>.row>div>div img{ display: inline-block; }
+
+.warranty>.row{ display: flex; justify-content: center; }
+.warranty .row .seven.columns{ align-self: center;}
+.warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
+.warranty .row .seven.columns>.row>div{ display: flex;}
+.warranty .row .seven.columns>.row>div>div{ align-self: center; }
+
+
+.box>.row, .package>.row, .gift>.row{ display: flex; justify-content: center; }
+.box>.row .six.columns,.package>.row .six.columns,.gift>.row .six.columns{ align-self: center; }
+.box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:50%; margin:0 auto; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
