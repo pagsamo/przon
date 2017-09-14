@@ -1,6 +1,6 @@
 html, body {
-   max-width:100vw;
-  overflow-y:scroll;
+  /* max-width:100vw;
+  overflow-y:scroll;*/
   width:100%;
   height:100%;
   padding:0;
@@ -87,8 +87,45 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
+.dotter{ width:50%; float: left; }
+.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .dot-ii:first-child{ background-color: #989999; }
+.dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
+.dotter .dot-ii:last-child{ background-color: #EEDBC6; }
 
 
+.wrapper{ margin:2% 0; }
+.ico{ width:200px; }
+.brown{ background-color: #DDCBBA; }
+
+.main .five.columns,
+.unlocked .five.columns,
+.warranty .five.columns,
+.box .five.columns,
+.package .five.columns,
+.gift .five.columns
+{ width:40%; margin-left:0; }
+
+.main .seven.columns,
+.unlocked .seven.columns,
+.warranty .seven.columns,
+.box .seven.columns,
+.package .seven.columns,
+.gift .seven.columns
+{ width:60%; margin-left:0; }
+
+.main{ margin-bottom:4%; }
+.main>.row{ display: flex; justify-content: center; }
+.main .five.columns{ align-self: center; }
+.mian .six.columns:last-child{ padding:0 4%; }
+
+.unlocked>.row{ display: flex; justify-content: center; }
+.unlocked .five.columns img{ margin-top:-30%; }
+.unlocked .row .seven.columns{ align-self: center;}
+.unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
+.unlocked .row .seven.columns>.row>div{ display: flex; justify-content: left; align-items: flex-end;}
+.unlocked .row .seven.columns>.row>div>div{ align-self: center; }
+.unlocked .row .seven.columns>.row>div>div img{ display: inline-block; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
