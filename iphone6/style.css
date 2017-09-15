@@ -92,6 +92,8 @@ ul {
 
 .wrapper{ margin-top:2%; }
 .ico{ width:100px; }
+.ico.right{ margin-left:10px; }
+.ico.left{ margin-right:10px; }
 .brown{ background-color: #DDCBBA; }
 .grey{ background-color: #EEEEEE; color: #666666;}
 .c-gray{ color: #666666; }
@@ -120,6 +122,9 @@ ul {
 { width:50%; margin-left:0; }
 
 
+.with-i{ display: flex; justify-content: flex-start; }
+.with-i img, .with-i h1{ display: inline-block; align-self: center; }
+
 
 .main{ margin-bottom:4%; color: #444444; }
 .main>.row{ display: flex; justify-content: center; }
@@ -130,24 +135,24 @@ ul {
 .unlocked .five.columns img{ margin-top:-30%; }
 .unlocked .row .seven.columns{ align-self: center;}
 .unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
-.unlocked .row .seven.columns>.row>div{ display: flex;}
-.unlocked .row .seven.columns>.row>div>div{ align-self: center; }
 
 .warranty>.row{ display: flex; justify-content: center; }
 .warranty .row .seven.columns{ align-self: center;}
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
-.warranty .row .seven.columns>.row>div{ display: flex;}
-.warranty .row .seven.columns>.row>div>div{ align-self: center; }
+
 
 
 .box>.row, .package>.row, .gift>.row{ display: flex; justify-content: center; }
 .box>.row .six.columns,.package>.row .six.columns,.gift>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:50%; margin:0 auto; }
 
-.specs>.row h1{ text-align: center; padding-top:4%; }
+.specs>.row h1{ text-align: center; padding-top:4%; color: black;}
 .spec-ii .ii{ width:70%; margin:0 auto; padding:2% 0; }
 .spec-ii .five.columns{ text-align: right; }
 .specs .dia{ text-align: center; }
+
+.spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
+.spec-ii .seven.columns ul li{ color: black; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -163,7 +168,37 @@ ul {
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
+.dotter{ width:100%; float: left; }
+.dotter .dot-ii{ width:50px; height:50px; }
 
+
+.with-i{ justify-content:center; }
+
+.unlocked>.row, .warranty>.row{ display: block; text-align: center;}
+.unlocked .five.columns img{ margin-top:0;}
+
+
+.unlocked .five.columns,
+.warranty .five.columns
+{ width:100%; margin-left:0; }
+
+.unlocked .five.columns img{ width:65%; }
+
+.unlocked .seven.columns,
+.warranty .seven.columns
+{ width:100%; margin-left:0; padding-top:4%; }
+
+.s1, .s1-ii{ display: none; }
+.s2{ display: block !important; text-align: left; }
+.s2 img{ width:65%; }
+.s2-ii{ display: block !important; }
+
+.box{ padding-top:4%; }
+.box>.row, .package>.row, .gift>.row{ display: block; text-align: center; }
+.box .six.columns,.package .six.columns,.gift .six.columns{ width:100%; }
+.box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:70%; margin:0 auto; }
+.spec-ii .five.columns{ text-align: left; }
+.spec-ii .ii{ width:50%; margin: 0 auto; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
