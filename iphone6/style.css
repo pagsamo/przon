@@ -5,7 +5,7 @@ html, body {
   height:100%;
   padding:0;
   margin:0;
-  font-family: "Tahoma", Arial, sans-serif;
+  font-family: "Roboto Light", Arial, sans-serif;
 }
 
 .label{ font-weight: bolder; }
@@ -141,7 +141,6 @@ ul {
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
 
 
-
 .box>.row, .package>.row, .gift>.row{ display: flex; justify-content: center; }
 .box>.row .six.columns,.package>.row .six.columns,.gift>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:50%; margin:0 auto; }
@@ -153,6 +152,10 @@ ul {
 
 .spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
 .spec-ii .seven.columns ul li{ color: black; }
+
+.unlocked h1, .warranty h1, .box h1, .package h1, .gift h1{ font-size:200%; }
+.unlocked h4, .warranty h4, .box h4, .package h4, .gift h4{ font-size:125%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
