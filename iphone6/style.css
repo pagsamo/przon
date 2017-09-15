@@ -87,19 +87,22 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-.dotter{ width:50%; float: left; }
-.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
-.dotter .dot-ii:first-child{ background-color: #989999; }
-.dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
-.dotter .dot-ii:last-child{ background-color: #EEDBC6; }
 
 
-.wrapper{ margin:2% 0; }
+
+.wrapper{ margin-top:2%; }
 .ico{ width:100px; }
 .brown{ background-color: #DDCBBA; }
 .grey{ background-color: #EEEEEE; color: #666666;}
 .c-gray{ color: #666666; }
 .content-ii{ text-align: center; }
+.dash{ width:20px; height:5px; background-color:#878887; }
+
+.dotter{ width:50%; float: left; }
+.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .dot-ii:first-child{ background-color: #989999; }
+.dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
+.dotter .dot-ii:last-child{ background-color: #EEDBC6; }
 
 .main .five.columns,
 .unlocked .five.columns,
@@ -141,6 +144,10 @@ ul {
 .box>.row .six.columns,.package>.row .six.columns,.gift>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:50%; margin:0 auto; }
 
+.specs>.row h1{ text-align: center; padding-top:4%; }
+.spec-ii .ii{ width:70%; margin:0 auto; padding:2% 0; }
+.spec-ii .five.columns{ text-align: right; }
+.specs .dia{ text-align: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
