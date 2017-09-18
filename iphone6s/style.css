@@ -100,11 +100,12 @@ ul {
 .content-ii{ text-align: center; }
 .dash{ width:20px; height:5px; background-color:#878887; }
 
-.dotter{ width:50%; float: left; }
+.dotter{ width:70%; float: left; }
 .dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
-.dotter .dot-ii:first-child{ background-color: #989999; }
+.dotter .dot-ii:first-child{ background-color: #999999; }
 .dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
-.dotter .dot-ii:last-child{ background-color: #EEDBC6; }
+.dotter .dot-ii:nth-child(3){ background-color: #EEDDCC; }
+.dotter .dot-ii:last-child{ background-color: #FFCCCC; }
 
 .main .five.columns,
 .unlocked .five.columns,
