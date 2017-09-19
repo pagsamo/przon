@@ -124,7 +124,6 @@ ul {
 .row.highlight .nine.columns{ width:82%; align-self: center; }
 .row.highlight img{ width:100px; }
 
-
 .main .row, .unlocked .row, .box .row, .warranty .row{ display: flex; justify-content: center;}
 .main .seven.columns, .unlocked .seven.columns, .box .seven.columns, .warranty .seven.columns{ align-self: center; }
 .main .five.columns, .unlocked .five.columns, .box .five.columns, .warranty .five.columns{ align-self: center; }
@@ -150,7 +149,7 @@ ul {
 .gift .gift-items{ background-color: #FFFFFF; width:75%; margin:0 auto; display: flex; justify-content: center; border-radius: 50px;}
 .gift .gift-items .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; display: flex; justify-content:center; }
 .gift-items .six.columns p{ display: inline-block; color: black; align-self: center; font-size:150%; }
-.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:55%; align-self: center; }
 .gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
 
 /************************************************************************************************/
@@ -168,12 +167,13 @@ ul {
 @media (min-width: 811px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
+.main{ padding-top:10%; }
 .section .seven.columns{ width:60%; margin-left:0; }
 .section .five.columns{ width:40%; margin-left:0; }
 .ico{ width:30%; }
 .gift .gift-items{ display: block; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
 .gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
@@ -194,8 +194,9 @@ ul {
 .row.sector.envi{ padding-bottom:4%; }
 .gift .gift-items{ display: block; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
 .gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+.main{ padding-top:10%; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -210,6 +211,7 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 /************************************************************************************************/
+.main{ padding-top:10%; }
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
 .switch1{ display: none; }
 .switch2{ display: block !important; margin-bottom:-2px;}
@@ -228,7 +230,7 @@ ul {
 .row.sector{ padding:4% 0; }
 .gift .gift-items{ display: block; padding:4%; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; display: block; text-align: center;}
-.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:75%; align-self: center; }
 .gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
 .gift-items .six.columns p{ display: block; font-size:100%; }
 .gift img.free-ii:first-child{ width:30%; }
