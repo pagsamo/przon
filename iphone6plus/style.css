@@ -140,6 +140,19 @@ ul {
 .shippingAndTracking img{ width:150px; }
 .shippingAndTracking .row{ width:85%; margin:0 auto; padding:4% 0;}
 .shippingAndTracking .six.columns{ width:50%; margin-left:0;}
+
+
+.gift{ background-color: #F1F2F2; padding-bottom:4%; }
+.gift .row>.row{ display: flex; justify-content: center; width:70%; margin:0 auto; }
+.gift .row>.row img{ align-self: center; }
+.gift img.free-ii:first-child{ width:20%; }
+.gift img.free-ii:last-child{ width:50%; }
+.gift .gift-items{ background-color: #FFFFFF; width:75%; margin:0 auto; display: flex; justify-content: center; border-radius: 50px;}
+.gift .gift-items .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; display: flex; justify-content:center; }
+.gift-items .six.columns p{ display: inline-block; color: black; align-self: center; font-size:150%; }
+.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -158,6 +171,10 @@ ul {
 .section .seven.columns{ width:60%; margin-left:0; }
 .section .five.columns{ width:40%; margin-left:0; }
 .ico{ width:30%; }
+.gift .gift-items{ display: block; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; }
+.gift-items .six.columns .gift-i1{ width:25%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:15%; align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -175,6 +192,10 @@ ul {
 .row.envi .details .ten.columns .highlight{ padding:0 5%; }
 .ico-envi{ max-width: 50% !important; }
 .row.sector.envi{ padding-bottom:4%; }
+.gift .gift-items{ display: block; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; }
+.gift-items .six.columns .gift-i1{ width:25%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:15%; align-self: center; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -205,6 +226,13 @@ ul {
 .row .details .two.columns{ width:100%; margin-left:0; text-align: center;}
 .row .details .ten.columns{ width:100%; margin-left:0; text-align: center;}
 .row.sector{ padding:4% 0; }
+.gift .gift-items{ display: block; padding:4%; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; display: block; text-align: center;}
+.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+.gift-items .six.columns p{ display: block; font-size:100%; }
+.gift img.free-ii:first-child{ width:30%; }
+.gift img.free-ii:last-child{ width:70%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
