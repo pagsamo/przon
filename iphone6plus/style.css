@@ -150,8 +150,8 @@ ul {
 .gift .gift-items{ background-color: #FFFFFF; width:75%; margin:0 auto; display: flex; justify-content: center; border-radius: 50px;}
 .gift .gift-items .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; display: flex; justify-content:center; }
 .gift-items .six.columns p{ display: inline-block; color: black; align-self: center; font-size:150%; }
-.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -173,8 +173,8 @@ ul {
 .ico{ width:30%; }
 .gift .gift-items{ display: block; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:25%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:15%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -194,8 +194,8 @@ ul {
 .row.sector.envi{ padding-bottom:4%; }
 .gift .gift-items{ display: block; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:25%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:15%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -228,8 +228,8 @@ ul {
 .row.sector{ padding:4% 0; }
 .gift .gift-items{ display: block; padding:4%; }
 .gift .gift-items .six.columns{ width:100%; margin-left:0; display: block; text-align: center;}
-.gift-items .six.columns .gift-i1{ width:35%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
 .gift-items .six.columns p{ display: block; font-size:100%; }
 .gift img.free-ii:first-child{ width:30%; }
 .gift img.free-ii:last-child{ width:70%; }
