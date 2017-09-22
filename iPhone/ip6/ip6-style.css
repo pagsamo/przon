@@ -87,7 +87,7 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-video{ display: block; margin:0 auto; width:50%; }
+video{ display: block; margin:0 auto; width:65%; }
 
 .wrapper{ margin-top:2%; }
 .ico{ width:100px; }
@@ -175,7 +175,7 @@ video{ display: block; margin:0 auto; width:50%; }
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
 /************************************************************************************************/
-video{ display: block; margin:0 auto; width:70%; }
+video{ display: block; margin:0 auto; width:80%; }
 
 .dotter{ width:100%; float: left; }
 .dotter .dot-ii{ width:50px; height:50px; }
