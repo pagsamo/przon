@@ -1,6 +1,6 @@
 html, body {
-   /*max-width:100vw;
-  overflow-y:scroll;*/
+   max-width:100vw;
+  overflow-y:scroll;
   width:100%;
   height:100%;
   padding:0;
@@ -148,7 +148,7 @@ video{ display: block; margin:0 auto; width:65%; }
 .specs>.row h1{ text-align: center; padding-top:4%; color: black;}
 .spec-ii .ii{ width:70%; margin:0 auto; padding:2% 0; }
 .spec-ii .five.columns{ text-align: right; }
-.specs .dia{ text-align: center; }
+.specs .dia{ text-align: center; padding:8% 0; }
 
 .spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
 .spec-ii .seven.columns ul li{ color: black; }
@@ -269,10 +269,16 @@ video{ display: block; margin:0 auto; width:100%; }
 .spec-ii .five.columns{ text-align: center; }
 .spec-ii .ii{ width:80%; margin: 0 auto; }
 
-.spec-ii .ii li{ padding:1% 0; }
+
+.spec-ii .ii li{ padding:3% 0; line-height: 150%; }
+
+
 
 .shippingAndTracking { text-align: center; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:0 10%; }
+
+.gift{ padding-top:8%; }
+.unlocked{ padding-top:8%; }
 
 /************************************************************************************************/
 /************************************************************************************************/
