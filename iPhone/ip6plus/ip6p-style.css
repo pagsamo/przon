@@ -101,7 +101,7 @@ video{ display: block; margin:0 auto; width:65%; }
 .right .liner{ float: right; }
 .left .liner{ float: left; }
 .main, .unlocked{ background-color: #131114; }
-.unlocked img{ height:70%; }
+.unlocked img{ width:70%; }
 .box, .warranty{ background-image: url('bg.png'); color: black;}
 .box .liner, .warranty .liner{ background-color: #131114; }
 .package{ color: black; }
@@ -187,7 +187,7 @@ video{ width:75%; }
 @media (min-width: 550px) and (max-width: 810px){
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
 .switch1{ display: none; }
-.switch2{ display: block !important; margin-bottom:-2px;}
+.switch2{ display: block !important;}
 .section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
 .liner{ display: none; }
 .specs .twelve.columns h1{ padding:4%; text-align: center; }
@@ -202,7 +202,7 @@ video{ width:75%; }
 .gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 .main{ padding-top:10%; }
 video{ width:75%; }
-
+.unlocked img{ width:100%; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -220,7 +220,7 @@ video{ width:75%; }
 .main{ padding-top:10%; }
 .main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
 .switch1{ display: none; }
-.switch2{ display: block !important; margin-bottom:-2px;}
+.switch2{ display: block !important;}
 .section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
 .liner{ display: none; }
 .specs .twelve.columns h1{ padding:4%; text-align: center; }
@@ -242,6 +242,7 @@ video{ width:75%; }
 .gift img.free-ii:first-child{ width:30%; }
 .gift img.free-ii:last-child{ width:70%; }
 video{ width:100%; }
+.unlocked img{ width:100%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
