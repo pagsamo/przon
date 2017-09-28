@@ -95,12 +95,13 @@ img[src*="spacer.jpg"] {display: none;}
 .resistanceAndTip, .measurementAndTip, .other-images, .main{ margin-bottom:4%; }
 .other-images, .main .container{ background-color: white; text-align: center; }
 
+
 .main{ margin-top:4%; }
+
 .main .eight.columns .row{ display: flex; justify-content: center; }
 .main .eight.columns .row .five.columns{ align-self: center; }
 .main .four.columns{ padding:3% 5%; }
 
-img[src*="spacer.jpg"]:parent {background-color:black !important;}
 
 /************************************************************************************************/
 /************************************************************************************************/
