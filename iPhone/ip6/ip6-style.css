@@ -173,7 +173,7 @@ video{ display: block; margin:0 auto; width:65%; padding-bottom:4%; }
 .gift-ico{ width:20%; }
 .gift-text{ width:35%; }
 .gift .freebie .six.columns{ padding:0 4%; }
-.gift>.row.remarks{ display: block; text-align: center; }
+.gift>.row.remarks{ display: block; text-align: center; width:50%; margin:0 auto; margin-bottom:4%;}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
