@@ -169,12 +169,8 @@ img[src*="spacer.jpg"] {display: none;}
 .specs{ width:92%; margin:0 auto; border: 10px solid #D7DCB3; padding:3% 0;}
 .specs .row{ width:80%; float:none; margin:0 auto; text-align: center; }
 .specs h1{ color: red; }
-
-.other-images .row{ display: flex; justify-content: center; }
-.other-images .row .six.columns{ align-self: center; width:50%; margin-left:0; }
-.reels-other-images .row{ display: flex; justify-content: center;  }
-.reels-other-images .row .three.columns{ align-self: center; }
-.reels-other-images .row .four.columns{ align-self: center; }
+.other-images{ text-align: center; }
+.other-img{ width:49%; margin:0; }
 
 
 /**Tabbed Panel***/
@@ -188,7 +184,8 @@ img[src*="spacer.jpg"] {display: none;}
 	#tab2:checked ~ #content2,
 	#tab3:checked ~ #content3,
 	#tab4:checked ~ #content4,
-  #tab5:checked ~ #content5{
+  #tab5:checked ~ #content5,
+  #tab6:checked ~ #content6{
 	  display: block;}
 
 /**Tabbed Panel***/
