@@ -106,7 +106,7 @@ img[src*="spacer.jpg"] {display: none;}
 .catch .row{ width:50%; margin:0 auto; text-align: center; padding:3%; }
 .catch h1{ padding:0; margin:0;
 /*-webkit-text-stroke: 1px black;*/
-   color: #FCF0D6;
+   color: darkturquoise;
    font-size:3em;
  }
 
