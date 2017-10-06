@@ -34,11 +34,7 @@ p{ font-size:120%; }
 .text-with .text-ico{ align-self: center; }
 .text-with h1, .text-with h3{ margin:0; padding:0; }
 
-.banner{ background-color: #FB2F2F; color: white; }
-.banner .row{ display: flex; justify-content: center; padding:3% 4%;}
-.banner h1{ margin:0; align-self: center; margin:0 2%; font-family: "Roboto";}
-.banner span{ font-family:"Roboto Thin"; }
-.banner img{ width:100px; align-self: center; }
+.banner{ text-align: center; }
 
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
@@ -54,20 +50,14 @@ p{ font-size:120%; }
 .feature h3{ font-family: "Roboto Thin"; font-size:150%; }
 
 
-.unlocked{ background-color: #FFD8D3; position: relative; z-index: -3; }
+.unlocked{ background-color: #FFD8D3;  }
 .unlocked .row{ display: flex;  width:80%; margin:0 auto; }
-.unlocked .six.columns{ align-self: center; padding:0 4%; }
-.unlocked .six.columns:first-child{ align-self: flex-end; margin-bottom:-10px; position: relative; z-index: -2; }
-.unlocked .six.columns:nth-child(2){ padding:10% 0; }
+.unlocked .six.columns{ align-self: center; padding:0 4%;}
 .unlocked img{ margin-top:4%; }
 
-
-.camera-front{ position: relative; z-index: 500; margin-top:-10px; background-color: white; }
-.camera-front .row{ display: flex; width:80%; margin:0 auto;  }
+.camera-front .row{ display: flex; width:80%; margin:0 auto; padding-top:4%; }
 .camera-front .six.columns{ align-self: center; padding:0 4%;}
-.camera-front .six.columns:first-child{ align-self: flex-end; }
-.camera-front .six.columns:nth-child(2){ align-self: center; padding:8% 4%;}
-
+.camera{ position: relative; z-index: -1; }
 
 .touch{ background-color: #FFEBD5; margin-top:-10px; z-index: 1000; position: relative; }
 .touch .row{ display: flex; padding:0; padding-bottom:4%; width:80%; margin:0 auto; }
@@ -99,7 +89,7 @@ p{ font-size:120%; }
 .specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
 .specs .dia{ text-align: center; margin:4% 0; }
 
-.s-ii{ padding:4% 0; }
+.s-ii{ padding:1% 0; }
 .s-ii .ten.columns .row{ display: flex; }
 .s-ii h3{ color: black; margin:0; }
 .s-ii p{ margin:0; }
@@ -109,7 +99,7 @@ p{ font-size:120%; }
 .faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
 .faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
 
-.f-ii{ width:60%; margin:0 auto; padding:4% 0; }
+.f-ii{ width:60%; margin:0 auto; }
 .f-ii li{ font-size:150%; }
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
@@ -119,8 +109,6 @@ p{ font-size:120%; }
 .shtr h3, .shtr a{ color: white; }
 .shtr .row{ width:80%; margin:0 auto; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
-
-.shtr .ico{ width:100px; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -141,9 +129,6 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .dash{ width:20px; height:10px; background-color: #848181; }
 .ico{ width:150px; }
 .text-with{ justify-content: center; }
-
-.banner h1{ font-size:175%; text-align: right;}
-.banner h1:last-child{ text-align: left; }
 
 .highlight img{ max-width:70%; }
 .feature .row{ width:92%; }
@@ -199,9 +184,6 @@ p{ font-size:100%; }
 .ico{ width:150px; }
 .text-with{ justify-content: center; }
 .text-with .ico-text{ width:65px !important; }
-
-.banner .row{ display: block; text-align: center;}
-.banner .row img{ width:75px; }
 
 .highlight img{ max-width:70%; }
 .highlight .colors div{ width:50px; height:50px; border-radius: 50%; display: inline-block; margin:0 4px;}
