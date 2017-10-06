@@ -43,6 +43,8 @@ p{ font-size:120%; }
 .banner span{ font-family:"Roboto Thin", arial, sans-serif; font-weight: lighter; }
 .banner img{ width:100px; align-self: center; }
 
+.temper{ text-align: center; }
+
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
 .highlight .colors div{ width:75px; height:75px; border-radius: 50%; display: inline-block; margin:0 4px;}
