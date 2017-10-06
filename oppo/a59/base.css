@@ -34,7 +34,7 @@ p{ font-size:120%; }
 .text-with .text-ico{ align-self: center; }
 .text-with h1, .text-with h3{ margin:0; padding:0; }
 
-.banner{ text-align: center; }
+.banner img{ width:100%; }
 
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
