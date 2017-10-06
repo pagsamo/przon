@@ -26,6 +26,7 @@ ul {
 h1{ font-family: "Roboto Thin"; font-size:300%;}
 h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .dash{ width:20px; height:10px; background-color: #848181; }
+.ico{ width:150px; }
 
 p{ font-size:120%; }
 .text-with{ display: flex; }
@@ -97,6 +98,20 @@ p{ font-size:120%; }
 .s-ii p{ margin:0; }
 .s-ii .ten.columns .row .columns, .s-ii .ten.columns .row .column{ align-self: center; }
 
+
+.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
+
+.f-ii{ width:60%; margin:0 auto; }
+.f-ii li{ font-size:150%; }
+.f-ii span{ font-style: italic; }
+.f-ii p{ padding-left:4%; color: #959191; }
+
+
+.shtr{ background-color: #959191; padding:4% 0; color: white;}
+.shtr h3, .shtr a{ color: white; }
+.shtr .row{ width:80%; margin:0 auto; }
+.shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
