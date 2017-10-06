@@ -54,7 +54,7 @@ p{ font-size:120%; }
 .feature .ico{ width:125px; }
 .feature .three.columns{ padding:0 2%; width:25%; margin-left:0; text-align: center; border-right: 1.5px solid #A49381; height:225px;}
 .feature .three.columns:last-child{ border-right:none; }
-.feature h3{ font-family: "Roboto Thin"; font-size:150%; }
+.feature h3{ font-family: "Roboto Thin", arial, sans-serif; font-size:150%; }
 
 
 .unlocked{ background-color: #FFD8D3; position: relative; z-index: -3; }
