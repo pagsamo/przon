@@ -40,7 +40,7 @@ p{ font-size:120%; }
 .banner{ background-color: #FB2F2F; color: white; }
 .banner .row{ display: flex; justify-content: center; padding:3% 4%;}
 .banner h1{ margin:0; align-self: center; margin:0 2%; font-family: "Roboto";}
-.banner span{ font-family:"Roboto Thin"; }
+.banner span{ font-family:"Roboto Thin", arial, sans-serif; font-weight: lighter; }
 .banner img{ width:100px; align-self: center; }
 
 .highlight{ text-align: center; margin-top:4%;}
