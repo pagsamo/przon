@@ -23,14 +23,25 @@ ul {
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-.highlight{ text-align: center; }
+h1{ font-family: "Roboto Thin"; font-size:300%;}
+h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
+.dash{ width:20px; height:10px; background-color: #848181; }
+
+p{ font-size:120%; }
+.text-with{ display: flex; }
+.text-with .ico-text{ width:100px !important; margin:0 !important; align-self: center; }
+.text-with .text-ico{ align-self: center; }
+.text-with h1, .text-with h3{ margin:0; padding:0; }
+
+.banner img{ width:100%; }
+
+.highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
-.highlight h1{ font-family: "Roboto Thin"; font-size:300%;}
 .highlight .colors div{ width:75px; height:75px; border-radius: 50%; display: inline-block; margin:0 4px;}
 .gold{ background-color: #E2C09B; }
 .rose-gold{ background-color: #EBB7AA; }
 
-.feature{ background-color: #FFEBD5; padding:3% 0; margin-top:4%; }
+.feature{ background-color: #FFEBD5; padding:3% 0; margin-top:4%; color: #A89784; }
 .feature .row{ width:75%; margin:0 auto; }
 .feature .ico{ width:125px; }
 .feature .three.columns{ width:25%; margin-left:0; text-align: center; border-right: 3px solid #A49381;}
@@ -39,6 +50,52 @@ ul {
 
 
 .unlocked{ background-color: #FFD8D3;  }
+.unlocked .row{ display: flex; }
+.unlocked .six.columns{ align-self: center; padding:0 4%;}
+.unlocked img{ margin-top:4%; }
+
+.camera-front{  }
+.camera-front .row{ display: flex; }
+.camera-front .six.columns{ align-self: center; padding:0 4%;}
+.camera-front img{ width:125%;   }
+
+.touch{ background-color: #FFEBD5; }
+.touch .row{ display: flex; justify-content: center; padding:4% 0; }
+.touch .six.columns{ width:50%; margin-left:0; }
+.touch .six.columns:first-child{ padding:0 4%; align-self: center; }
+.touch .six.columns:last-child{ text-align: right;  }
+.touch .six.columns:last-child img{ width:200%; }
+
+
+.ram{ padding:4% 0; }
+.ram .row:first-child{ text-align: center; }
+.ram .row:last-child{ text-align: center;  }
+.ram .row:last-child img{ width:50%; }
+.ram h1{ margin-bottom:0; }
+.ram p{ margin:0; color:#5A5A5A; }
+
+
+.os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
+.os p{ width:50%; margin:0 auto; }
+.os .row:last-child{ margin-top:4%; }
+.os img{ width:100%; }
+
+.package .row, .gift .row{ width:65%; margin:0 auto; }
+.package .row{ padding:4% 0; }
+.package img{ width:100%; }
+.gift{ padding-bottom:4%; }
+
+.specs>.row{ background-color: #ECECEC; text-align: center; }
+.specs>.row h1{ margin:0; padding:4%; text-align: center;} 
+.specs .s-ii{ width:70%; margin:0 auto; }
+.specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
+.specs .dia{ text-align: center; margin:4% 0; }
+
+.s-ii{ padding:1% 0; }
+.s-ii .ten.columns .row{ display: flex; }
+.s-ii h3{ color: black; margin:0; }
+.s-ii p{ margin:0; }
+.s-ii .ten.columns .row .columns, .s-ii .ten.columns .row .column{ align-self: center; }
 
 /************************************************************************************************/
 /************************************************************************************************/
