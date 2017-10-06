@@ -86,7 +86,6 @@ p{ font-size:120%; }
 .os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
 .os p{ width:50%; margin:0 auto; }
 .os .row:last-child{ margin-top:4%; }
-.os img{ width:100%; }
 
 .package .row, .gift .row{ width:65%; margin:0 auto; }
 .package .row{ padding:4% 0; }
