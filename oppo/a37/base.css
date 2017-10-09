@@ -52,9 +52,7 @@ p{ font-size:120%; }
 .rose-gold{ background-color: #EBB7AA; }
 
 
-
-
-.os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
+.os{ background-color: white; padding:4% 0; text-align: center; }
 .os p{ width:50%; margin:0 auto; }
 .os .row:last-child{ margin-top:4%; }
 
@@ -91,6 +89,32 @@ p{ font-size:120%; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
 
 .shtr .ico{ width:100px; }
+
+
+
+.unlocked{ background-color: #F7EDE2; margin-top:4%; position: relative; z-index: 10 }
+.unlocked .row{ display: flex; }
+.u-ii{ align-self: center; padding:0 10%; }
+
+
+.camera{ background-color: #8F81A0; margin-top:-10px; position: relative; z-index:30; }
+.camera h1, .camera h3{ color: white; margin:0;}
+.camera .row{ display: flex; padding-top:4%;}
+.camera .row .six.columns:first-child{ padding:0 10%; justify-content:flex-end; }
+.camera .row .six.columns:last-child{ align-self: center; }
+
+
+.beauty{ background-color: white; margin-top:-10px; position: relative; z-index: 50; }
+.beauty .row{ display: flex; padding:4% 0; }
+.beauty .row .six.columns:first-child{ padding:0 10%; align-self: center; }
+
+.sim{ background-color: #EDBBB5; }
+.sim .row{ display: flex; }
+.sim .row .six.columns:first-child{ align-self: center; padding:6% 10%}
+
+.memory{ background-color: #ECECEC; }
+.memory .row{ display: flex; padding:4% 0;}
+.memory .six.columns:last-child{ align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
