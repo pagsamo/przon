@@ -94,6 +94,23 @@ p{ font-size:120%; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
 
 .shtr .ico{ width:100px; }
+
+.unlocked{ background-color: #F8F8F8; margin-top:4%;}
+.unlocked .row{ display: flex; }
+.unlocked .six.columns{ padding:4% 4%;  align-self: center;}
+.unlocked img{ margin-top:-4%; }
+.camera{ background-color: white; text-align: center; position:relative; z-index: 10;}
+.camera p{ width:70%; margin:0 auto; }
+.camera img{ margin-top:4%; }
+.pdaf{ background-color: #ECECEC; margin-top:-10px; position: relative; z-index: 20; }
+.pdaf .row{ display: flex; }
+.pdaf .six.columns{ align-self: center; padding:0 4%; }
+.beautify{ background-color: white; }
+.battery{ background-color: #ECECEC; }
+.touch{ background-color: white; }
+.memory{ background-color: #ECECEC; }
+.os{ background-color: white; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
