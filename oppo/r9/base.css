@@ -51,11 +51,11 @@ p{ font-size:120%; }
 .gold{ background-color: #E2C09B; }
 .rose-gold{ background-color: #EBB7AA; }
 
+.cam-feat{ display: flex; }
+.cam-feat img{ width:50px; align-self: center;}
 
-
-
-.os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
-.os p{ width:50%; margin:0 auto; }
+.os{  padding:4% 0; text-align: center; }
+.os p{ width:70%; margin:0 auto; }
 .os .row:last-child{ margin-top:4%; }
 
 .package .row, .gift .row{ width:65%; margin:0 auto; }
@@ -91,6 +91,39 @@ p{ font-size:120%; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
 
 .shtr .ico{ width:100px; }
+
+.unlocked{ background-color: #FFEBD5; margin-top:4%;}
+.unlocked .row{ display: flex; }
+.unlocked .row .five.columns:nth-child(2){ align-self: center; padding:0 4%; }
+.camera{ background-color: white; position: relative; z-index: 10;}
+.camera .row{ display: flex; }
+.camera .six.columns:first-child{ padding:0 4%;}
+.camera .six.columns:nth-child(2){ padding:0 4%; align-self: center;}
+.hilight{ background-color: #ECECEC; margin-top:-10px; position: relative; z-index: 20;}
+.hilight .row{ display: flex; }
+.hilight .six.columns:first-child{ align-self: center; padding: 0 4%}
+.hilight .six.columns:last-child{ padding:0 8%; padding-top:4%; }
+.beautify{ background-color: white; position: relative; z-index: 50; margin-top:-10px; }
+.beautify .row{ display: flex; }
+.beautify .six.columns:first-child{ align-self: center; }
+.beautify .six.columns:last-child{ padding:7% 4%; align-self: center; }
+.grip{ background-color: #FFEBD5; z-index: 60; position: relative; }
+.grip .row{ display: flex; }
+.grip .row .six.columns:first-child{ align-self: center; padding:0 4%; }
+.grip .row .six.columns:last-child{ margin-top:3%; }
+.touch{ background-color: white; margin-top:-10px; position: relative; z-index: 70; }
+.touch .row{ display: flex; }
+.touch .six.columns:first-child{ padding:10% 4%; align-self: center;}
+.touch .six.columns:last-child{ align-self: center; }
+.memory{ background-color: #ECECEC; }
+.memory .row{ display: flex; }
+.memory .six.columns{ align-self: center; padding:0 4%; }
+.battery{ background-color: white; }
+.battery .row{ display: flex; }
+.battery .row .three.columns{ align-self: center; }
+.battery .row .three.columns:last-child{ text-align: right }
+.battery .row .six.columns{ padding:8% 4%; }
+.os{ background-color: #B9E2DC; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
