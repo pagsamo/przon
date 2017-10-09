@@ -33,7 +33,7 @@ h3{ font-family: "Roboto Thin", arial, sans-serif; font-size:150%; color: #5A5A5
 
 p{ font-size:120%; }
 .text-with{ display: flex; }
-.text-with .ico-text{ width:100px !important; margin:0 !important; align-self: center; }
+.text-with .ico-text{ width:100px; margin:0 !important; align-self: center; }
 .text-with .text-ico{ align-self: center; }
 .text-with h1, .text-with h3{ margin:0; padding:0; }
 
@@ -110,7 +110,7 @@ p{ font-size:120%; }
 
 .sim{ background-color: #EDBBB5; }
 .sim .row{ display: flex; }
-.sim .row .six.columns:first-child{ align-self: center; padding:6% 10%}
+.sim .row .six.columns:nth-child(2){ align-self: center; padding:6% 10%}
 
 .memory{ background-color: #ECECEC; }
 .memory .row{ display: flex; padding:4% 0;}
@@ -135,6 +135,9 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .dash{ width:20px; height:10px; background-color: #848181; }
 .ico{ width:150px; }
 .text-with{ justify-content: center; }
+.ico-text{ width:75px !important; }
+p{ font-size:100%; }
+
 
 .banner h1{ font-size:175%; text-align: right;}
 .banner h1:last-child{ text-align: left; }
@@ -154,6 +157,23 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
 
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ display: block; text-align: center; }
+.unlocked .row .seven.columns{ padding:6% 10%; }
+.camera .row{ display: block; text-align: center; }
+.camera img{ width:50%; margin-top:4%; }
+.beauty .row{ display: block;}
+.beauty .row .six.columns:first-child{ text-align: center; }
+.beauty .row .six.columns:last-child{ text-align: right; }
+.beauty img{ width:70%; margin:4% 0; }
+.sim .row{ display: block; }
+.sim .row .six.columns:first-child{ padding:0; text-align: right; }
+.sim img{ width:70%; }
+.sim .row .six.columns:nth-child(2){ text-align: center; }
+.memory .row{ display: block; }
+.memory .six.columns:nth-child(2){ text-align: center; padding:0 4%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -199,6 +219,28 @@ p{ font-size:100%; }
 .faq{ padding-bottom:8%; text-align: center; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
+
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ display: block; text-align: center; }
+.unlocked .row .seven.columns{ padding:6% 10%; }
+.camera .row{ display: block; text-align: center; }
+.camera img{ width:50%; margin-top:4%; }
+.beauty .row{ display: block;}
+.beauty .row .six.columns:first-child{ text-align: center; }
+.beauty .row .six.columns:last-child{ text-align: right; }
+.beauty img{ width:70%; margin:4% 0; }
+.sim .row{ display: block; }
+.sim .row .six.columns:first-child{ padding:0; text-align: right; }
+.sim img{ width:70%; }
+.sim .row .six.columns:nth-child(2){ text-align: center; }
+.memory .row{ display: block; }
+.memory .six.columns:nth-child(2){ text-align: center; padding:0 4%; }
+
+.os h1{ width:80%; text-align: center; margin:0 auto; }
+.os p{ width:80%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
