@@ -54,7 +54,7 @@ p{ font-size:120%; }
 
 
 
-.os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
+.os{ background-color: white; padding:4% 0; text-align: center; }
 .os p{ width:50%; margin:0 auto; }
 .os .row:last-child{ margin-top:4%; }
 
@@ -65,7 +65,7 @@ p{ font-size:120%; }
 
 .specs>.row{ background-color: #ECECEC; text-align: center; }
 .specs>.row h1{ margin:0; padding:4%; text-align: center;} 
-.specs .s-ii{ width:70%; margin:0 auto; }
+.specs .s-ii{ width:92%; margin:0 auto; }
 .specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
 .specs .dia{ text-align: center; margin:4% 0; }
 
@@ -89,8 +89,24 @@ p{ font-size:120%; }
 .shtr h3, .shtr a{ color: white; }
 .shtr .row{ width:80%; margin:0 auto; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
-
 .shtr .ico{ width:100px; }
+
+.unlocked{ background-color: #EDD2B4; margin-top:4%; position: relative; z-index: 10; }
+.unlocked .row{ display: flex; }
+.unlocked .row .six.columns:first-child{ align-self: center; padding:0 4%; }
+.camera{ background-color: white; margin-top:-10px; position: relative; z-index: 20; }
+.camera .row{ display: flex; }
+.camera .row .six.columns:last-child{ align-self: center; padding:8% 10%; }
+.selfy{ background-color: white; position: relative; z-index: 30;}
+.selfy .row{ display: flex; }
+.selfy .six.columns:first-child{ align-self: center; padding:0 4%; }
+.touch{background-color: #FFEBD5; position: relative; z-index: 40; margin-top:-10px;}
+.touch .row{ display: flex; }
+.touch .six.columns:nth-child(2){ align-self: center; padding:8% 4%;}
+.memory{ background-color: #ECECEC; }
+.memory .row{ display: flex; }
+.memory .six.columns:nth-child(2){ align-self: center; }
+.os{ margin-top:-10px; position: relative; margin-top:-10px; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -130,6 +146,22 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
 
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked, .camera, .selfy, .touch, .memory{ text-align: center; }
+.unlocked .row{ display: block; }
+.unlocked .row .six.columns:first-child{ padding-top:6%; text-align: center; }
+.camera .row{ display: block; }
+.camera .row img{ margin-top:-10px; }
+.camera .row .six.columns:last-child{ text-align: center; }
+.selfy .row{ display: block; }
+.selfy .row .six.columns:first-child{ text-align: center; }
+.touch .row{ display: block; }
+.touch img{ margin-top:-10px; }
+.memory .row{ display: block; }
+.memory p{ padding:0 10%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -175,6 +207,22 @@ p{ font-size:100%; }
 .faq{ padding-bottom:8%; text-align: center; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked, .camera, .selfy, .touch, .memory{ text-align: center; }
+.unlocked .row{ display: block; }
+.unlocked .row .six.columns:first-child{ padding-top:6%; text-align: center; }
+.camera .row{ display: block; }
+.camera .row img{ margin-top:-10px; }
+.camera .row .six.columns:last-child{ text-align: center; }
+.selfy .row{ display: block; }
+.selfy .row .six.columns:first-child{ text-align: center; }
+.touch .row{ display: block; }
+.touch img{ margin-top:-10px; }
+.memory .row{ display: block; }
+.memory p{ padding:0 10%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
