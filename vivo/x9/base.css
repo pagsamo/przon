@@ -34,7 +34,7 @@ ul {
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
 
-.shtr{ background-color: #00A79D; color:white; }
+.shtr{ background-color: #00A79D; color:white; padding-bottom:4%; }
 .shtr .row{ width:92%; margin:0 auto;  }
 .shtr .six.columns{ padding:0 4%; }
 .shtr a{ color:white; }
