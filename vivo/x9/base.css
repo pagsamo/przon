@@ -58,7 +58,7 @@ ul {
 
 .free{ background-color: #F1F2F2;}
 .free h1{ font-size: 3em; }
-.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex;  padding-bottom:0;}
+.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex;}
 .free h1{ color:#2E3191; }
 .free h1 span{ font-weight: lighter; }
 .free .row .columns{ align-self: center; }

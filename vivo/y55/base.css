@@ -34,7 +34,7 @@ ul {
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
 
-.shtr{ background-color: #594A42; color:white; }
+.shtr{ background-color: #594A42; color:white; padding-bottom:4%;}
 .shtr .row{ width:92%; margin:0 auto;  }
 .shtr .six.columns{ padding:0 4%; }
 .shtr a{ color:white; }
@@ -57,7 +57,7 @@ ul {
 
 .free{ background-color: #CDC8C6;}
 .free h1{ font-size: 3em; }
-.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex;  padding-bottom:0;}
+.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex; }
 .free h1{ color:#594A42; }
 .free h1 span{ font-weight: lighter; }
 .free .row .columns{ align-self: center; }
