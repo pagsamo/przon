@@ -49,7 +49,10 @@ p{ font-size:120%; }
 .highlight img{ max-width:40%; }
 .highlight .colors div{ width:75px; height:75px; border-radius: 50%; display: inline-block; margin:0 4px;}
 .gold{ background-color: #E2C09B; }
-.rose-gold{ background-color: #EBB7AA; }
+.red{ background-color: #A6191F; }
+.black{ background-color: #343539; }
+.rose-gold{ background-color: #EBB7AA }
+
 
 
 
@@ -65,7 +68,7 @@ p{ font-size:120%; }
 
 .specs>.row{ background-color: #ECECEC; text-align: center; }
 .specs>.row h1{ margin:0; padding:4%; text-align: center;} 
-.specs .s-ii{ width:70%; margin:0 auto; }
+.specs .s-ii{ width:92%; margin:0 auto; }
 .specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
 .specs .dia{ text-align: center; margin:4% 0; }
 
@@ -91,6 +94,33 @@ p{ font-size:120%; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
 
 .shtr .ico{ width:100px; }
+
+.unlocked{ background-color: #F8F8F8; margin-top:4%;}
+.unlocked .row{ display: flex; }
+.unlocked .six.columns{ padding:4% 4%;  align-self: center;}
+.unlocked img{ margin-top:-4%; }
+.camera{ background-color: white; text-align: center; position:relative; z-index: 10;}
+.camera p{ width:70%; margin:0 auto; }
+.camera img{ margin-top:4%; }
+.pdaf{ background-color: #ECECEC; margin-top:-10px; position: relative; z-index: 20; }
+.pdaf .row{ display: flex; }
+.pdaf .six.columns{ align-self: center; padding:0 4%; }
+.beauty{ background-color: white; margin-top:-10px; z-index:30; position: relative;}
+.beauty .row{ display: flex; }
+.beauty .six.columns{ align-self: center; padding:0 4%; }
+.beauty .six.columns:last-child{ text-align: right; }
+.battery{ background-color: #ECECEC; margin-top:-10px; position: relative; z-index:40; }
+.battery .row{ display: flex; padding:4% 0;}
+.battery .six.columns{ align-self: center; }
+.battery .six.columns:last-child{ padding:0 4%; align-self: center; }
+.touch{ background-color: white; }
+.touch .row{ display: flex; }
+.touch .six.columns:nth-child(2){ padding:4%; align-self: center; }
+.touch .six.columns:last-child{ text-align: right; }
+.memory{ background-color: #ECECEC; text-align: center; }
+.memory p{ width:70%; margin:0 auto; }
+.os{ background-color: white; position: relative; z-index: 50; margin-top:-10px; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -130,6 +160,20 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
 
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ display: block; text-align: center; }
+.unlocked .six.columns:nth-child(2){ padding:4%; padding-top:8%;}
+.camera{ padding-top:4%; }
+.pdaf .row{ display: block; text-align: center; }
+.pdaf .six.columns:nth-child(2), .beauty .six.columns:first-child{ padding:4% 8%; }
+.beauty .row{ display: block; text-align: center; }
+.beauty .row .six.columns:last-child{ text-align: center; }
+.battery .row{ display: block; }
+.battery .row .six.columns:last-child, .touch .row .six.columns:nth-child(2){ text-align: center; padding:0 8%; padding-bottom:4%; }
+.touch .row{ display: block; }
+.touch .row .six.columns:first-child{ text-align: right; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -175,6 +219,21 @@ p{ font-size:100%; }
 .faq{ padding-bottom:8%; text-align: center; }
 .shtr .row .six.columns{ width:100%; margin-left:0; }
 .f-ii{ width:80%; margin:0 auto; }
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ display: block; text-align: center; }
+.unlocked .six.columns:nth-child(2){ padding:4%; padding-top:8%;}
+.camera{ padding-top:4%; }
+.pdaf .row{ display: block; text-align: center; }
+.pdaf .six.columns:nth-child(2), .beauty .six.columns:first-child{ padding:4% 8%; }
+.beauty .row{ display: block; text-align: center; }
+.beauty .row .six.columns:last-child{ text-align: center; }
+.battery .row{ display: block; }
+.battery .row .six.columns:last-child, .touch .row .six.columns:nth-child(2){ text-align: center; padding:0 8%; padding-bottom:4%; }
+.touch .row{ display: block; }
+.touch .row .six.columns:first-child{ text-align: right; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
