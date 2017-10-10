@@ -72,6 +72,8 @@ ul {
 .specs img{ width:200px; align-self: center; }
 .specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }
 
+.pack{ padding:4% 0; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
