@@ -43,7 +43,9 @@ p{ font-size:120%; }
 .banner span{ font-family:"Roboto Thin", arial, sans-serif; font-weight: lighter; }
 .banner img{ width:100px; align-self: center; }
 
-.temper{ text-align: center; }
+.temper{ text-align: center; margin-top:4%; }
+.temper h1{ color:#FB2F2F; font-family:"Roboto", arial, sans-serif; font-weight: bold; }
+.temper img{ max-width:30%; }
 
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
@@ -174,6 +176,8 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .battery .row{ display: block; text-align: center; }
 .battery .six.columns:first-child{ padding:4% 8%; }
 .battery img{ width:70%; }
+.temper img{ max-width:50%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -240,6 +244,8 @@ p{ font-size:100%; }
 .battery .row{ display: block; text-align: center; }
 .battery .six.columns:first-child{ padding:4% 8%; }
 .battery img{ width:70%; }
+.temper img{ max-width:50%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 }

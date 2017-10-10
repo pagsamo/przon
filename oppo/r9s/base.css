@@ -44,6 +44,8 @@ p{ font-size:120%; }
 .banner img{ width:100px; align-self: center; }
 
 .temper{ text-align: center; }
+.temper h1{ color:#FB2F2F; font-family:"Roboto", arial, sans-serif; font-weight: bold; }
+.temper img{ max-width:30%; }
 
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
@@ -175,6 +177,8 @@ h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
 .battery .row .six.columns:last-child, .touch .row .six.columns:nth-child(2){ text-align: center; padding:0 8%; padding-bottom:4%; }
 .touch .row{ display: block; }
 .touch .row .six.columns:first-child{ text-align: right; }
+.temper img{ max-width:50%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -235,6 +239,8 @@ p{ font-size:100%; }
 .battery .row .six.columns:last-child, .touch .row .six.columns:nth-child(2){ text-align: center; padding:0 8%; padding-bottom:4%; }
 .touch .row{ display: block; }
 .touch .row .six.columns:first-child{ text-align: right; }
+.temper img{ max-width:50%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
