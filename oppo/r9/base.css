@@ -121,6 +121,7 @@ p{ font-size:120%; }
 .battery{ background-color: white; }
 .battery .row{ display: flex; }
 .battery .row .three.columns{ align-self: center; }
+.battery .row .three.columns.s1{ text-align: right; }
 .battery .row .three.columns:last-child{ text-align: right }
 .battery .row .six.columns{ padding:8% 4%; }
 .os{ background-color: #B9E2DC; }
