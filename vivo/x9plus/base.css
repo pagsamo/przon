@@ -1,0 +1,127 @@
+html, body {
+  /*max-width:100vw;
+  overflow-y:scroll;*/
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.container{position:relative;width:92%;margin:0 auto;box-sizing:border-box}.column,.columns,.u-full-width{width:100%;box-sizing:border-box}.column,.columns{float:left}.u-max-full-width{max-width:100%;box-sizing:border-box}.u-pull-right{float:right}.u-pull-left{float:left}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}@media (min-width:400px){.container{width:92%;padding:0}}@media (min-width:1025px){.container{width:92%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}.five.columns{width:39.3333333333%}.six.columns{width:48%}.seven.columns{width:56.6666666667%}.eight.columns{width:65.3333333333%}.nine.columns{width:74%}.ten.columns{width:82.6666666667%}.eleven.columns{width:91.3333333333%}.twelve.columns{width:100%;margin-left:0}.one-third.column{width:30.6666666667%}.two-thirds.column{width:65.3333333333%}.one-half.column{width:48%}}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
+.f-ii{ width:60%; margin:0 auto; padding:4% 0; }
+.f-ii li{ font-size:150%; }
+.f-ii span{ font-style: italic; }
+.f-ii p{ padding-left:4%; color: #959191; }
+
+.shtr{ background-color: #C49A6C; color:white; }
+.shtr .row{ width:92%; margin:0 auto;  }
+.shtr .six.columns{ padding:0 4%; }
+.shtr a{ color:white; }
+.shtr img{ width:200px; }
+
+.dfy{ padding:2% 4%; color: white;  }
+.dfy h1{ margin:0; }
+.dfy h3{ margin:0; margin-top:0.5%; font-weight: lighter; }
+.def1{ background-color: #C2001B; position: relative; z-index: 30;}
+.def2{ background-color: #1C75BC; position: relative; z-index: 50; }
+.def3{ background-color: #C49A6C; position: relative; z-index: 70; }
+
+.hi1{ position: relative; z-index: 10; }
+.hi2{ position: relative; z-index: 20; margin-top:-5px; margin-bottom:-10px;}
+.hi3{ position: relative; z-index: 40; margin-bottom:-10px; }
+.hi4{ position: relative; z-index: 60; margin-bottom:-10px; }
+
+
+.free{ background-color: #F1F2F2; }
+.free h1{ font-size: 3em; }
+.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex;}
+.free .row:first-child h1{ color:#2E3191; }
+.free .row:first-child h1 span{ font-weight: lighter; }
+.free .row .columns{ align-self: center; }
+.free .row:last-child{ color:#4B4B4B; padding-top:0;}
+.free .row:last-child h1{ float: left;  text-align: left; font-weight: lighter;}
+.free .row:last-child img{ max-width:70%; }
+.model{ background-color: #2E3191; }
+.model h1{ margin:0; color: white; padding:2%; font-size:5em;}
+
+.specs{ background-color:#F9F5F0; padding:4% 0;}
+.specs .row{ width:80%; margin:0 auto; }
+.specs img{ width:200px; align-self: center; }
+.specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+@media (min-width: 550px) and (max-width: 1024px) {
+/************************************************************************************************/
+/************************************************************************************************/
+.free h1{ font-size: 2.5em; }
+.free .row{ width:92%; margin:0 auto; padding:4% 0; display: flex;}
+.free .row:last-child img{ max-width:90%; }
+.free .row:last-child h1{  text-align: center;}
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+@media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+.free h1{ font-size: 2em; }
+.free .row{ display: block; }
+.free .row:last-child img{ max-width:90%; }
+.free .row:last-child h1{  text-align: center;}
+.dfy{ padding:8%; }
+.specs img{ width:100px; align-self: center; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+
