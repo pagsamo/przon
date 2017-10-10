@@ -44,6 +44,8 @@ p{ font-size:120%; }
 .banner img{ width:100px; align-self: center; }
 
 .temper{ text-align: center; }
+.temper h1{ color:#FB2F2F; font-family:"Roboto", arial, sans-serif; font-weight: bold; }
+.temper img{ max-width:30%; }
 
 .highlight{ text-align: center; margin-top:4%;}
 .highlight img{ max-width:40%; }
@@ -53,7 +55,8 @@ p{ font-size:120%; }
 
 
 .os{ background-color: white; padding:4% 0; text-align: center; }
-.os p{ width:50%; margin:0 auto; }
+.os h1{ width:70%; margin-left:auto; margin-right: auto }
+.os p{ width:70%; margin:0 auto; }
 .os .row:last-child{ margin-top:4%; }
 
 .package .row, .gift .row{ width:65%; margin:0 auto; }
@@ -174,6 +177,8 @@ p{ font-size:100%; }
 .sim .row .six.columns:nth-child(2){ text-align: center; }
 .memory .row{ display: block; }
 .memory .six.columns:nth-child(2){ text-align: center; padding:0 4%; }
+
+.temper img{ max-width:50%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -241,6 +246,9 @@ p{ font-size:100%; }
 
 .os h1{ width:80%; text-align: center; margin:0 auto; }
 .os p{ width:80%; }
+
+.temper img{ max-width:50%; }
+
 /************************************************************************************************/
 /************************************************************************************************/
 }
