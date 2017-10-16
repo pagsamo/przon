@@ -154,9 +154,9 @@ p{ font-size:1em; }
 
 .warranty{ position: relative; z-index: 40;  }
 .warranty>.row{ display: flex; justify-content: center; padding:4% 0; padding-bottom:0;  }
-.warranty .row .five.columns{ padding:0 4%; }
-.warranty .row .five.columns img{ max-width: 80%; }
-.warranty .row .seven.columns{ align-self: center;}
+.warranty .row .five.columns{ padding:0 4%; display: flex; justify-content: flex-end; flex-direction: column}
+.warranty .row .five.columns img{ max-width: 80%; align-self: center; }
+.warranty .row .seven.columns{ align-self: center; padding:4% 0;}
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
 
 .box>.row, .package>.row{ display: flex; justify-content: center; }
@@ -214,6 +214,7 @@ video{ display: block; margin:0 auto; width:80%; }
 .unlocked .five.columns,
 .warranty .five.columns
 { width:100%; margin-left:0; }
+.warranty .five.columns{ text-align: center; }
 
 .unlocked .five.columns img{ width:65%; }
 
@@ -221,7 +222,7 @@ video{ display: block; margin:0 auto; width:80%; }
 .warranty .seven.columns
 { width:100%; margin-left:0; padding-top:4%; }
 
-.s1, .s1-ii{ display: none; }
+.s1, .s1-ii{ display: none !important; }
 .s2{ display: block !important; text-align: left; }
 .s2 img{ width:65%; }
 .s2-ii{ display: block !important; }
@@ -295,7 +296,7 @@ video{ display: block; margin:0 auto; width:100%; }
 .warranty .seven.columns
 { width:100%; margin-left:0; padding-top:4%; }
 
-.s1, .s1-ii{ display: none; }
+.s1, .s1-ii{ display: none !important; }
 .s2{ display: block !important; text-align: left; }
 .s2 img{ width:65%; }
 .s2-ii{ display: block !important; }

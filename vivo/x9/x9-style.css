@@ -26,7 +26,7 @@
 .hi4{ position: relative; z-index: 60; margin-bottom:-10px; }
 
 
-.model{ background-color: #2E3191; }
+.model{ background-color: #2E3191; text-align: center; }
 .model h1{ margin:0; color: white; padding:2%; font-size:5em;}
 
 .free{ background-color: #F1F2F2;}

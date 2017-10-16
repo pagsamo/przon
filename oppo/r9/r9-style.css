@@ -5,8 +5,12 @@
 .unlocked .row .five.columns:nth-child(2){ align-self: center; padding:0 4%; }
 .camera{ background-color: white; position: relative; z-index: 10;}
 .camera .row{ display: flex; }
-.camera .six.columns:first-child{ padding:0 4%;}
+.camera .six.columns:first-child{ padding:0 4%; display: flex; flex-direction: column; justify-content: flex-end;}
+.camera .six.columns:first-child img{ align-self: center; }
 .camera .six.columns:nth-child(2){ padding:0 4%; align-self: center;}
+.cam-feat-wr{ display: flex; }
+.cam-feat{ padding:0 2%;  text-align: center;}
+.cam-feat img{ width: 100px; }
 .hilight{ background-color: #ECECEC; margin-top:-10px; position: relative; z-index: 20;}
 .hilight .row{ display: flex; }
 .hilight .six.columns:first-child{ align-self: center; padding: 0 4%}
@@ -56,7 +60,7 @@
 
 .package .row, .gift .row{ width:80%; margin:0 auto; text-align: center; }
 
-.s1{ display: none; }
+.s1{ display: none !important; }
 .s2{ display: block !important; }
 
 .unlocked .row{ display: block; }
