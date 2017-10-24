@@ -145,9 +145,28 @@ p{ font-size:1em; }
 .gift .six.columns
 { width:50%; margin-left:0; }
 
-.main{ text-align: center; }
+.main{ text-align: center; color: white; }
+.main .row{ width:100%; display: flex; }
+.main h2{ padding:0 10%;}
+.main .three.columns{ width:25%; margin-left:0; align-self: center; }
+.main .three.columns img{ float: right; width:70%; }
+.main .jetblack{ background-color: #252928;  }
+.main .matteblack{ background-color: #454343; }
+.main .blue{  background-color:#1378CC; }
+.main .teal{  background-color:#4BB6E2; }
+.main .green{  background-color:#6A9B4A; }
+.main .red{  background-color:#A80622; }
+.main .redwhite{  background-color:#660516; }
+.main .redblack{  background-color:#951F36; }
+.main .purple{ background-color: #9D75CB;  }
+.main .fivr{ display: flex; }
+.main .fivr .fifth{ width:20%; margin:0; height:auto; display: flex; flex-direction: column; justify-content: flex-end;}
+.main .fivr .fifth img{ align-self: center; width:70%; float: right;}
 
-.unlocked{ position: relative; z-index: 30; margin-top:-25%; padding-top:4%; background-color: #313131; color:white; }
+.bg .row{ background-image: url('ip6custom-bg.png'); color: white; text-align: center; padding:4% 0;}
+.bg .row h1{ margin:0;  }
+
+.unlocked{ position: relative; z-index: 30; background-color: #3C9CC4; color:white; }
 .unlocked>.row{ display: flex; justify-content: center; padding:0;}
 .unlocked .row .seven.columns{ align-self: center; padding:4% 0;}
 .unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
@@ -155,14 +174,14 @@ p{ font-size:1em; }
 .unlocked .row .five.columns img{ align-self: center;} 
 
 
-.warranty{ position: relative; z-index: 40; margin-top:-20px; background-color: #EEEEEE;  color: black;}
+.warranty{ position: relative; z-index: 40; margin-top:-20px; background-color: #39383A;  color: white;}
 .warranty>.row{ display: flex; justify-content: center; padding:4% 0; padding-bottom:0;  }
 .warranty .row .five.columns{ padding:0 4%; display: flex; flex-direction: column; justify-content: flex-end; }
 .warranty .row .five.columns img{ max-width: 100%; align-self: center;}
 .warranty .row .seven.columns{ align-self: center; padding:4% 0;}
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
 
-.box{ position: relative; z-index: 50; margin-top:-20px; background-color: #A2A2A2; }
+.box{ position: relative; z-index: 50; margin-top:-20px; background-color: #FFFFFF; }
 .box>.row, .package>.row{ display: flex; justify-content: center; }
 .box>.row .six.columns,.package>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,{ width:50%; margin:0 auto; }
@@ -170,7 +189,7 @@ p{ font-size:1em; }
 .box .row{ padding:4% 0; }
 .box .row .six.columns{ padding:0 4%; }
 
-.package{ color: white; padding-top:4%; background-color: #313131; position: relative; z-index: 60}
+.package{ color: white; padding-top:4%; background-color: #7BBA4E; position: relative; z-index: 60}
 .package .row{ width:80%; margin:0 auto; }
 
 .specs{ z-index: 70; position: relative; margin-top:-20px; }
@@ -182,7 +201,7 @@ p{ font-size:1em; }
 .spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
 .spec-ii .seven.columns ul li{ color: black; }
 
-.shippingAndTracking{ padding:2% 0; text-align: center;}
+.shippingAndTracking{ padding:2% 0; text-align: center; background-color: #111111; color:white;}
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 8%; }
 .shippingAndTracking a{ color: white; }
 .shippingAndTracking .ico{ width:150px; }
