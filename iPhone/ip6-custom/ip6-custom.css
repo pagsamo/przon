@@ -164,7 +164,9 @@ p{ font-size:1em; }
 .main .fivr .fifth img{ align-self: center; width:70%; float: right;}
 
 .bg .row{ background-image: url('ip6custom-bg.png'); color: white; text-align: center; padding:4% 0;}
-.bg .row h1{ margin:0;  }
+.bg .row h1{ margin:0; padding:0 10%; }
+.bg .row h2{ padding:0 10%; }
+
 
 .add-info .row{ width:60%; margin:0 auto; padding:4% 0; text-align: center; }
 .add-info p{ font-size: 1.25em; }
