@@ -145,20 +145,20 @@ p{ font-size:1em; }
 .gift .six.columns
 { width:50%; margin-left:0; }
 
-.main{ text-align: center; color: white; }
+.main, .main-2{ text-align: center; color: white; }
 .main .row{ width:100%; display: flex; }
 .main h2{ padding:0 10%;}
 .main .three.columns{ width:25%; margin-left:0; align-self: center; }
 .main .three.columns img{ float: right; width:70%; }
-.main .jetblack{ background-color: #252928;  }
-.main .matteblack{ background-color: #454343; }
-.main .blue{  background-color:#1378CC; }
-.main .teal{  background-color:#4BB6E2; }
-.main .green{  background-color:#6A9B4A; }
-.main .red{  background-color:#A80622; }
-.main .redwhite{  background-color:#660516; }
-.main .redblack{  background-color:#951F36; }
-.main .purple{ background-color: #9D75CB;  }
+.main .jetblack, .main-2 .jetblack{ background-color: #252928;  }
+.main .matteblack, .main-2 .matteblack{ background-color: #454343; }
+.main .blue,.main-2 .blue{  background-color:#1378CC; }
+.main .teal, .main-2 .teal{  background-color:#4BB6E2; }
+.main .green, .main-2 .green{  background-color:#6A9B4A; }
+.main .red, .main-2 .red{  background-color:#A80622; }
+.main .redwhite, .main-2 .redwhite{  background-color:#660516; }
+.main .redblack, .main-2 .redblack{  background-color:#951F36; }
+.main .purple, .main-2 .purple{ background-color: #9D75CB;  }
 .main .fivr{ display: flex; }
 .main .fivr .fifth{ width:20%; margin:0; height:auto; display: flex; flex-direction: column; justify-content: flex-end;}
 .main .fivr .fifth img{ align-self: center; width:70%; float: right;}
@@ -195,16 +195,23 @@ p{ font-size:1em; }
 .specs .title{ text-align: center; margin:0; background-color: #9D75CB; padding:2% 0; color: white;}
 .specs .title h1{ margin:0;}
 .specs .models{ padding:4% 0; text-align: center;}
-.specs .models img{ }
 .specs .specs-ii{ width:92%; margin:0 auto; }
 .specs .specs-ii .two.columns{ text-align: right; }
 .specs .specs-ii .two.columns h3{ color:#A61E0D ; }
 
 
-.shippingAndTracking{ padding:2% 0; text-align: center; background-color: #111111; color:white;}
+.shippingAndTracking{ padding:2% 0; text-align: center; background-color: #111111; color:white; margin-top:4%;}
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 8%; }
 .shippingAndTracking a{ color: white; }
 .shippingAndTracking .ico{ width:150px; }
+
+.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
+
+.f-ii{ width:60%; margin:0 auto; padding:4% 0; }
+.f-ii li{ font-size:150%; }
+.f-ii span{ font-style: italic; }
+.f-ii p{ padding-left:4%; color: #959191; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -258,11 +265,12 @@ video{ display: block; margin:0 auto; width:80%; }
 .m-specs .title h1{ margin:0; padding:2% 0; text-align: center; background-color: #9D75CB; color: white; }
 .m-specs .model h2{ text-align: center; margin-top:0; }
 .m-specs .six.columns{ width:50%; margin-left:0; padding:0 4%; }
-
+.m-ii{ width:92%; margin:0 auto; margin-top:4%; }
 
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; }
 .shippingAndTracking .six.columns h1{ padding-left:4%; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 4%; }
+.f-ii{ width:80%; margin:0 auto; }
 
 .gift .freebie{ display: block;  }
 .gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
@@ -270,6 +278,13 @@ video{ display: block; margin:0 auto; width:80%; }
 .cable{ width:20%; }
 .gift-ico{ width:40%; }
 .gift-text{ width:55%; }
+
+.main{ display: none; }
+.main-2{ display: block !important; }
+.main-2 .row{ display: flex;}
+.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 h2{ padding:0 10%;}
+.main-2 .four.columns img{ float: right; width:70%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -302,8 +317,7 @@ video{ display: block; margin:0 auto; width:100%; }
 
 .with-i{ justify-content:center; }
 
-.main>.row, .unlocked>.row, .warranty>.row{ display: block; text-align: center;}
-.main img{ padding:0 5%; }
+.unlocked>.row, .warranty>.row{ display: block; text-align: center;}
 .unlocked .five.columns img{ margin-top:0;}
 
 
@@ -331,9 +345,19 @@ video{ display: block; margin:0 auto; width:100%; }
 .box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:70%; margin:0 auto; }
 
 
+.specs{ display: none; }
+.m-specs{ display: block !important; background-color: white; position: relative; z-index: 100; margin-top: -10px; }
+.m-specs .title h1{ margin:0; padding:2% 0; text-align: center; background-color: #9D75CB; color: white; }
+.m-specs .model h2{ text-align: center; margin-top:0; }
+.m-specs .six.columns{ width:100%; margin-left:0; padding:0 4%; }
+.m-ii{ width:92%; margin:0 auto; margin-top:4%; }
+
+
 .shippingAndTracking { text-align: center; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:0 10%; }
 .shippingAndTracking img.ico{ width:75px; }
+.f-ii{ width:80%; margin:0 auto; }
+
 
 
 .unlocked{ padding-top:8%; }
@@ -345,6 +369,14 @@ video{ display: block; margin:0 auto; width:100%; }
 .gift>.row .six.columns{ display: block; padding:0 10%; }
 .tempered-glass{ width:70%; }
 .cable{ width:50%; }
+
+
+.main{ display: none; }
+.main-2{ display: block !important; }
+.main-2 .row{ display: flex;}
+.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 h2{ padding:0 10%; font-size:1em;}
+.main-2 .four.columns img{ float: right; width:70%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
