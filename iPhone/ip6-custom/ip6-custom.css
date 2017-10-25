@@ -192,14 +192,14 @@ p{ font-size:1em; }
 .package{ color: white; padding-top:4%; background-color: #7BBA4E; position: relative; z-index: 60}
 .package .row{ width:80%; margin:0 auto; }
 
-.specs{ z-index: 70; position: relative; margin-top:-20px; }
-.specs>.row h1{ text-align: center; padding-top:4%; color: black; margin-top:0; }
-.spec-ii .ii{ width:70%; margin:0 auto; padding:2% 0; }
-.spec-ii .five.columns{ text-align: right; }
-.specs .dia{ text-align: center; padding:8% 0; }
+.specs .title{ text-align: center; margin:0; background-color: #9D75CB; padding:2% 0; color: white;}
+.specs .title h1{ margin:0;}
+.specs .models{ padding:4% 0; text-align: center;}
+.specs .models img{ }
+.specs .specs-ii{ width:92%; margin:0 auto; }
+.specs .specs-ii .two.columns{ text-align: right; }
+.specs .specs-ii .two.columns h3{ color:#A61E0D ; }
 
-.spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
-.spec-ii .seven.columns ul li{ color: black; }
 
 .shippingAndTracking{ padding:2% 0; text-align: center; background-color: #111111; color:white;}
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 8%; }
@@ -229,10 +229,6 @@ video{ display: block; margin:0 auto; width:80%; }
 
 .with-i{ justify-content:center; }
 
-
-.main img{ padding:0 5%; }
-
-
 .unlocked>.row, .warranty>.row{ display: block; text-align: center;}
 .unlocked .five.columns{ text-align: right; }
 .unlocked .five.columns img{ margin-top:0;}
@@ -256,9 +252,12 @@ video{ display: block; margin:0 auto; width:80%; }
 .box>.row, .package>.row{ display: block; text-align: center; }
 .box .six.columns,.package .six.columns{ width:100%; }
 .box .six.columns .row,.package .six.columns .row{ width:70%; margin:0 auto; }
-.spec-ii .five.columns{ text-align: left; }
-.spec-ii .ii{ width:50%; margin: 0 auto; }
-.spec-ii .ii li{ padding:0.5% 0; }
+
+.specs{ display: none; }
+.m-specs{ display: block !important; background-color: white; position: relative; z-index: 100; margin-top: -10px; }
+.m-specs .title h1{ margin:0; padding:2% 0; text-align: center; background-color: #9D75CB; color: white; }
+.m-specs .model h2{ text-align: center; margin-top:0; }
+.m-specs .six.columns{ width:50%; margin-left:0; padding:0 4%; }
 
 
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; }
@@ -330,12 +329,6 @@ video{ display: block; margin:0 auto; width:100%; }
 .box>.row, .package>.row, .gift>.row{ display: block; text-align: center; }
 .box .six.columns,.package .six.columns,.gift .six.columns{ width:100%; }
 .box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:70%; margin:0 auto; }
-.spec-ii .five.columns{ text-align: center; }
-.spec-ii .ii{ width:80%; margin: 0 auto; }
-
-
-.spec-ii .ii li{ padding:3% 0; line-height: 150%; }
-
 
 
 .shippingAndTracking { text-align: center; }
