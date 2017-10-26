@@ -11,7 +11,7 @@
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
 
-.shtr{ background-color: #C2B59B; color:white; padding-bottom:4%;}
+.shtr{ background-color: #01052A; color:white; padding-bottom:4%;}
 .shtr .row{ width:92%; margin:0 auto;  }
 .shtr .six.columns{ padding:0 4%; }
 .shtr a{ color:white; }
@@ -22,10 +22,12 @@
 .dfy h3{ margin:0; margin-top:0.5%; font-weight: lighter; }
 .def1{ background-color: #00A651; position: relative; z-index: 30;}
 .def2{ background-color: #01052A; position: relative; z-index: 50; }
-.def3{ background-color: #C2B59B; position: relative; z-index: 70; }
+.def3{ background-color: #00A651; position: relative; z-index: 70; }
 
-.hi1{ position: relative; z-index: 10; }
-.hi1 .row{ width: 70%; margin:0 auto; padding:4%; }
+.hi1{ position: relative; z-index: 10; padding:2% 0; }
+.hi1 .row{ width: 100%; display: flex; justify-content: center;}
+.hi1 h1{ font-size: 4em; }
+.hi1 .six.columns{ width: 50%; margin-left:0; padding:5%; align-self: center; }
 .hi2{ position: relative; z-index: 20; margin-top:-5px; margin-bottom:-10px;}
 .hi3{ position: relative; z-index: 40; margin-bottom:-10px; }
 .hi4{ position: relative; z-index: 60; margin-bottom:-10px; }
@@ -44,7 +46,7 @@
 .main img{ max-width:70%; }
 
 
-.specs{ background-color:#F9F7F5; padding:4% 0;}
+.specs,.specs-2{ background-color:#F9F7F5; padding:4% 0;}
 .specs .row{ width:80%; margin:0 auto; }
 .specs img{ width:200px; align-self: center; }
 .specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }
@@ -62,3 +64,6 @@
 /*Tablets and Laptop*/
 /************************************************************************************************/
 /************************************************************************************************/
+@media (max-width: 549px) {
+.hi1 h1{ font-size: 3em; }
+}

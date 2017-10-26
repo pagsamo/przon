@@ -167,9 +167,11 @@ p{ font-size:1em; }
 .bg .row h1{ margin:0; padding:0 10%; }
 .bg .row h2{ padding:0 10%; }
 
+.disclaimer{ text-align: center; color: #A80622; padding:1% 4%;}
+.disclaimer h3{ font-size:1.5em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; }
 
 .add-info .row{ width:60%; margin:0 auto; padding:4% 0; text-align: center; }
-.add-info p{ font-size: 1.25em; }
+.add-info p{ font-size: 1.25em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; }
 
 
 .unlocked{ position: relative; z-index: 30; background-color: #3C9CC4; color:white; }
@@ -221,6 +223,8 @@ p{ font-size:1em; }
 .f-ii li{ font-size:150%; }
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
+
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/

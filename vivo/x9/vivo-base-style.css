@@ -60,6 +60,9 @@ ul {
 .specs{ display: none; }
 .specs-2{ display: block !important; text-align: center; }
 .specs-2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
+.specs-2 img{ width:150px; align-self: center; }
+.f-ii{ width:80%; margin:0 auto; padding:4% 0; text-align: left !important; }
+
 
 
 /************************************************************************************************/

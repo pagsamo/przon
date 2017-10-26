@@ -38,6 +38,7 @@
 
 
 .specs{ background-color:#F9F5F0; padding:4% 0;}
+.specs-2{ background-color:#F9F5F0; padding:4% 0;}
 .specs .row{ width:80%; margin:0 auto; }
 .specs img{ width:200px; align-self: center; }
 .specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }

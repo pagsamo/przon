@@ -21,7 +21,7 @@
 .hi1{ position: relative; z-index: 10; }
 .hi1 .row{ display: flex; }
 .hi1 .columns{ align-self: center; color: #92278F; }
-.hi1 h1{ font-size: 5em; }
+.hi1 h1{ font-size: 4em; }
 .hi2{ position: relative; z-index: 20; margin-top:-5px; margin-bottom:-10px;}
 .hi3{ position: relative; z-index: 40; margin-bottom:-10px; }
 .hi4{ position: relative; z-index: 60; margin-bottom:-10px; }
@@ -39,9 +39,10 @@
 
 .main{ background-color: #D1C0DE;  }
 .main img{ max-width:70%; }
+.hi1 .six.columns{ width:50%; margin-left:0; padding:0 8%; }
 
 
-.specs{ background-color:#F9F5F0; padding:4% 0;}
+.specs, .specs-2{ background-color:#F9F5F0; padding:4% 0;}
 .specs .row{ width:80%; margin:0 auto; }
 .specs img{ width:200px; align-self: center; }
 .specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }
