@@ -68,7 +68,7 @@ p{ font-size:120%; }
 
 .specs>.row{ background-color: #ECECEC; text-align: center; }
 .specs>.row h1{ margin:0; padding:4%; text-align: center;} 
-.specs .s-ii{ width:70%; margin:0 auto; }
+.specs .s-ii{ width:92%; margin:0 auto; }
 .specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
 .specs .dia{ text-align: center; margin:4% 0; }
 
@@ -79,7 +79,7 @@ p{ font-size:120%; }
 .s-ii .ten.columns .row .columns, .s-ii .ten.columns .row .column{ align-self: center; }
 
 
-.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child{ background-color: #151513; text-align: center; color:white;   }
 .faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
 
 .f-ii{ width:60%; margin:0 auto; padding:4% 0; }
@@ -88,7 +88,7 @@ p{ font-size:120%; }
 .f-ii p{ padding-left:4%; color: #959191; }
 
 
-.shtr{ background-color: #959191; padding:4% 0; color: white;}
+.shtr{ background-color: #151513; padding:4% 0; color: white;}
 .shtr h3, .shtr a{ color: white; }
 .shtr .row{ width:80%; margin:0 auto; }
 .shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}

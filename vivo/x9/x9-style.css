@@ -40,7 +40,7 @@
 .main img{ max-width:70%; }
 
 
-.specs{ background-color:#DDF3FD; padding:4% 0;}
+.specs, .specs-2{ background-color:#DDF3FD; padding:4% 0;}
 .specs .row{ width:80%; margin:0 auto; }
 .specs img{ width:200px; align-self: center; }
 .specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }

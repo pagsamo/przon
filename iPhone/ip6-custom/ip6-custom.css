@@ -163,7 +163,7 @@ p{ font-size:1em; }
 .main .fivr .fifth{ width:20%; margin:0; height:auto; display: flex; flex-direction: column; justify-content: flex-end;}
 .main .fivr .fifth img{ align-self: center; width:70%; float: right;}
 
-.bg .row{ background-image: url('ip6custom-bg.png'); color: white; text-align: center; padding:4% 0;}
+.bg .row{ background-image: url('ip6custom-bg.png'); color: white; text-align: center; padding:6% 0;}
 .bg .row h1{ margin:0; padding:0 10%; }
 .bg .row h2{ padding:0 10%; }
 
@@ -188,20 +188,23 @@ p{ font-size:1em; }
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
 
 .box{ position: relative; z-index: 50; margin-top:-20px; background-color: #FFFFFF; }
-.box>.row, .package>.row{ display: flex; justify-content: center; }
+.box>.row{ display: flex; justify-content: center; }
 .box>.row .six.columns,.package>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,{ width:50%; margin:0 auto; }
 
 .box .row{ padding:4% 0; }
 .box .row .six.columns{ padding:0 4%; }
 
-.package{ color: white; padding-top:4%; background-color: #7BBA4E; position: relative; z-index: 60}
+.package{ text-align: center; color: white; padding-top:4%; background-color: #7BBA4E; position: relative; z-index: 60}
 .package .row{ width:80%; margin:0 auto; }
+.centere{ display: flex; justify-content: center; }
 
+.specs{ position: relative; z-index: 70; margin-top:-10px; }
 .specs .title{ text-align: center; margin:0; background-color: #9D75CB; padding:2% 0; color: white;}
 .specs .title h1{ margin:0;}
 .specs .models{ padding:4% 0; text-align: center;}
-.specs .specs-ii{ width:92%; margin:0 auto; }
+.specs .specs-ii{ width:100%; margin:0 auto; }
+.specs .specs-ii .row{ width:92%; margin:0 auto; }
 .specs .specs-ii .two.columns{ text-align: right; }
 .specs .specs-ii .two.columns h3{ color:#A61E0D ; }
 
@@ -250,7 +253,8 @@ video{ display: block; margin:0 auto; width:80%; }
 .warranty .five.columns
 { width:100%; margin-left:0; text-align: center;}
 
-.unlocked .five.columns img{ width:65%; }
+.unlocked .five.columns img{ width:50%; }
+.warranty .five.columns img{ width:50%; }
 
 .unlocked .seven.columns,
 .warranty .seven.columns

@@ -28,13 +28,14 @@ ul {
 .shtr{ text-align: center; }
 .specs{ text-align: center; }
 
+
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
 .f-ii{ width:60%; margin:0 auto; padding:4% 0; text-align: left !important; }
-.pack{ padding:4% 0; }
+.pack{ padding:4% 0; text-align: center; }
 
 /************************************************************************************************/
 /************************************************************************************************/
@@ -56,6 +57,9 @@ ul {
 .free .row:last-child img{ max-width:90%; }
 .free .row:last-child h1{  text-align: center;}
 .main img{ max-width:100%; }
+.specs{ display: none; }
+.specs-2{ display: block !important; text-align: center; }
+.specs-2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
 
 
 /************************************************************************************************/
@@ -81,7 +85,10 @@ ul {
 .free .row:last-child img{ max-width:90%; }
 .free .row:last-child h1{  text-align: center;}
 .dfy{ padding:8%; }
-.specs img{ width:100px; align-self: center; }
+.specs{ display: none; }
+.specs-2{ display: block !important; text-align: center; }
+.specs-2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
+.specs-2 img{ width:100px; align-self: center; }
 .main img{ max-width:100%; }
 
 /************************************************************************************************/
