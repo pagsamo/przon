@@ -301,11 +301,15 @@ video{ display: block; margin:0 auto; width:80%; }
 .main{ display: none; }
 .main-2{ display: block !important; }
 .main-2 .row{ display: flex;}
-.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 .row .six.columns{width:50%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
 .main-2 h2{ padding:0 10%;}
-.main-2 .four.columns img{ float: right; width:70%; }
+.main-2 .six.columns img{ float: right; width:70%; }
 
 .add-info .row{ width:80%; }
+
+.disclaimer2 p{ font-size:1.15em; margin:0; padding:2% 4%;}
+.disclaimer2 .noplug{ width:100px; }
+.disclaimer2 .bottom{ width:50%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -395,12 +399,16 @@ video{ display: block; margin:0 auto; width:100%; }
 .main{ display: none; }
 .main-2{ display: block !important; }
 .main-2 .row{ display: flex;}
-.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
-.main-2 h2{ padding:0 10%; font-size:1em;}
-.main-2 .four.columns img{ float: right; width:70%; }
+.main-2 .row .six.columns{width:50%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 h2{ padding:0 10%;}
+.main-2 .six.columns img{ float: right; width:70%; }
 
 .add-info .row{ width:80%; }
 .add-info p{ font-size: 1em; }
+
+.disclaimer2 p{ font-size:1em; margin:0; padding:2% 4%;}
+.disclaimer2 .noplug{ width:72px; }
+.disclaimer2 .bottom{ width:50%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
