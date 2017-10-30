@@ -241,6 +241,16 @@ p{ font-size:1em; }
 /*Tablets and Laptop*/
 /************************************************************************************************/
 /************************************************************************************************/
+@media (min-width: 1025px) and (max-width: 1245px) {
+.gift .freebie{ display: block;  }
+.gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.tempered-glass{ width:40%; }
+.cable{ width:20%; }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
+}
+
+
 
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
