@@ -88,10 +88,11 @@ ul {
 /************************************************************************************************/
 /************************************************************************************************/
 
-h1{ font-size:4em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; margin-bottom:0; }
-h2{ font-size:2em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter;  }
-h4{ font-size: 1.5em; font-weight: lighter; }
-p{ font-size:1em; }
+h1{ font-size:3em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; margin-bottom:0; }
+h2{ font-size:2em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; margin-bottom:0; margin-top:0; }
+h3{ font-size:1.75em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; margin-top:0; }
+h4{ font-size:1.75em; font-family: "Roboto Light", arial, sans-serif; font-size: 1.5em; font-weight: lighter; }
+p, li{ font-size:1.25em; }
 .ico{ width:100px; }
 .ico.right{ margin-left:10px; }
 .ico.left{ margin-right:10px; }
@@ -104,13 +105,10 @@ p{ font-size:1em; }
 .blackish{ background-color: #313131; color: white; }
 
 
-.dotter{ display: flex; justify-content: center; margin-bottom:5%; }
+.dotter{ display: flex;  margin-bottom:5%; }
 .dotter div{ width:75px; height:75px; border-radius: 50%; align-self: center; margin:0 10px; }
-.dotter .rosegold{ background-color: #EECBC7;  }
-.dotter .gold{ background-color: #EEDAC7; }
-.dotter .silver{ background-color: #DDE0DF;  }
-.dotter .black{ background-color: #95989B; }
-.dotter .jetblack{ background-color: #1B1B1A; }
+.dotter .grey{ background-color: #AAABAB; }
+.dotter .silver{ background-color: #DCDEDF; }
 
 .with-i{ display: flex; justify-content: flex-start; }
 .with-i h1{ margin-top:0; margin-bottom:0; }
@@ -130,7 +128,47 @@ p{ font-size:1em; }
 .f-ii span{ font-style: italic; }
 .f-ii p{ padding-left:4%; color: #959191; }
 
+.main .row{ display: flex; justify-content: center; }
+.main .seven.columns{ width:60%; margin-left:0; padding:0 4%; align-self: center;}
+.main .five.columns{ width:40%; margin-left:0; padding:0 4%; align-self: center;}
 
+.sec1{ background-color: #F7ECDE; text-align: center; margin-top:4%;}
+.sec1 h1{ color: #A8947A; }
+.sec1 .row{ padding:4%; }
+.sec2{ padding:4% 10%; text-align: center; margin-bottom:15%; }
+.sec2 .four.columns h1, .sec2 .four.columns h2{ color: #B8A792; }
+.sec2 .four.columns h1{ margin-bottom:0; }
+.sec2 .four.columns h2{ margin-top:0; }
+.sec3{ background-color: #AAABAB; color: white; }
+.sec3 img{ margin-top:-40%; }
+.sec3 .five.columns{ width:40%; padding:0 4%; }
+.sec3 .seven.columns{ width:60%; padding: 0 4%; padding-top:4%;  }
+.sec3 .five.columns, .sec3 .seven.columns{ margin-left:0; }
+.sec4{ background-color: white; text-align: center; z-index: 40; position: relative; margin-top:-5%; }
+.sec4 .row{ padding:4% 8%; }
+.sec5{ background-color: #F7ECDE; padding:6% 0; text-align: center;}
+.sec5 h1, .sec5 p{ width:80%; margin:0 auto; }
+.sec6{ text-align: center; background-color: white; }
+.sec6 .row{ padding:0 8%; padding-top:4%; }
+.sec6 img{ margin-top:4%; }
+.sec7{ background-color: #E7E9EA; z-index: 70; position: relative; margin-top:-20px; text-align: center; }
+.sec7 .row{ padding:4% 8%; }
+.sec8{ text-align: center; }
+.sec8 .row{ padding:0 8%; padding-top:4%; }
+.box{ background-color: #DCDEDF; z-index: 90; position: relative; margin-top:-10px; }
+.box .row{ padding:4% 0; display: flex; justify-content: center;}
+.box .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; }
+.package{ background-color: #F7ECDE; text-align: center; }
+.package .row{ padding:0 8%; padding-top:4%; }
+.specs{ z-index: 100; position: relative; margin-top:-10px; background-color: white; }
+.specs .row.header{ background-color: #AAABAB; color: white; text-align: center; padding:4% 0; }
+.specs h1{ margin:0; }
+.specs .row.s-ii .row{ width:80%; margin:0 auto; padding:2% 0; }
+.specs .row.s-ii .four.columns{ text-align: right; padding-right:4%;}
+.specs .row.s-ii .eight.columns .row{ width:100%; margin:0; }
+.specs .row.s-ii .eight.columns .four.columns{ text-align: left; padding:0;}
+.specs .s-ii ul, .specs .s-ii p{ margin:0; }
+.specs .s-ii li{ list-style: none; }
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
