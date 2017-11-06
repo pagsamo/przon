@@ -135,28 +135,30 @@ p, li{ font-size:1.25em; }
 .sec1{ background-color: #F7ECDE; text-align: center; margin-top:4%;}
 .sec1 h1{ color: #A8947A; }
 .sec1 .row{ padding:4%; }
-.sec2{ padding:4% 10%; text-align: center; margin-bottom:15%; }
-.sec2 .four.columns h1, .sec2 .four.columns h2{ color: #B8A792; }
-.sec2 .four.columns h1{ margin-bottom:0; }
-.sec2 .four.columns h2{ margin-top:0; }
+.sec2{ padding:4% 10%; text-align: center; margin-bottom:5%; }
+.sec2 .six.columns h1, .sec2 .six.columns h2{ color: #B8A792; }
+.sec2 .six.columns h1{ margin-bottom:0; }
+.sec2 .six.columns h2{ margin-top:0; }
 .sec3{ background-color: #AAABAB; color: white; }
 .sec3 img{ margin-top:-30%; }
 .sec3 .five.columns{ width:40%; padding:0 4%; }
-.sec3 .seven.columns{ width:60%; padding: 0 4%; padding-top:4%;  }
+.sec3 .seven.columns{ width:60%; padding: 0 4%; padding-top:4%;  text-align: right; }
 .sec3 .five.columns, .sec3 .seven.columns{ margin-left:0; }
 .sec4{ background-color: white; text-align: center; z-index: 40; position: relative; margin-top:-5%; }
-.sec4 .row{ padding:4% 8%; }
-.sec4 img{ margin-top:4%; }
+.sec4>.row{ padding:4% 8%;;}
+.sec4 .row .row{ margin-top:4%; display: flex; justify-content: center; }
+.sec4 .row .row .eight.columns{ align-self: center; }
+.sec4 .row .row .four.columns{ align-self: center; }
 .sec5{ background-color: #F7ECDE; padding:6% 0; text-align: center; z-index: 50; position: relative;}
 .sec5 h1, .sec5 p{ width:80%; margin:0 auto; }
-.sec6{ text-align: center; background-color: white; }
+.sec6{ text-align: center; background-color: white; background-color: #E7E9EA; z-index: 60; position: relative; margin-top:-30px;}
 .sec6 .row{ padding:0 8%; padding-top:4%; }
 .sec6 img{ margin-top:4%; }
-.sec7{ background-color: #E7E9EA; z-index: 70; position: relative; margin-top:-20px; text-align: center; }
+.sec7{ background-color: #E7E9EA;  text-align: center; }
 .sec7 .row{ padding:4% 8%; }
-.sec8{ text-align: center; }
+.sec8{ text-align: center; z-index: 80; position: relative; margin-top:-20px; background-color: #D8D9D9;}
 .sec8 .row{ padding:0 8%; padding-top:4%; }
-.box{ background-color: #DCDEDF; z-index: 90; position: relative; margin-top:-10px; }
+.box{ background-color: white; z-index: 90; position: relative; margin-top:-10px; }
 .box .row{ padding:4% 0; display: flex; justify-content: center;}
 .box .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; }
 .package{ background-color: #F7ECDE; text-align: center; }
@@ -224,8 +226,10 @@ p, li{ font-size:1em; }
 .box .six.columns{ width:100%; margin-left:0; }
 .box .six.columns>img{ width:50%; }
 .sec2{ margin-bottom:0; }
-.sec2 .row .four.columns{ width:33.333%; margin-left:0; padding:0 2%;}
-.sec4 .three.columns{ width:50%; margin-left:0; padding:2%; }
+.sec2 .row .six.columns{ width:50%; margin-left:0; padding:0 2%;}
+.sec4>.row{ padding-bottom: 10%; }
+.sec4 .row .row{ display: block; }
+.sec4 .four.columns, .sec4 .eight.columns{ width:100%; margin-left:0; padding:2%; }
 
 .main .row{ display: block; }
 .main .row .seven.columns, .main .row .five.columns{ width:100%; margin-left: 0 ; padding:0 10%;}
@@ -271,13 +275,15 @@ p, li{ font-size:1em; }
 .s1{ display: none; }
 .s2{ display: block !important; }
 .sec3 .row .five.columns, .sec3 .row .seven.columns{ width:100%; margin-left:0; text-align: center; padding:4% 2%;}
-.sec3 img{ margin-top:4%; margin-bottom:-100%; }
+.sec3 img{ margin-top:0; margin-bottom:-100%; }
 .box .row{ display: block; text-align: center; }
 .box .six.columns{ width:100%; margin-left:0; }
 .box .six.columns>img{ width:50%; }
 .sec2{ margin-bottom:0; }
-.sec2 .row .four.columns{ width:33.333%; margin-left:0; padding:0 2%;}
-.sec4 .three.columns{ width:100%; margin-left:0; padding:2%; }
+.sec2 .row .six.columns{ width:50%; margin-left:0; padding:0 2%;}
+.sec4>.row{ padding-bottom: 10%; }
+.sec4 .row .row{ display: block; }
+.sec4 .four.columns, .sec4 .eight.columns{ width:100%; margin-left:0; padding:2%; }
 
 .main .row{ display: block; }
 .main .row .seven.columns, .main .row .five.columns{ width:100%; margin-left: 0 ; padding:0 10%;}
