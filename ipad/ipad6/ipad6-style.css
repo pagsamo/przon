@@ -146,7 +146,8 @@ p, li{ font-size:1.25em; }
 .sec3 .five.columns, .sec3 .seven.columns{ margin-left:0; }
 .sec4{ background-color: white; text-align: center; z-index: 40; position: relative; margin-top:-5%; }
 .sec4 .row{ padding:4% 8%; }
-.sec5{ background-color: #F7ECDE; padding:6% 0; text-align: center;}
+.sec4 img{ margin-top:4%; }
+.sec5{ background-color: #F7ECDE; padding:6% 0; text-align: center; z-index: 50; position: relative;}
 .sec5 h1, .sec5 p{ width:80%; margin:0 auto; }
 .sec6{ text-align: center; background-color: white; }
 .sec6 .row{ padding:0 8%; padding-top:4%; }
@@ -211,6 +212,8 @@ p, li{ font-size:1em; }
 .shippingAndTracking .six.columns h1{ padding-left:4%; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 4%; }
 .f-ii{ width:80%; margin:0 auto; }
+.specs .row.s-ii .four.columns, .specs .row.s-ii{ text-align: center;}
+.specs .row.s-ii .eight.columns .row .four.columns{ width:33.33%; margin-left:0; }
 
 .sec3 .seven.columns .row .six.columns{ width:50%; margin-left:0; padding:0 4%;}
 .s1{ display: none; }
@@ -220,6 +223,15 @@ p, li{ font-size:1em; }
 .box .row{ display: block; text-align: center; }
 .box .six.columns{ width:100%; margin-left:0; }
 .box .six.columns>img{ width:50%; }
+.sec2{ margin-bottom:0; }
+.sec2 .row .four.columns{ width:33.333%; margin-left:0; padding:0 2%;}
+.sec4 .three.columns{ width:50%; margin-left:0; padding:2%; }
+
+.main .row{ display: block; }
+.main .row .seven.columns, .main .row .five.columns{ width:100%; margin-left: 0 ; padding:0 10%;}
+.main .five.columns{ text-align: center; }
+.main .dotter{ display: flex; justify-content: center; }
+.main .dotter div{ align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -241,7 +253,7 @@ p, li{ font-size:1em; }
 h1{ font-size:2em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; margin-bottom:0; }
 h2{ font-size:1.75em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter;  }
 h4{ font-size: 1.25em; font-weight: lighter; }
-p{ font-size:1em; }
+p, li{ font-size:1em; }
 .ico{ width:70px; }
 .dotter{ width:100%; float: left; }
 .dotter div{ width:50px; height:50px; margin:0 5px;}
@@ -252,10 +264,26 @@ p{ font-size:1em; }
 .shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:0 10%; }
 .shippingAndTracking img.ico{ width:75px; }
 .f-ii{ width:80%; margin:0 auto; }
+.specs .row.s-ii .four.columns, .specs .row.s-ii{ text-align: center;}
+.specs .row.s-ii .eight.columns .row .four.columns{ width:100%; margin-left:0; text-align: center; padding:4% 0;}
 
+.sec3 .seven.columns .row .six.columns{ width:50%; margin-left:0; padding:0 4%;}
+.s1{ display: none; }
+.s2{ display: block !important; }
+.sec3 .row .five.columns, .sec3 .row .seven.columns{ width:100%; margin-left:0; text-align: center; padding:4% 2%;}
+.sec3 img{ margin-top:4%; margin-bottom:-100%; }
+.box .row{ display: block; text-align: center; }
+.box .six.columns{ width:100%; margin-left:0; }
+.box .six.columns>img{ width:50%; }
+.sec2{ margin-bottom:0; }
+.sec2 .row .four.columns{ width:33.333%; margin-left:0; padding:0 2%;}
+.sec4 .three.columns{ width:100%; margin-left:0; padding:2%; }
 
-
-
+.main .row{ display: block; }
+.main .row .seven.columns, .main .row .five.columns{ width:100%; margin-left: 0 ; padding:0 10%;}
+.main .five.columns{ text-align: center; }
+.main .dotter{ display: flex; justify-content: center; }
+.main .dotter div{ align-self: center; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
