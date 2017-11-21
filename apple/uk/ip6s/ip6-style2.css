@@ -163,16 +163,16 @@ video{ display: block; margin:0 auto; width:65%; padding-bottom:4%; }
 .shippingAndTracking{ padding:2% 0; }
 .shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 4%; }
 
-.gift{ padding-top:0; padding-bottom:4%; }
+.gift{ padding-top:0; padding-bottom:4%; text-align: center; }
 .gift>.row{ display: flex; justify-content: center; width:85%; margin:0 auto; }
 .gift>.row .six.columns{ display: flex; }
 .gift img, .gift h1, .gift h2{ align-self: center; }
 .gift h2{ margin-top:0; margin-bottom: 0; }
-.gift .freebie{ width:70%; background-color: white; border-radius: 50px; }
+.gift .freebie{ width:88%; background-color: white; border-radius: 50px; padding:4%; }
 .main{ padding-top:4%; }
 .gift-ico{ width:20%; }
 .gift-text{ width:35%; }
-.gift .freebie .six.columns{ padding:0 4%; }
+.gift .freebie .four.columns{ padding:0 4%; text-align: center;}
 .gift>.row.remarks{ display: block; text-align: center; width:50%; margin:0 auto; margin-bottom:4%;}
 /************************************************************************************************/
 /************************************************************************************************/
@@ -230,9 +230,10 @@ video{ display: block; margin:0 auto; width:80%; }
 .shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 4%; }
 
 .gift .freebie{ display: block;  }
-.gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.gift .freebie .four.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
 .tempered-glass{ width:40%; }
 .cable{ width:20%; }
+.selfie{ width:20%; }
 .gift-ico{ width:40%; }
 .gift-text{ width:55%; }
 /************************************************************************************************/
@@ -302,7 +303,7 @@ video{ display: block; margin:0 auto; width:100%; }
 .gift .freebie{ display: block; width:85%; padding:5% 0;  }
 .gift-ico{ width:40%; }
 .gift-text{ width:55%; }
-.gift>.row .six.columns{ display: block; padding:0 10%; }
+.gift>.row .four.columns{ display: block; padding:0 10%; }
 .tempered-glass{ width:70%; }
 .cable{ width:50%; }
 /************************************************************************************************/

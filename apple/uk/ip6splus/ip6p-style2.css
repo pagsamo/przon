@@ -143,17 +143,17 @@ video{ display: block; margin:0 auto; width:65%; }
 .shippingAndTracking .six.columns{ width:50%; margin-left:0;}
 
 
-.gift{ background-color: #F1F2F2; padding-bottom:4%; padding-top:4%; }
-.gift .row>.row{ display: flex; justify-content: center; width:70%; margin:0 auto; }
-.gift .row>.row img{ align-self: center; }
-.gift img.free-ii:first-child{ width:20%; }
-.gift img.free-ii:last-child{ width:50%; }
-.gift .gift-items{ background-color: #FFFFFF; width:75%; margin:0 auto; display: flex; justify-content: center; border-radius: 50px;}
-.gift .gift-items .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; display: flex; justify-content:center; }
-.gift-items .six.columns p{ display: inline-block; color: black; align-self: center; font-size:150%; }
-.gift-items .six.columns .gift-i1{ width:55%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
-.remarks{ color: black; width:80%; margin:0 auto; padding-top:4%; text-align: center; width:70%; margin:0 auto; margin-bottom:4%;}
+.gift{ padding-top:0; padding-bottom:4%; text-align: center; }
+.gift>.row{ display: flex; justify-content: center; width:85%; margin:0 auto; }
+.gift>.row .six.columns{ display: flex; }
+.gift img, .gift h1, .gift h2{ align-self: center; }
+.gift h2{ margin-top:0; margin-bottom: 0; }
+.gift .freebie{ width:88%; background-color: white; border-radius: 50px; padding:4%; }
+.main{ padding-top:4%; }
+.gift-ico{ width:20%; }
+.gift-text{ width:35%; }
+.gift .freebie .four.columns{ padding:0 4%; text-align: center;}
+.gift>.row.remarks{ display: block; text-align: center; width:50%; margin:0 auto; margin-bottom:4%;}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Main*/
@@ -173,12 +173,14 @@ video{ display: block; margin:0 auto; width:65%; }
 .section .seven.columns{ width:60%; margin-left:0; }
 .section .five.columns{ width:40%; margin-left:0; }
 .ico{ width:30%; }
-.gift .gift-items{ display: block; }
-.gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 video{ width:75%; }
-
+.gift .freebie{ display: block;  }
+.gift .freebie .four.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.tempered-glass{ width:40%; }
+.cable{ width:20%; }
+.selfie{ width:20%; }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -196,13 +198,16 @@ video{ width:75%; }
 .row.envi .details .ten.columns .highlight{ padding:0 5%; }
 .ico-envi{ max-width: 50% !important; }
 .row.sector.envi{ padding-bottom:4%; }
-.gift .gift-items{ display: block; }
-.gift .gift-items .six.columns{ width:100%; margin-left:0; }
-.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
 .main{ padding-top:10%; }
 video{ width:75%; }
 .unlocked img{ width:100%; }
+.gift .freebie{ display: block;  }
+.gift .freebie .four.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.tempered-glass{ width:40%; }
+.cable{ width:20%; }
+.selfie{ width:20%; }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
 }
 /*Tablets and Laptop*/
 /************************************************************************************************/
@@ -234,13 +239,13 @@ video{ width:75%; }
 .row .details .two.columns{ width:100%; margin-left:0; text-align: center;}
 .row .details .ten.columns{ width:100%; margin-left:0; text-align: center;}
 .row.sector{ padding:4% 0; }
-.gift .gift-items{ display: block; padding:4%; }
-.gift .gift-items .six.columns{ width:100%; margin-left:0; display: block; text-align: center;}
-.gift-items .six.columns .gift-i1{ width:75%; align-self: center; }
-.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
-.gift-items .six.columns p{ display: block; font-size:100%; }
-.gift img.free-ii:first-child{ width:30%; }
-.gift img.free-ii:last-child{ width:70%; }
+.gift>.row{ display: flex; }
+.gift .freebie{ display: block; width:85%; padding:5% 0;  }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
+.gift>.row .four.columns{ display: block; padding:0 10%; }
+.tempered-glass{ width:70%; }
+.cable{ width:50%; }
 video{ width:100%; }
 .unlocked img{ width:100%; }
 .remarks{ text-align: center; }

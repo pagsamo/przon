@@ -120,16 +120,17 @@ p{ font-size:1em; }
 .gift h1{ margin-top:0; }
 .gift h4, .gift h3{ margin:0; }
 .gift h3{ font-style: italic; font-weight: bold; font-size:150%; font-family: 'Roboto'}
-.gift{ padding-top:0; padding-bottom:4%; }
+.gift{ padding-top:0; padding-bottom:4%; text-align: center; }
 .gift>.row{ display: flex; justify-content: center; width:85%; margin:0 auto; }
 .gift>.row .six.columns{ display: flex; }
 .gift img, .gift h1, .gift h2{ align-self: center; }
 .gift h2{ margin-top:0; margin-bottom: 0; }
-.gift .freebie{ width:70%; background-color: white; border-radius: 50px; }
+.gift .freebie{ width:88%; background-color: white; border-radius: 50px; padding:4%; }
+.main{ padding-top:4%; }
 .gift-ico{ width:20%; }
 .gift-text{ width:35%; }
-.gift .freebie .six.columns{ padding:0 4%; }
-.gift>.row.remarks{ display: block; text-align: center; width:70%; margin:0 auto; margin-bottom:4%;}
+.gift .freebie .four.columns{ padding:0 4%; text-align: center;}
+.gift>.row.remarks{ display: block; text-align: center; width:50%; margin:0 auto; margin-bottom:4%;}
 
 .unlocked .five.columns,
 .warranty .five.columns
@@ -155,31 +156,26 @@ p{ font-size:1em; }
 .main .blue,.main-2 .blue{  background-color:#1378CC; }
 .main .teal, .main-2 .teal{  background-color:#4BB6E2; }
 .main .green, .main-2 .green{  background-color:#6A9B4A; }
-.main .red, .main-2 .red{  background-color:#BB2B2B; }
+.main .red, .main-2 .red{  background-color:#A80622; }
 .main .redwhite, .main-2 .redwhite{  background-color:#660516; }
 .main .redblack, .main-2 .redblack{  background-color:#951F36; }
 .main .purple, .main-2 .purple{ background-color: #9D75CB;  }
-.main .white, .main-2 .white{ background-color: #B8B8B8;  }
-.main .gold, .main-2 .gold{ background-color: #D1B795;  }
 .main .fivr{ display: flex; }
 .main .fivr .fifth{ width:20%; margin:0; height:auto; display: flex; flex-direction: column; justify-content: flex-end;}
 .main .fivr .fifth img{ align-self: center; width:70%; float: right;}
 
-.hd{ text-align: center; margin:0 auto; }
-.hd img{ width:70%; }
-.hd h1, .hd h2{ width:80%; padding:0 10%; }
+.bg .row{ background-image: url('https://metropolitanhomie.com/images/ip6custom-bg.png'); color: white; text-align: center; padding:6% 0;}
+.bg .row h1{ margin:0; padding:0 10%; }
+.bg .row h2{ padding:0 10%; }
 
-.disclaimer2{ background-color: black; color:white; text-align: center; padding:4% 0; position: relative; z-index: 20; margin-top:-10px; }
-.disclaimer2 .row{ width:80%; margin:0 auto; display: flex; justify-content: center; }
-.disclaimer2 p{ font-size:1.25em; margin:0; padding:2% 4%;}
-.disclaimer2 .noplug{ width:150px; }
-
+.disclaimer{ text-align: center; color: red; padding:1% 4%;}
+.disclaimer h3{ font-size:1.5em; font-family: "Roboto", arial, sans-serif; font-weight: bolder; }
 
 .add-info .row{ width:60%; margin:0 auto; padding:4% 0; text-align: center; }
 .add-info p{ font-size: 1.25em; font-family: "Roboto Light", arial, sans-serif; font-weight: lighter; }
 
 
-.unlocked{ position: relative; z-index: 30; background-color: #908E8E; color:white; }
+.unlocked{ position: relative; z-index: 30; background-color: #3C9CC4; color:white; }
 .unlocked>.row{ display: flex; justify-content: center; padding:0;}
 .unlocked .row .seven.columns{ align-self: center; padding:4% 0;}
 .unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
@@ -187,7 +183,7 @@ p{ font-size:1em; }
 .unlocked .row .five.columns img{ align-self: center;} 
 
 
-.warranty{ position: relative; z-index: 40; margin-top:-20px; background-color: #BB2B2B;  color: white;}
+.warranty{ position: relative; z-index: 40; margin-top:-20px; background-color: #39383A;  color: white;}
 .warranty>.row{ display: flex; justify-content: center; padding:4% 0; padding-bottom:0;  }
 .warranty .row .five.columns{ padding:0 4%; display: flex; flex-direction: column; justify-content: flex-end; }
 .warranty .row .five.columns img{ max-width: 100%; align-self: center;}
@@ -202,7 +198,7 @@ p{ font-size:1em; }
 .box .row{ padding:4% 0; }
 .box .row .six.columns{ padding:0 4%; }
 
-.package{ text-align: center; color: white; padding-top:4%; background-color: #252928; position: relative; z-index: 60}
+.package{ text-align: center; color: white; padding-top:4%; background-color: #7BBA4E; position: relative; z-index: 60}
 .package .row{ width:80%; margin:0 auto; }
 .centere{ display: flex; justify-content: center; }
 
@@ -235,27 +231,19 @@ p{ font-size:1em; }
 /*Main*/
 /************************************************************************************************/
 /************************************************************************************************/
-
+@media (min-width: 1025px) and (max-width: 1245px) {
+.gift .freebie{ display: block;  }
+.gift .freebie .four.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.tempered-glass{ width:40%; }
+.cable{ width:20%; }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
+}
 /************************************************************************************************/
 /************************************************************************************************/
 /*Tablets and Laptop*/
 /************************************************************************************************/
 /************************************************************************************************/
-@media (min-width: 1025px) and (max-width: 1245px) {
-.gift .freebie{ display: block;  }
-.gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
-.tempered-glass{ width:40%; }
-.cable{ width:20%; }
-.gift-ico{ width:40%; }
-.gift-text{ width:55%; }
-
-
-.hd{ text-align: center; margin:0 auto; }
-.hd img{ width:70%; }
-.hd h1, .hd h2{ width:80%; padding:0 10%; }
-}
-
-
 
 @media (min-width: 550px) and (max-width: 1024px) {
 /************************************************************************************************/
@@ -307,28 +295,21 @@ video{ display: block; margin:0 auto; width:80%; }
 .f-ii{ width:80%; margin:0 auto; }
 
 .gift .freebie{ display: block;  }
-.gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.gift .freebie .four.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
 .tempered-glass{ width:40%; }
 .cable{ width:20%; }
+.selfie{ width:20%; }
 .gift-ico{ width:40%; }
 .gift-text{ width:55%; }
 
 .main{ display: none; }
 .main-2{ display: block !important; }
 .main-2 .row{ display: flex;}
-.main-2 .row .six.columns{width:50%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
 .main-2 h2{ padding:0 10%;}
-.main-2 .six.columns img{ float: right; width:70%; }
+.main-2 .four.columns img{ float: right; width:70%; }
 
 .add-info .row{ width:80%; }
-
-.disclaimer2 p{ font-size:1.15em; margin:0; padding:2% 4%;}
-.disclaimer2 .noplug{ width:100px; }
-.disclaimer2 .bottom{ width:50%; }
-
-.hd{ text-align: center; margin:0 auto; }
-.hd img{ width:70%; }
-.hd h1, .hd h2{ width:80%; padding:0 10%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
@@ -418,20 +399,12 @@ video{ display: block; margin:0 auto; width:100%; }
 .main{ display: none; }
 .main-2{ display: block !important; }
 .main-2 .row{ display: flex;}
-.main-2 .row .six.columns{width:50%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
-.main-2 h2{ padding:0 10%;}
-.main-2 .six.columns img{ float: right; width:70%; }
+.main-2 .row .four.columns{width:33.333%; margin-left:0; display: flex; flex-direction: column; justify-content: flex-end;}
+.main-2 h2{ padding:0 10%; font-size:1em;}
+.main-2 .four.columns img{ float: right; width:70%; }
 
 .add-info .row{ width:80%; }
 .add-info p{ font-size: 1em; }
-
-.disclaimer2 p{ font-size:1em; margin:0; padding:2% 4%;}
-.disclaimer2 .noplug{ width:72px; }
-.disclaimer2 .bottom{ width:50%; }
-
-.hd{ text-align: center; margin:0 auto; }
-.hd img{ width:70%; }
-.hd h1, .hd h2{ width:80%; padding:0 10%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
