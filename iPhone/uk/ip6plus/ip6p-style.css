@@ -1,0 +1,255 @@
+html, body {
+  max-width:100vw;
+  overflow-y:scroll;
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: "Tahoma", Arial, sans-serif;
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.container {
+  position: relative;
+  width: 92%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/*Utilities*/
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+/*Utilities*/
+
+@media (min-width: 400px) {
+  .container {
+    width: 92%;
+    padding: 0; }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 92%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+  .one-half.column                { width: 48%; }
+  
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+video{ display: block; margin:0 auto; width:65%; }
+
+.section{ color: white; }
+.section .five.columns{ padding:4%; }
+.section.right .five.columns{ text-align: right; }
+.section.left .five.columns{ text-align: left; }
+.section.center{ text-align: center; }
+.section h1, h2{ margin:1% 0; }
+.caption{ width:50%; margin:0 auto;}
+.ico{ height:40%; }
+.liner{ background-color: white; width:50px; height:7px; }
+.right .liner{ float: right; }
+.left .liner{ float: left; }
+.main, .unlocked{ background-color: #131114; }
+.unlocked img{ width:70%; }
+.box, .warranty{ background-image: url('bg.png'); color: black;}
+.box .liner, .warranty .liner{ background-color: #131114; }
+.package{ color: black; }
+.package .liner{ background-color: black; }
+.center{ text-align: center; }
+.switch2{ display: none; }
+.ico-envi{ width:100%; }
+
+.specs{ padding:4% 0; padding-bottom:0;}
+.specs .twelve.columns h1, .specs2 .twelve.columns h1{ padding-left:4%; padding-bottom:3%; padding-top:3%; }
+.specs .six.columns, .specs2 .six.columns{ width:50%; margin-left:0; padding:0 4%; }
+.specs .liner{ background-color: black; margin-left:4% }
+.row.sector{ padding:2% 0; }
+.row .details{ width:85%; margin:0 auto;}
+.row .details .two.columns{ width:20%; margin-left:0; text-align: right;}
+.row .details .ten.columns{ width:80%; margin-left:0; padding:0 6%; }
+.row .details .ten.columns>p{ padding:0 4%; }
+.row .details p{ margin:1% 0; }
+.row.grey{ background-color:#F1F2F2; }
+.row.highlight{ background-color: #97C942 !important; display: flex; justify-content: center;}
+.row.highlight .three.columns{ width:18%; align-self: center; text-align: center; }
+.row.highlight .nine.columns{ width:82%; align-self: center; }
+.row.highlight img{ width:100px; }
+
+.main .row, .unlocked .row, .box .row, .warranty .row{ display: flex; justify-content: center;}
+.main .seven.columns, .unlocked .seven.columns, .box .seven.columns, .warranty .seven.columns{ align-self: center; }
+.main .five.columns, .unlocked .five.columns, .box .five.columns, .warranty .five.columns{ align-self: center; }
+.main h3{ margin:1% 0; }
+
+.package .row:nth-child(3){ width:65%; margin:0 auto; }
+.package-ii{ text-align: center; }
+.package-ii img{ height:180px; }
+
+
+.shippingAndTracking{ background-color: #131114; color: white;}
+.shippingAndTracking a{ color: white; }
+.shippingAndTracking img{ width:150px; }
+.shippingAndTracking .row{ width:85%; margin:0 auto; padding:4% 0;}
+.shippingAndTracking .six.columns{ width:50%; margin-left:0;}
+
+
+.gift{ background-color: #F1F2F2; padding-bottom:4%; padding-top:4%; }
+.gift .row>.row{ display: flex; justify-content: center; width:70%; margin:0 auto; }
+.gift .row>.row img{ align-self: center; }
+.gift img.free-ii:first-child{ width:20%; }
+.gift img.free-ii:last-child{ width:50%; }
+.gift .gift-items{ background-color: #FFFFFF; width:75%; margin:0 auto; display: flex; justify-content: center; border-radius: 50px;}
+.gift .gift-items .six.columns{ width:50%; margin-left:0; padding:0 4%; align-self: center; display: flex; justify-content:center; }
+.gift-items .six.columns p{ display: inline-block; color: black; align-self: center; font-size:150%; }
+.gift-items .six.columns .gift-i1{ width:55%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
+.remarks{ color: black; width:80%; margin:0 auto; padding-top:4%; text-align: center; width:70%; margin:0 auto; margin-bottom:4%;}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+@media (min-width: 811px) and (max-width: 1024px) {
+/************************************************************************************************/
+/************************************************************************************************/
+.main{ padding-top:10%; }
+.section .seven.columns{ width:60%; margin-left:0; }
+.section .five.columns{ width:40%; margin-left:0; }
+.ico{ width:30%; }
+.gift .gift-items{ display: block; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+video{ width:75%; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+@media (min-width: 550px) and (max-width: 810px){
+.main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
+.switch1{ display: none; }
+.switch2{ display: block !important;}
+.section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
+.liner{ display: none; }
+.specs .twelve.columns h1{ padding:4%; text-align: center; }
+.specs .six.columns{ width:100%; margin-left:0; }
+.row.envi .details .two.columns, .row.envi .details .ten.columns{ width:100%; margin-left:0; text-align: center; }
+.row.envi .details .ten.columns .highlight{ padding:0 5%; }
+.ico-envi{ max-width: 50% !important; }
+.row.sector.envi{ padding-bottom:4%; }
+.gift .gift-items{ display: block; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; }
+.gift-items .six.columns .gift-i1{ width:45%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:25%; align-self: center; }
+.main{ padding-top:10%; }
+video{ width:75%; }
+.unlocked img{ width:100%; }
+}
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+@media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+.main{ padding-top:10%; }
+.main .row, .unlocked .row, .box .row, .warranty .row, .package .row{ display: block;}
+.switch1{ display: none; }
+.switch2{ display: block !important;}
+.section.right .five.columns, .section.left .five.columns{ text-align: center; padding:0 20%;}
+.liner{ display: none; }
+.specs .twelve.columns h1{ padding:4%; text-align: center; }
+.specs .six.columns{ width:100%; margin-left:0; }
+.row.envi .details .two.columns, .row.envi .details .ten.columns{ width:100%; margin-left:0; text-align: center; }
+.row.envi .details .ten.columns .highlight{ padding:5%; }
+.ico-envi{ max-width: 50% !important; }
+.row.sector.envi{ padding-bottom:4%; }
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; text-align: center;}
+.shippingAndTracking .six.columns .liner{ margin:0 auto; float: none}
+.row .details .two.columns{ width:100%; margin-left:0; text-align: center;}
+.row .details .ten.columns{ width:100%; margin-left:0; text-align: center;}
+.row.sector{ padding:4% 0; }
+.gift .gift-items{ display: block; padding:4%; }
+.gift .gift-items .six.columns{ width:100%; margin-left:0; display: block; text-align: center;}
+.gift-items .six.columns .gift-i1{ width:75%; align-self: center; }
+.gift-items .six.columns .gift-i2{ width:35%; align-self: center; }
+.gift-items .six.columns p{ display: block; font-size:100%; }
+.gift img.free-ii:first-child{ width:30%; }
+.gift img.free-ii:last-child{ width:70%; }
+video{ width:100%; }
+.unlocked img{ width:100%; }
+.remarks{ text-align: center; }
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+

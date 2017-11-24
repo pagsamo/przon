@@ -1,0 +1,60 @@
+
+/************************************************************************************************/
+.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
+.f-ii{ width:60%; margin:0 auto; padding:4% 0; }
+.f-ii li{ font-size:150%; }
+.f-ii span{ font-style: italic; }
+.f-ii p{ padding-left:4%; color: #959191; }
+
+.shtr{ background-color: #00A79D; color:white; padding-bottom:4%; }
+.shtr .row{ width:92%; margin:0 auto;  }
+.shtr .six.columns{ padding:0 4%; }
+.shtr a{ color:white; }
+.shtr img{ width:200px; }
+
+.dfy{ padding:2% 4%; color: white;  }
+.dfy h1{ margin:0; }
+.dfy h3{ margin:0; margin-top:0.5%; font-weight: lighter; }
+.def1{ background-color: #2E3191; position: relative; z-index: 30;}
+.def2{ background-color: #1C75BC; position: relative; z-index: 50; }
+.def3{ background-color: #00A79D; position: relative; z-index: 70; }
+
+.hi1{ position: relative; z-index: 10; }
+.hi2{ position: relative; z-index: 20; margin-top:-5px; margin-bottom:-10px;}
+.hi3{ position: relative; z-index: 40; margin-bottom:-10px; }
+.hi4{ position: relative; z-index: 60; margin-bottom:-10px; }
+
+
+.model{ background-color: #2E3191; text-align: center; }
+.model h1{ margin:0; color: white; padding:2%; font-size:5em;}
+
+.free{ background-color: #F1F2F2;}
+.free h1{ font-size: 3em; }
+.free .row{ width:70%; margin:0 auto; padding:4% 0; display: flex;}
+.free h1{ color:#2E3191; }
+.free h1 span{ font-weight: lighter; }
+.free .row .columns{ align-self: center; }
+
+.main{ background-color: #F1F2F2;  }
+.main img{ max-width:70%; }
+
+
+.specs, .specs-2{ background-color:#DDF3FD; padding:4% 0;}
+.specs .row{ width:80%; margin:0 auto; }
+.specs img{ width:200px; align-self: center; }
+.specs .row .four.columns{ display: flex; flex-direction: column; justify-content: flex-end; }
+
+.pack{ padding:4% 0; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/

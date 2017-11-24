@@ -1,0 +1,256 @@
+html, body {
+  /*max-width:100vw;
+  overflow-y:scroll;*/
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.container{position:relative;width:92%;margin:0 auto;box-sizing:border-box}.column,.columns,.u-full-width{width:100%;box-sizing:border-box}.column,.columns{float:left}.u-max-full-width{max-width:100%;box-sizing:border-box}.u-pull-right{float:right}.u-pull-left{float:left}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}@media (min-width:400px){.container{width:92%;padding:0}}@media (min-width:1025px){.container{width:92%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}.five.columns{width:39.3333333333%}.six.columns{width:48%}.seven.columns{width:56.6666666667%}.eight.columns{width:65.3333333333%}.nine.columns{width:74%}.ten.columns{width:82.6666666667%}.eleven.columns{width:91.3333333333%}.twelve.columns{width:100%;margin-left:0}.one-third.column{width:30.6666666667%}.two-thirds.column{width:65.3333333333%}.one-half.column{width:48%}}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+h1{ font-family: "Roboto Thin", arial, sans-serif; font-size:300%;}
+h3{ font-family: "Roboto Thin", arial, sans-serif; font-size:150%; color: #5A5A5A; }
+.dash{ width:20px; height:10px; background-color: #848181; }
+.ico{ width:150px; }
+
+p{ font-size:120%; }
+.text-with{ display: flex; }
+.text-with .ico-text{ width:100px !important; margin:0 !important; align-self: center; }
+.text-with .text-ico{ align-self: center; }
+.text-with h1, .text-with h3{ margin:0; padding:0; }
+
+.banner{ background-color: #FB2F2F; color: white; }
+.banner .row{ display: flex; justify-content: center; padding:3% 4%;}
+.banner h1{ margin:0; align-self: center; margin:0 2%; font-family: "Roboto";}
+.banner span{ font-family:"Roboto Thin", arial, sans-serif; font-weight: lighter; }
+.banner img{ width:100px; align-self: center; }
+
+.temper{ text-align: center; }
+.temper h1{ color:#FB2F2F; font-family:"Roboto", arial, sans-serif; font-weight: bold; }
+.temper img{ max-width:30%; }
+
+.highlight{ text-align: center; margin-top:4%;}
+.highlight img{ max-width:40%; }
+.highlight .colors div{ width:75px; height:75px; border-radius: 50%; display: inline-block; margin:0 4px;}
+.gold{ background-color: #E2C09B; }
+.rose-gold{ background-color: #EBB7AA; }
+
+.feature{ background-color: #FFEBD5; padding:3% 0; margin-top:4%; color: #A89784; }
+.feature .row{ width:75%; margin:0 auto; }
+.feature .ico{ width:125px; }
+.feature .three.columns{ padding:0 2%; width:25%; margin-left:0; text-align: center; border-right: 1.5px solid #A49381; height:225px;}
+.feature .three.columns:last-child{ border-right:none; }
+.feature h3{ font-family: "Roboto Thin", arial, sans-serif; font-size:150%; }
+
+
+.unlocked{ background-color: #FFD8D3; position: relative; z-index: -3; }
+.unlocked .row{ display: flex;  width:80%; margin:0 auto; }
+.unlocked .six.columns{ align-self: center; padding:0 4%; }
+.unlocked .six.columns:first-child{ align-self: flex-end; margin-bottom:-10px; position: relative; z-index: -2; }
+.unlocked .six.columns:nth-child(2){ padding:10% 0; }
+.unlocked img{ margin-top:4%; }
+
+
+.camera-front{ position: relative; z-index: 500; margin-top:-10px; background-color: white; }
+.camera-front .row{ display: flex; width:80%; margin:0 auto;  }
+.camera-front .six.columns{ align-self: center; padding:0 4%;}
+.camera-front .six.columns:first-child{ align-self: flex-end; }
+.camera-front .six.columns:nth-child(2){ align-self: center; padding:8% 4%;}
+
+
+.touch{ background-color: #FFEBD5; margin-top:-10px; z-index: 1000; position: relative; }
+.touch .row{ display: flex; padding:0; padding-bottom:4%; width:80%; margin:0 auto; }
+.touch .six.columns{ width:50%; margin-left:0; }
+.touch .six.columns:nth-child(2){ padding:0 4%; align-self: center; display: flex; }
+.touch .six.columns:last-child{ text-align: right; align-self: center; }
+
+
+.ram{ padding:4% 0; }
+.ram .row:first-child{ text-align: center; }
+.ram .row:last-child{ text-align: center;  }
+.ram h1{ margin-bottom:0; }
+.ram p{ margin:0; color:#5A5A5A; }
+
+
+.os{ background-color: #ECECEC; padding:4% 0; text-align: center; }
+.os p{ width:50%; margin:0 auto; }
+.os .row:last-child{ margin-top:4%; }
+
+.package .row, .gift .row{ width:65%; margin:0 auto; }
+.package .row{ padding:4% 0; }
+.package img{ width:100%; }
+.gift{ padding-bottom:4%; }
+
+.specs>.row{ background-color: #ECECEC; text-align: center; }
+.specs>.row h1{ margin:0; padding:4%; text-align: center;} 
+.specs .s-ii{ width:92%; margin:0 auto; }
+.specs .two.columns h3{ background-color: #959191; color:white;  padding:2%; text-align: center;  }
+.specs .dia{ text-align: center; margin:4% 0; }
+
+.s-ii{ padding:4% 0; }
+.s-ii .ten.columns .row{ display: flex; }
+.s-ii h3{ color: black; margin:0; }
+.s-ii p{ margin:0; }
+.s-ii .ten.columns .row .columns, .s-ii .ten.columns .row .column{ align-self: center; }
+
+
+.faq>.row:first-child{ background-color: #ECECEC; text-align: center;   }
+.faq>.row:first-child h1{ margin:0; padding:4%; text-align: center; }
+
+.f-ii{ width:60%; margin:0 auto; padding:4% 0; }
+.f-ii li{ font-size:150%; }
+.f-ii span{ font-style: italic; }
+.f-ii p{ padding-left:4%; color: #959191; }
+
+
+.shtr{ background-color: #959191; padding:4% 0; color: white;}
+.shtr h3, .shtr a{ color: white; }
+.shtr .row{ width:80%; margin:0 auto; }
+.shtr .row .six.columns{ width:50%; margin-left:0; text-align: center;}
+
+.shtr .ico{ width:100px; }
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+@media (min-width: 550px) and (max-width: 1024px) {
+/************************************************************************************************/
+/************************************************************************************************/
+h1{ font-family: "Roboto Thin"; font-size:200%;}
+h3{ font-family: "Roboto Thin"; font-size:150%; color: #5A5A5A; }
+.dash{ width:20px; height:10px; background-color: #848181; }
+.ico{ width:150px; }
+.text-with{ justify-content: center; }
+
+.banner h1{ font-size:175%; text-align: right;}
+.banner h1:last-child{ text-align: left; }
+
+.highlight img{ max-width:70%; }
+.feature .row{ width:92%; }
+.feature .ico{ width:75px; }
+.feature h3{ font-size:115%; }
+
+.unlocked .row, .camera-front .row, .touch .row{ display: block;  }
+.unlocked .six.columns, .camera-front .six.columns, .touch .six.columns{ width:100%; text-align: center; }
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ padding-top:4%; }
+
+.touch{ margin-top:-5px; }
+.touch .six.columns:first-child{ margin-top:-5px; }
+
+.ram p{ width:80%; margin:0 auto; }
+.os p{ width:80%; }
+
+.package .row, .gift .row{ width:80%; margin:0 auto; text-align: center; }
+
+.specs .s-ii{ width:90%; margin:0 auto; }
+.s-ii .ten.columns .row{ margin-top:2%; }
+.s-ii .ten.columns .row .three.columns{ width:30%; margin-left:0; text-align: right; padding-right:20px; }
+.s-ii .ten.columns .row .one.column{ width:10%; margin-left:0; }
+.s-ii .ten.columns .row .eight.columns{ width:60%; margin-left:0; }
+.shtr .row .six.columns{ width:100%; margin-left:0; }
+.f-ii{ width:80%; margin:0 auto; }
+.temper img{ max-width:50%; }
+
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+@media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+h1{ font-family: "Roboto Thin"; font-size:200%;}
+h3{ font-family: "Roboto Thin"; font-size:100%; color: #5A5A5A; }
+p{ font-size:100%; }
+.dash{ width:20px; height:5px; background-color: #848181; }
+.ico{ width:150px; }
+.text-with{ justify-content: center; }
+.text-with .ico-text{ width:65px !important; }
+
+.banner .row{ display: block; text-align: center;}
+.banner .row img{ width:75px; }
+
+.highlight img{ max-width:70%; }
+.highlight .colors div{ width:50px; height:50px; border-radius: 50%; display: inline-block; margin:0 4px;}
+.feature .row{ width:92%; }
+.feature .row .three.columns{ width:50%; margin-left:0; border:0; height:150px; }
+.feature .ico{ width:50px; }
+.feature h3{ font-size:100%; }
+
+.unlocked .row, .camera-front .row, .touch .row{ display: block;  }
+.unlocked .six.columns, .camera-front .six.columns, .touch .six.columns{ width:100%; text-align: center; }
+
+.s1{ display: none; }
+.s2{ display: block !important; }
+
+.unlocked .row{ padding-top:4%; }
+.camera-front p{ margin-bottom:8%; }
+.touch{ margin-top:-5px; }
+.touch .text-with{ margin-top:8%; margin-bottom:8%; }
+.touch .six.columns:first-child{ margin-top:-5px; }
+
+.ram p{ width:80%; margin:0 auto; margin-bottom:8%; }
+.os p{ width:80%; }
+
+.package .row, .gift .row{ width:80%; margin:0 auto; text-align: center; }
+
+.specs{ padding-bottom:8%; }
+.specs .s-ii{ width:90%; margin:0 auto; }
+.specs .dia{ padding:8%; }
+.s-ii .ten.columns .row{ margin-top:2%; }
+.s-ii .ten.columns .row .three.columns{ width:40%; margin-left:0; text-align: right; padding-right:20px; }
+.s-ii .ten.columns .row .one.column{ width:10%; margin-left:0; }
+.s-ii .ten.columns .row .eight.columns{ width:60%; margin-left:0; }
+.faq{ padding-bottom:8%; text-align: center; }
+.shtr .row .six.columns{ width:100%; margin-left:0; }
+.f-ii{ width:80%; margin:0 auto; }
+.temper img{ max-width:50%; }
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+
