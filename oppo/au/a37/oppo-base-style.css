@@ -95,6 +95,8 @@ p{ font-size:120%; }
 
 .shtr .ico{ width:100px; }
 
+.warranty{ text-align: center; }
+.warranty .row{ padding:4%; }
 
 
 @media (min-width: 550px) and (max-width: 1024px) {
