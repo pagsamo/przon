@@ -100,15 +100,18 @@ video{ display: block; margin:0 auto; width:65%; padding-bottom:4%; }
 .dash{ width:20px; height:5px; background-color:#878887; }
 
 .dotter{ width:70%; float: left; }
-.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
-.dotter .grey{ background-color: #3B444B; }
+.dotter .dot-ii{ height:50px; width:50px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .gold{ background-color: #EDDECA; }
 .dotter .silver{ background-color: #DDE0DF; }
+.dotter .black{ background-color: #95989B; }
+
+
+.main .five.columns{ padding:0 2%; }
 
 .main .five.columns,
 .unlocked .five.columns,
 .warranty .five.columns
 { width:40%; margin-left:0; }
-.unlocked .five.columns{ text-align: right; }
 
 .main .seven.columns,
 .unlocked .seven.columns,
@@ -124,26 +127,36 @@ video{ display: block; margin:0 auto; width:65%; padding-bottom:4%; }
 .with-i{ display: flex; justify-content: flex-start; }
 .with-i img, .with-i h1{ display: inline-block; align-self: center; }
 
-.featured{ background-color: #BBBDBC; }
-.featured .row{ display: flex; justify-content: center; }
-.featured .four.columns{ text-align: center; width:40%; margin-left:0;}
-.featured .eight.columns{ text-align: center; width:60%; margin-left:0; display: flex; justify-content: center;}
-.featured .eight.columns div{ align-self: center; }
+.featured{ background-color: #EDDECA; color: #000000; text-align: center; }
+.featured .row{ padding-top:2%; display: flex;}
+.featured .five.columns{ width:45%; }
+.featured .seven.columns{ width:55%; }
+.featured .five.columns{ text-align: left; }
+.featured .five.columns img{ width:65%; }
+.featured .seven.columns{ display: flex; justify-content: center; }
+.featured .seven.columns img{ width:150px; }
+.featured .seven.columns div{ align-self: center; }
+
+
 .main{ margin-bottom:4%; color: #444444; }
 .main>.row{ display: flex; justify-content: center; }
 .main .five.columns{ align-self: center; }
 .main .six.columns:last-child{ padding:0 4%; }
 
-.unlocked{ background-color: #3B444B; }
-.unlocked>.row{ display: flex; justify-content: center; color: white;}
+.unlocked{ background-color: #030406; position: relative; margin-top:-10px; z-index: 30; }
+.unlocked>.row{ display: flex; justify-content: center; color: white; }
 .unlocked .row .seven.columns{ align-self: center;}
 .unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
+.unlocked .five.columns { text-align: center; padding-bottom:4%; }
 
-.warranty>.row{ display: flex; justify-content: center; padding:4% 0; }
+.warranty{ position: relative; margin-top:-10px; z-index: 100; background-color: #9A999D; color: white; }
+.warranty>.row{ display: flex; justify-content: center; padding-top:4%; }
 .warranty .row .seven.columns{ align-self: center;}
 .warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
+.warranty .five.columns img{ width:70%; }
 
 
+.box>.row{ padding:4% 0; }
 .box>.row, .package>.row{ display: flex; justify-content: center; }
 .box>.row .six.columns,.package>.row .six.columns{ align-self: center; }
 .box .six.columns .row,.package .six.columns .row,{ width:50%; margin:0 auto; }
@@ -211,10 +224,13 @@ video{ display: block; margin:0 auto; width:80%; }
 { width:100%; margin-left:0; }
 
 .unlocked .five.columns img{ width:65%; }
-
+.unlocked .five.columns{ text-align: right; }
+.unlocked .seven.columns{ padding-bottom:4%; }
 .unlocked .seven.columns,
 .warranty .seven.columns
 { width:100%; margin-left:0; padding-top:4%; }
+.warranty .five.columns{ text-align: center; }
+.warranty .five.columns img{ width:50%; }
 
 .s1, .s1-ii{ display: none; }
 .s2{ display: block !important; text-align: left; }
@@ -304,7 +320,6 @@ video{ display: block; margin:0 auto; width:100%; }
 .shippingAndTracking img{ width:100px; }
 
 
-.unlocked{ padding-top:8%; }
 
 .gift>.row{ display: flex; }
 .gift .freebie{ display: block; width:85%; padding:5% 0;  }
@@ -313,8 +328,16 @@ video{ display: block; margin:0 auto; width:100%; }
 .gift>.row .six.columns{ display: block; padding:0 10%; }
 .tempered-glass{ width:70%; }
 .cable{ width:50%; }
-.featured .four.columns img{ width:70%; }
-.featured .eight.columns img{ width:100px; }
+
+.unlocked .five.columns img{ width:65%; }
+.unlocked .five.columns{ text-align: right; }
+.unlocked .seven.columns{ padding-bottom:4%; }
+.warranty .five.columns{ text-align: center; }
+.warranty .five.columns img{ width:50%; }
+
+.featured .seven.columns img{ width:50px; }
+.featured .seven.columns h2{ margin:0; }
+.featured .five.columns img{ width:80%; }
 /************************************************************************************************/
 /************************************************************************************************/
 }
