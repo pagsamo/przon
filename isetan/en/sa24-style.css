@@ -89,7 +89,7 @@ img[src*="spacer.jpg"] {display: none;}
 .specs .wrapper{ color: black; }
 .specs .mainSpecs .four.columns{ padding:3% 5%; }
 
-.other-images{ background-color: white; }
+.other-images{ background-color: white; text-align: center; }
 
 
 .shippingAndTracking{ background-color:#E8EAEC; padding-top: 3%; padding-bottom: 3%; text-align: center;}
