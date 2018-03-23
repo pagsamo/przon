@@ -1,0 +1,326 @@
+html, body {
+   /*max-width:100vw;
+  overflow-y:scroll;*/
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: "Roboto Light", Arial, sans-serif;
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.container {
+  position: relative;
+  width: 92%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/*Utilities*/
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+/*Utilities*/
+
+@media (min-width: 400px) {
+  .container {
+    width: 92%;
+    padding: 0; }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 92%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+  .one-half.column                { width: 48%; }
+  
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+video{ display: block; margin:0 auto; width:65%; padding-bottom:4%; }
+
+.wrapper{ margin-top:0; }
+.ico{ width:100px; }
+.ico.right{ margin-left:10px; }
+.ico.left{ margin-right:10px; }
+.brown{ background-color: #DDCBBA; }
+.grey{ background-color: #EEEEEE; color: #666666;}
+.c-gray{ color: #666666; }
+.content-ii{ text-align: center; }
+.dash{ width:20px; height:5px; background-color:#878887; }
+
+.dotter{ width:70%; float: left; }
+.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .grey{ background-color: #3B444B; }
+.dotter .silver{ background-color: #DDE0DF; }
+
+.main .five.columns,
+.unlocked .five.columns,
+.warranty .five.columns
+{ width:40%; margin-left:0; }
+.unlocked .five.columns{ text-align: right; }
+
+.main .seven.columns,
+.unlocked .seven.columns,
+.warranty .seven.columns
+{ width:60%; margin-left:0; }
+
+.box .six.columns,
+.package .six.columns,
+.gift .six.columns
+{ width:50%; margin-left:0; padding:0 4%; }
+
+
+.with-i{ display: flex; justify-content: flex-start; }
+.with-i img, .with-i h1{ display: inline-block; align-self: center; }
+
+.featured{ background-color: #BBBDBC; }
+.featured .row{ display: flex; justify-content: center; }
+.featured .four.columns{ text-align: center; width:40%; margin-left:0;}
+.featured .eight.columns{ text-align: center; width:60%; margin-left:0; display: flex; justify-content: center;}
+.featured .eight.columns div{ align-self: center; }
+.main{ margin-bottom:4%; color: #444444; }
+.main>.row{ display: flex; justify-content: center; }
+.main .five.columns{ align-self: center; }
+.main .six.columns:last-child{ padding:0 4%; }
+
+.unlocked{ background-color: #3B444B; }
+.unlocked>.row{ display: flex; justify-content: center; color: white;}
+.unlocked .row .seven.columns{ align-self: center;}
+.unlocked .row .seven.columns>.row{ width:70%; margin:0 auto; }
+
+.warranty>.row{ display: flex; justify-content: center; padding:4% 0; }
+.warranty .row .seven.columns{ align-self: center;}
+.warranty .row .seven.columns>.row{ width:70%; margin:0 auto; }
+
+
+.box>.row, .package>.row{ display: flex; justify-content: center; }
+.box>.row .six.columns,.package>.row .six.columns{ align-self: center; }
+.box .six.columns .row,.package .six.columns .row,{ width:50%; margin:0 auto; }
+
+.specs>.row h1{ text-align: center; padding-top:4%; color: black;}
+.spec-ii .ii{ width:70%; margin:0 auto; padding:2% 0; }
+.spec-ii .five.columns{ text-align: right; }
+.specs .dia{ text-align: center; padding:8% 0; }
+
+.spec-ii .five.columns h2{ border-radius: 15px; display: inline-block; padding:2% 3%; background-color: #aaa; color: white;}
+.spec-ii .seven.columns ul li{ color: black; }
+
+.unlocked h1, .warranty h1, .box h1, .package h1, .gift h1{ font-weight:lighter; }
+.unlocked h4, .warranty h4, .box h4, .package h4, .gift h4{ font-weight:lighter; }
+.unlocked h1, .warranty h1, .box h1, .package h1, .gift h1{ font-weight:lighter; }
+.unlocked h4, .warranty h4, .box h4, .package h4, .gift h4{ font-weight:lighter; }
+.gift h4, .gift h3{ margin:0; }
+.gift h3{ font-style: italic; font-weight: bold; font-size:150%; font-family: 'Roboto'}
+
+.shippingAndTracking{ padding:2% 0; background-color: #111111; color: white; text-align: center;}
+.shippingAndTracking .six.columns{ width:50%; margin-left:0; padding:0 4%; }
+
+
+
+.gift{ padding-top:0; padding-bottom:4%; }
+.gift>.row{ display: flex; justify-content: center; width:85%; margin:0 auto; }
+.gift>.row .six.columns{ display: flex; }
+.gift img, .gift h1, .gift h2{ align-self: center; }
+.gift h2{ margin-top:0; margin-bottom: 0; }
+.gift .freebie{ width:70%; background-color: white; border-radius: 50px; }
+.main{ padding-top:4%; }
+.gift-ico{ width:20%; }
+.gift-text{ width:35%; }
+.gift .freebie .six.columns{ padding:0 4%; }
+.gift>.row.remarks{ display: block; text-align: center; width:70%; margin:0 auto; margin-bottom:4%;}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Main*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+
+@media (min-width: 550px) and (max-width: 1024px) {
+/************************************************************************************************/
+/************************************************************************************************/
+video{ display: block; margin:0 auto; width:80%; }
+
+.dotter{ width:100%; float: left; }
+.dotter .dot-ii{ width:50px; height:50px; }
+
+
+.with-i{ justify-content:center; }
+
+.unlocked>.row, .warranty>.row{ display: block; text-align: center;}
+.unlocked .five.columns img{ margin-top:0;}
+
+
+.unlocked .five.columns,
+.warranty .five.columns
+{ width:100%; margin-left:0; }
+
+.unlocked .five.columns img{ width:65%; }
+
+.unlocked .seven.columns,
+.warranty .seven.columns
+{ width:100%; margin-left:0; padding-top:4%; }
+
+.s1, .s1-ii{ display: none; }
+.s2{ display: block !important; text-align: left; }
+.s2 img{ width:65%; }
+.s2-ii{ display: block !important; }
+
+.box{ padding-top:4%; }
+.box>.row, .package>.row{ display: block; text-align: center; }
+.box .six.columns,.package .six.columns{ width:100%; }
+.box .six.columns .row,.package .six.columns .row{ width:70%; margin:0 auto; }
+.spec-ii .five.columns{ text-align: left; }
+.spec-ii .ii{ width:50%; margin: 0 auto; }
+.spec-ii .ii li{ padding:0.5% 0; }
+
+
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; }
+.shippingAndTracking .six.columns h1{ padding-left:4%; }
+.shippingAndTracking .six.columns .twelve.columns{ width:50%; margin-left:0; padding:0 4%; }
+.shippingAndTracking img{ width:100px; }
+
+.gift .freebie{ display: block;  }
+.gift .freebie .six.columns{ width:100%; margin-left:0; text-align: center; display: flex; justify-content: center;}
+.tempered-glass{ width:40%; }
+.cable{ width:20%; }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Tablets and Laptop*/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+@media (max-width: 549px) {
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+/************************************************************************************************/
+video{ display: block; margin:0 auto; width:100%; }
+.dotter{ width:100%; float: left; }
+.dotter .dot-ii{ width:50px; height:50px; }
+
+
+.with-i{ justify-content:center; }
+
+.main>.row, .unlocked>.row, .warranty>.row{ display: block; text-align: center;}
+.unlocked .five.columns img{ margin-top:0;}
+
+
+.main .five.columns,
+.main .seven.columns,
+.unlocked .five.columns,
+.warranty .five.columns
+{ width:100%; margin-left:0; }
+
+.unlocked .five.columns img{ width:65%; }
+
+.unlocked .seven.columns,
+.warranty .seven.columns
+{ width:100%; margin-left:0; padding-top:4%; }
+
+.s1, .s1-ii{ display: none; }
+.s2{ display: block !important; text-align: left; }
+.s2 img{ width:65%; }
+.s2-ii{ display: block !important; }
+
+.box{ padding-top:4%; }
+.box>.row, .package>.row, .gift>.row{ display: block; text-align: center; }
+.box .six.columns,.package .six.columns,.gift .six.columns{ width:100%; }
+.box .six.columns .row,.package .six.columns .row,.gift .six.columns .row{ width:70%; margin:0 auto; }
+.spec-ii .five.columns{ text-align: center; }
+.spec-ii .ii{ width:80%; margin: 0 auto; }
+
+
+.spec-ii .ii li{ padding:3% 0; line-height: 150%; }
+
+
+
+.shippingAndTracking { text-align: center; }
+.shippingAndTracking .six.columns{ width:100%; margin-left:0; padding:0 10%; }
+.shippingAndTracking img{ width:100px; }
+
+
+.unlocked{ padding-top:8%; }
+
+.gift>.row{ display: flex; }
+.gift .freebie{ display: block; width:85%; padding:5% 0;  }
+.gift-ico{ width:40%; }
+.gift-text{ width:55%; }
+.gift>.row .six.columns{ display: block; padding:0 10%; }
+.tempered-glass{ width:70%; }
+.cable{ width:50%; }
+.featured .four.columns img{ width:70%; }
+.featured .eight.columns img{ width:100px; }
+/************************************************************************************************/
+/************************************************************************************************/
+}
+/************************************************************************************************/
+/************************************************************************************************/
+/*Mobile*/
+/************************************************************************************************/
+/************************************************************************************************/
+
