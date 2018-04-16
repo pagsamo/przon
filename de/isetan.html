@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Isetan</title>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1;" />
+    <link rel="stylesheet" href="sa24-style.css">
+</head>
+
+<body>
+    <img class="twelve columns u-full-width" src="https://watchchamberz.com/images/munich-isetan-banner.jpg" alt="banner">
+
+    <div class="main">
+        <div class="row">
+            <div class="wrapper">
+                <h3>#ItemCategory.Description# #ItemAttribute.StoreCat# #Item.ItemCode#</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <img alt="-4" class="seven columns u-full-width" src="#Images#" />
+            <div class="five columns">
+                <img alt="Box Image" class="u-max-full-width" src="#BoxImage#" />
+                <p>
+                    <span style="font-weight: bolder;">#ItemAttribute.Warranty#</span>
+                    <br /> #ItemAttribute.Manual#
+                    <br /> #ItemAttribute.Box#
+                </p>
+
+                <p>*Brand boxes may differ depending on the region.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="specs">
+        <div class="row">
+            <div class="wrapper">
+                <h1>Technische Daten</h1>
+            </div>
+        </div>
+
+        <div class="row mainSpecs">
+            <div class="four columns">
+                <p>
+                    <span class="label">Geschlecht: </span>#ItemAttribute.Gender#</p>
+
+                <p>
+                    <span class="label">Stil: </span>#ItemAttribute.Type#</p>
+
+                <p>
+                    <span class="label">Anzeigen: </span>#ItemAttribute.Display#</p>
+
+                <p>
+                    <span class="label">Zifferblattfarbe: </span>#ItemAttribute.DialColor# Dial</p>
+
+                <p>
+                    <span class="label">Armbandfarbe: </span>#ItemAttribute.Strapcolor#</p>
+
+                <p>
+                    <span class="label">Schlie&szlig;e: </span>#ItemAttribute.Clasp#</p>
+
+                <p>
+                    <span class="label">Kasten: </span>#ItemAttribute.Case#</p>
+
+                <p>
+                    <span class="label">Armband: </span>#ItemAttribute.Bracelet#</p>
+            </div>
+
+            <div class="four columns">
+                <p>
+                    <span class="label">Fallboden: </span>#ItemAttribute.Caseback#</p>
+
+                <p>
+                    <span class="label">Hand: </span>#ItemAttribute.Hand#</p>
+
+                <p>
+                    <span class="label">Zifferblattglas: </span>#ItemAttribute.Glass#</p>
+
+                <p>
+                    <span class="label">Geh&auml;usedurchmesser: </span>#ItemAttribute.CaseDia#</p>
+
+                <p>
+                    <span class="label">Gesicht H&ouml;he: </span>#ItemAttribute.Face# mm</p>
+
+                <p>
+                    <span class="label">Lug Breite: </span>#ItemAttribute.Lug# mm</p>
+
+                <p>
+                    <span class="label">Maximale L&auml;nge: </span>#ItemAttribute.Length# mm Circumference</p>
+            </div>
+
+            <div class="four columns">
+                <p>
+                    <span class="label">Wasserdicht: </span>#ItemAttribute.WaterResistant#</p>
+
+                <p>
+                    <span class="label">Bewegung: </span>#ItemAttribute.Movement#</p>
+
+                <p>
+                    <span class="label">Bewegungsland: </span>#ItemAttribute.MovCountry#</p>
+
+                <p>
+                    <span class="label">Gewicht: </span>#Item.Weight#g</p>
+
+                <p>
+                    <span class="label">Funktion: </span>#ItemAttribute.Function#</p>
+            </div>
+        </div>
+
+        <div class="row specsLaptop" style="display: none">
+            <div class="six columns">
+                <p>
+                    <span class="label">Geschlecht: </span>#ItemAttribute.Gender#</p>
+
+                <p>
+                    <span class="label">Stil: </span>#ItemAttribute.Type#</p>
+
+                <p>
+                    <span class="label">Anzeigen: </span>#ItemAttribute.Display#</p>
+
+                <p>
+                    <span class="label">Zifferblattfarbe: </span>#ItemAttribute.DialColor# Dial</p>
+
+                <p>
+                    <span class="label">Armbandfarbe: </span>#ItemAttribute.Strapcolor#</p>
+
+                <p>
+                    <span class="label">Schlie&szlig;e: </span>#ItemAttribute.Clasp#</p>
+
+                <p>
+                    <span class="label">Kasten: </span>#ItemAttribute.Case#</p>
+
+                <p>
+                    <span class="label">Armband: </span>#ItemAttribute.Bracelet#</p>
+
+                <p>
+                    <span class="label">Fallboden: </span>#ItemAttribute.Caseback#</p>
+
+                <p>
+                    <span class="label">Hand: </span>#ItemAttribute.Hand#</p>
+
+                <p>
+                    <span class="label">Zifferblattglas: </span>#ItemAttribute.Glass#</p>
+            </div>
+
+            <div class="six columns">
+                <p>
+                    <span class="label">Geh&auml;usedurchmesser: </span>#ItemAttribute.CaseDia#</p>
+
+                <p>
+                    <span class="label">Gesicht H&ouml;he: </span>#ItemAttribute.Face# mm</p>
+
+                <p>
+                    <span class="label">Lug Breite: </span>#ItemAttribute.Lug# mm</p>
+
+                <p>
+                    <span class="label">Maximale L&auml;nge: </span>#ItemAttribute.Length# mm Circumference</p>
+
+                <p>
+                    <span class="label">Wasserdicht: </span>#ItemAttribute.WaterResistant#</p>
+
+                <p>
+                    <span class="label">Bewegung: </span>#ItemAttribute.Movement#</p>
+
+                <p>
+                    <span class="label">Bewegungsland: </span>#ItemAttribute.MovCountry#</p>
+
+                <p>
+                    <span class="label">Gewicht: </span>#Item.Weight#g</p>
+
+                <p>
+                    <span class="label">Funktion: </span>#ItemAttribute.Function#</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="other-images">
+        <div class="row">
+            <img alt="b3" class="u-max-full-width" src="#Images3#" />
+            <img alt="b4" class="u-max-full-width" src="#Images4#" />
+            <img alt="b5" class="u-max-full-width" src="#Images2#" />
+        </div>
+    </div>
+
+    <div class="shippingAndTracking">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="row shipping">
+                    <div class="wrapper">
+                        <h1>Verschiffen und Politik</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <h2>Versand</h2>
+
+                        <div>
+                            <p>Pack &amp; Ship heraus innerhalb 1-3 Arbeitstage.</p>
+
+                            <p>Ship Von &amp; Return-Adresse:</p>
+
+                            <p>Munic-Isetan (SE007)</p>
+
+                            <p>c/o Continental Global Service</p>
+
+                            <p>Tingting Z&ouml;llner, Sokelantstr. 8, Tor 5
+                                <br /> Hannover, 30165, Germany</p>
+
+                            <p>Lieferzeit: ca. 8 bis 15 Arbeitstage f&uuml;r Anlieferung (keine kundenspezifische Verz&ouml;gerung
+                                in Ihrem Land zur Verf&uuml;gung gestellt). Die Lieferung erfolgt durch Ihre lokale Post
+                                getan und Tracking-Informationen sind abh&auml;ngig von Ihrem Land Post.</p>
+
+                            <p>
+                                <br /> Wir versenden nur zur best&auml;tigten Verschiffen-Adresse.</p>
+                        </div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <h2>Zollerkl&auml;rung &amp; Steuern</h2>
+
+                        <div>
+                            <p>Versand innerhalb Europas - Z&ouml;lle und Steuer bezahlt.</p>
+                        </div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <h2>Zahlung &amp; Versand Adresse</h2>
+
+                        <div>
+                            <p>Nur akzeptieren PayPal und Kreditkarten-Zahlung durch PayPal. Versenden nur zur best&auml;tigten
+                                Lieferadresse.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <h2>Hassle Free R&uuml;ckgaberecht</h2>
+
+                        <div>
+                            <p>R&uuml;ckflug innerhalb von 30 Tagen in seinem urspr&uuml;nglichen Zustand ist.</p>
+                        </div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <h2>Kontaktiere uns</h2>
+
+                        <div>
+                            <p>Alle Verk&auml;ufe sind abschlie&szlig;end.
+                                <br /> Wir haben ein paar L&auml;ndern wegen Lieferzeit blockieren. Schreiben Sie uns, wenn Sie
+                                nicht kaufen Sie hier.
+                                <br /> Bitte kontaktieren Sie uns, wenn Sie &auml;ndern m&uuml;ssenoder ziehen Sie Ihren Auftrag
+                                oder f&uuml;r Best Offer.</p>
+                        </div>
+                    </div>
+
+                    <div class="twelve columns">
+                        <h2>R&uuml;cknahmebedingungen</h2>
+
+                        <div>
+                            <p>Verbraucher haben das Recht, den Artikel unter den angegebenen Bedingungen zur&uuml;ckzugeben.,
+                                K&auml;ufer tr&auml;gt die unmittelbaren Kosten der R&uuml;cksendung der Waren, einen Monat</p>
+                            &nbsp;
+
+                            <h3>Sie tragen die unmittelbaren Kosten der R&uuml;cksendung der Waren.</h3>
+
+                            <p>**Alle Uhren m&uuml;ssen in neuen und ungetragenen Zustand zur&uuml;ckgebracht werden.</p>
+
+                            <p>Sie m&uuml;ssen f&uuml;r einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust
+                                auf einen zur Pr&uuml;fung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren
+                                nicht notwendigen Umgang mit ihnen zur&uuml;ckzuf&uuml;hren ist.</p>
+
+                            <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten
+                                haben, einschlie&szlig;lich der Lieferkosten (mit Ausnahme der zus&auml;tzlichen Kosten,
+                                die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene,
+                                g&uuml;nstigste Standardlieferung gew&auml;hlt haben), unverz&uuml;glich und sp&auml;testens
+                                binnen einen Monat ab dem Tag zur&uuml;ckzuzahlen, an dem die Mitteilung &uuml;ber Ihren
+                                Widerruf dieses Vertrags bei uns eingegangen ist. F&uuml;r diese R&uuml;ckzahlung verwenden
+                                wir dasselbe Zahlungsmittel, das Sie bei der urspr&uuml;nglichen Transaktion eingesetzt haben,
+                                es sei denn, mit Ihnen wurde ausdr&uuml;cklich etwas anderes vereinbart; in keinem Fall werden
+                                Ihnen wegen dieser R&uuml;ckzahlung Entgelte berechnet.</p>
+
+                            <p>Wir k&ouml;nnen die R&uuml;ckzahlung verweigern, bis wir die Waren wieder zur&uuml;ckerhalten
+                                haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zur&uuml;ckgesandt haben,
+                                je nachdem, welches der fr&uuml;here Zeitpunkt ist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="tipAndWater">
+        <div class="row">
+            <img alt="Water Resistance Chart" class="eight columns u-full-width" src="https://watchchamberz.com/images/sa24-waterresistancechart.png"
+            />
+            <div class="four columns">
+                <div class="row">
+                    <div class="wrapper">
+                        <h1>Tipps #1</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>Tipps f&uuml;r automatische Uhren</h2>
+
+                    <p>
+                        <span style="font-weight: bolder;">Alle automatischen Uhr wird gewinnen oder Zeit verlieren</span>
+                        <br />
+                        <br /> Alle automatischen Uhr wird gewinnen oder verlieren Zeit, wenn sie neu sind oder nicht am Handgelenk
+                        die ganze Zeit getragen werden. Die Uhr wird sich nach einer paar Monate auf ein vern&uuml;nftigeres
+                        Genauigkeitsniveau beruhigen. Wenn deine Uhr verliert oder ein paar Sekunden pro Tag gewinnt, kannst
+                        du es nachts abnehmen und:</p>
+
+                    <p>-Lay die Uhr flach mit dem Zifferblatt oberste (um ein paar Sekunden zu gewinnen, wenn es langsam ist).</p>
+
+                    <p>-Lay die Uhr vertikal mit dem Wickelknopf nach unten. (Um ein paar Sekunden zu verlieren, wenn es schnell
+                        ist).
+                    </p>
+
+                    <p>-Lay die Uhr vertikal mit dem Wickelknopf oben. (Um mehr Sekunden zu verlieren, wenn es zu schnell ist).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tipAndWatch">
+        <div class="row">
+            <div class="four columns">
+                <div class="row">
+                    <div class="wrapper">
+                        <h1>Tipps #2</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h2>Tipps f&uuml;r &Ouml;ko-Laufwerk und Solaruhren</h2>
+
+                    <p>
+                        <span style="font-weight: bolder;">Muss erstmal aufgeladen werden</span>
+                        <br />
+                        <br /> Sie m&uuml;ssen die Batterie entsprechend der manuellen Anleitung zuerst aufladen. Bitte platziere
+                        die Uhr unter der Sonne oder Lichtquelle f&uuml;r 5-6 Stunden, um sie aufzuladen. Da alle diese Uhren
+                        neu sind, brauchen wir dich, um es zu laden und die H&auml;nde zu drehen und das Datum der Uhr 10
+                        Runden, um den Mechanismus im Inneren zu l&ouml;sen.</p>
+                </div>
+            </div>
+            <img alt="Watch Measurement" class="eight columns u-full" src="https://watchchamberz.com/images/sa24-watchmeasurement.png"
+            />
+        </div>
+    </div>
+
+    <div class="withdrawal">
+        <div class="row">
+            <h1>Verbrauchern steht das nachfolgende Widerrufsrecht zu:</h1>
+            <h2>Widerrufsrecht</h2>
+            <p>Sie haben das Recht, binnen eines Monats ohne Angabe von Gründen diesen Vertrag zu widerrufen.</p>
+            <p>Die Widerrufsfrist beträgt einen Monat ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht
+                der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.</p>
+            <br>
+            <p>
+                Um Ihr Widerrufsrecht auszuüben, müssen Sie uns
+                <span style="font-weight: bold; color: red">(Munich-Isetan, Munich-Isetan SE007 Tingting Zollner Sokelantstr. 8, Tor 5 Hannover 30165 Germany, 84233379,
+                    WC-DE@WatchChamberz.com)
+                </span> mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief, Telefax oder E-Mail)
+                über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.
+            </p>
+            <p>
+
+                <h2>Folgen des Widerrufs</h2>
+                <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich
+                    der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere
+                    Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich
+                    und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf
+                    dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel,
+                    das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich
+                    etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.</p>
+
+                <p>Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis
+                    erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.</p>
+
+                <p>Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie
+                    uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist
+                    ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden.</p>
+
+                <p>Sie tragen die unmittelbaren Kosten der Rücksendung der Waren es sei denn Artikel ist defect, Wir tragen
+                    die Kosten der Rücksendung der Waren.</p>
+
+                <p>Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur
+                    Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen
+                    zurückzuführen ist.
+                </p>
+
+                <h2>Muster-Widerrufsformular</h2>
+
+                <p>(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)</p>
+                <ul>
+                    <li>
+                        <p>An
+                            <span style="font-weight: bold; color: red">[Munich-Isetan, Munich-Isetan SE007 Tingting Zollner Sokelantstr. 8, Tor 5 Hannover 30165 Germany, 84233379, WC-DE@WatchChamberz.com]:</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf der folgenden
+                            Waren (*)/die Erbringung der folgenden Dienstleistung (*)</p>
+                    </li>
+                    <li>
+                        <p>Bestellt am (*)/erhalten am (*)</p>
+                    </li>
+                    <li>
+                        <p>Name des/der Verbraucher(s)</p>
+                    </li>
+                    <li>
+                        <p>Anschrift des/der Verbraucher(s)</p>
+                    </li>
+                    <li>
+                        <p>Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier)</p>
+                    </li>
+                    <li>
+                        <p>Datum</p>
+                    </li>
+                </ul>
+                <p>(*) Unzutreffendes streichen</p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
