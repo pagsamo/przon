@@ -1,0 +1,257 @@
+html, body {
+  /* max-width:100vw;
+  overflow-y:scroll; */
+
+  width:100%;
+
+  height:100%;
+
+  padding:0;
+
+  margin:0;
+
+  font-family: "Tahoma", Arial, sans-serif;
+
+}
+
+img[src*="spacer.jpg"] {display: none;}
+
+
+.img-responsive{ 
+display: inline-block;
+max-width: 100%!important;
+height: auto;
+border-width: 0;
+
+}
+
+
+.container {
+
+  position: relative;
+
+  width: 88%;
+
+  margin: 0 auto;
+
+  box-sizing: border-box; }
+
+.column,
+
+.columns {
+
+  width: 100%;
+
+  float: left;
+
+  box-sizing: border-box; }
+
+
+
+/*Utilities*/
+
+.u-full-width {
+
+  width: 100%;
+
+  box-sizing: border-box; }
+
+.u-max-full-width {
+
+  max-width: 100%;
+
+  box-sizing: border-box; }
+
+.u-pull-right {
+
+  float: right; }
+
+.u-pull-left {
+
+  float: left; }
+
+
+
+
+
+.container:after,
+
+.row:after,
+
+.u-cf {
+
+  content: "";
+
+  display: table;
+
+  clear: both; }
+
+/*Utilities*/
+
+
+
+@media (min-width: 400px) {
+
+  .container {
+
+    width: 92%;
+
+    padding: 0; }
+
+}
+
+
+
+@media (min-width: 1025px) {
+
+  .container {
+
+    width: 92%; }
+
+  .column,
+
+  .columns {
+
+    margin-left: 4%; }
+
+  .column:first-child,
+
+  .columns:first-child {
+
+    margin-left: 0; }
+
+
+
+  .one.column,
+
+  .one.columns                    { width: 4.66666666667%; }
+
+  .two.columns                    { width: 13.3333333333%; }
+
+  .three.columns                  { width: 22%;            }
+
+  .four.columns                   { width: 30.6666666667%; }
+
+  .five.columns                   { width: 39.3333333333%; }
+
+  .six.columns                    { width: 48%;            }
+
+  .seven.columns                  { width: 56.6666666667%; }
+
+  .eight.columns                  { width: 65.3333333333%; }
+
+  .nine.columns                   { width: 74.0%;          }
+
+  .ten.columns                    { width: 82.6666666667%; }
+
+  .eleven.columns                 { width: 91.3333333333%; }
+
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  
+
+}
+
+
+
+a{ color: white; }
+
+.label{ font-weight: bold; }
+
+.red{ background-color: #BC1B23; }
+
+.title{ width: 45%; margin: 5% auto; text-align: center; color: white; border: 3px solid #ffffff;}
+
+.specs{ background-color: #EDEDED; }
+
+.specs .row{ width: 50%; margin: 0 auto; padding: 3% 0;}
+
+.specs .six.columns{ padding: 0 5%; }
+
+.main{ width: 90%; float: none; margin: 0 auto; }
+
+.include{ text-align:center; }
+
+.include img{ width: 70%; }
+
+.tips{ background-color: #EDEDED; padding: 3% 0;}
+
+.tips .row h3{ border: 3px solid #BC1B23; padding: 3%; color: #BC1B23;}
+
+.tips .row{ width: 80%; margin: 0 auto; float: none; }
+
+.tips .row .six.columns{ padding: 0 5%; }
+
+.section1 .row .four.columns, .section2 .row .four.columns{ width: 100%; color: white; text-align: center; padding: 3%; margin-left:0;}
+
+.section1 .row .eight.columns, .section2 .row .eight.columns{ width: 100%; margin-left:0; text-align: center}
+
+
+.section1 h1, .section2 h1{ border: 3px solid white; padding:5%;}
+
+.withdrawal{ background-color: #BC1B23; color: white }
+.withdrawal .row{ width: 80%; margin:0 auto;}
+.withdrawal h1{ margin-top:0; padding-top:4%}
+
+
+
+/*Tablets and Laptop*/
+
+@media (min-width: 550px) and (max-width: 1024px) {
+
+.title{ width: 70%; }
+
+.specs .row{ width: 90%; }
+
+.main{ margin: 7% auto; }
+
+.specs .row .six.columns{ width: 50%; margin-left: 0; padding: 0 5%; }
+
+.main .row .six.columns{ width: 50%; margin-left: 0; }
+
+.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; }
+
+.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 50%; float: none; margin:0 auto; }
+
+.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
+
+.other-images{ text-align: center; }
+
+.tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
+
+.tips .row h3{ text-align: center; }
+
+}
+
+/*Tablets and Laptop*/
+
+
+
+/*Mobile*/
+
+@media (max-width: 549px) {
+
+.title{ width:92%; }
+
+.specs .row{ width:80%; padding-top: 5%; padding-bottom: 5%;}
+
+.include{ margin: 5% auto; }
+
+.section1 .four.columns.red, .section2 .four.columns.red{ width: 100%; margin-left: 0; padding-bottom: 20%; padding-top: 10%;}
+
+.section1 .four.columns.red .row, .section2 .four.columns.red .row{ width: 80%; float: none; margin:0 auto; }
+
+.section1 .eight.columns, .section2 .eight.columns{ width: 100% !important; margin-left:0; }
+
+.tips .row .six.columns{ width: 100%; float: none; margin: 10% auto;}
+
+.tips .row h3{ text-align: center; }
+
+}/*Mobile*/
+

@@ -1,0 +1,343 @@
+﻿/************************* global variable *************************/
+/* only listing */
+/* 1 Column*/
+/* 2 Column
+$colPrimary-size:594;
+$colSecondary-size:167; */
+@import url("http://thaitradinghouse.com/powerhouse/storescript/a064/css/itemLayout.css");
+@import url("http://www.thaitradinghouse.com/powerhouse/storescript/a064/css/text.css");
+.lcat .link {
+  display: none;
+}
+
+table.v4acpcont {
+  margin: 0;
+}
+
+/************************* main *************************/
+.allWrapPH, .headWrapPH, .bodyWrapPH, .leftWrapPH, .rightWrapPH, .footWrapPH {
+  box-sizing: border-box;
+}
+
+.allWrapPH img, .allWrapPH form, .allWrapPH fieldset, .allWrapPH input, .headWrapPH img, .headWrapPH form, .headWrapPH fieldset, .headWrapPH input, .bodyWrapPH img, .bodyWrapPH form, .bodyWrapPH fieldset, .bodyWrapPH input, .leftWrapPH img, .leftWrapPH form, .leftWrapPH fieldset, .leftWrapPH input, .rightWrapPH img, .rightWrapPH form, .rightWrapPH fieldset, .rightWrapPH input, .footWrapPH img, .footWrapPH form, .footWrapPH fieldset, .footWrapPH input {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.allWrapPH .clear, .headWrapPH .clear, .bodyWrapPH .clear, .leftWrapPH .clear, .rightWrapPH .clear, .footWrapPH .clear {
+  clear: both;
+  float: none;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/************************* header *************************/
+.headWrapPH {
+  margin: 50px auto 15px auto;
+  padding: 0;
+  width: 1000px;
+  min-height: 220px;
+  background: #fff url('http://productszon.com/images/products/spainfirst-banner.jpg') no-repeat center top;
+  background-size: 1200px 200px;
+  position: relative;
+}
+
+.headWrapPH__logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.headWrapPH__logo * {
+  width: 1000px;
+  height: 200px;
+  display: block;
+}
+
+.headWrapPH__search {
+  width: 268px;
+  height: 33px;
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background: url('http://www.thaitradinghouse.com/powerhouse/storescript/a064/images/head-bg-search.png') no-repeat center bottom;
+}
+
+.headWrapPH__search input[type="text"] {
+  margin: 5px 0 0 27px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 3px;
+  width: 200px;
+  height: 24px;
+  background: #fff;
+  outline: none;
+  /* Remove Chrome and Safari glows on focus */
+  float: left;
+  color: #b69141;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #000;
+}
+
+.headWrapPH__search input[type="submit"] {
+  border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+	width: 33px;
+  	height: 33px;
+  	cursor: pointer;
+  background: url('head-icon-search.png') no-repeat;
+  	outline: 0;
+  	margin: 0 0 0 5px;
+}
+
+.headWrapPH__menu {
+  position: absolute;
+  height: 33px;
+  left: 20px;
+  bottom: 7px;
+  line-height: 33px;
+}
+
+.headWrapPH__menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headWrapPH__menu ul li {
+  float: left;
+}
+
+.headWrapPH__menu ul li a {
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 20px;
+}
+
+.headWrapPH__menu ul li a:hover {
+  color: #FDA600;
+  text-decoration: none;
+}
+
+.headWrapPH__save {
+  position: absolute;
+  top: -40px;
+}
+
+/************************* Left *************************/
+.leftWrapPH {
+  width: 212px;
+  float: left;
+}
+
+.leftWrapPH .v4acp, .leftWrapPH .all_cats {
+  display: none !important;
+}
+
+.leftWrapPH ul {
+  padding: 0;
+  margin-top: 10px;
+  border-top: 0;
+  box-sizing: content-box;
+  background: #fff;
+}
+
+.leftWrapPH div.ttl {
+  display: none !important;
+}
+
+.leftWrapPH table.v4midBox {
+  border: 0 !important;
+}
+
+.leftWrapPH td.v4mid {
+  background: #fff !important;
+  padding: 0 !important;
+}
+
+.leftWrapPH div.lcat {
+  width: auto !important;
+  padding: 0;
+}
+
+.leftWrapPH__bannerLeft {
+  margin-top: 14px;
+}
+
+.leftWrapPH__bannerLeft a {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.leftWrapPH ul.lev1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.leftWrapPH ul.lev1 li {
+  list-style-type: none;
+  margin: 0 !important;
+  border: 0;
+  padding: 12px 15px !important;
+  display: block;
+  border-bottom: 1px solid #c5c5c5;
+  color: #000 !important;
+  background: #fff;
+}
+
+.leftWrapPH ul.lev1 li:hover + a {
+  color: #fff !important;
+  background: #000;
+}
+
+.leftWrapPH ul.lev1 li a {
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.leftWrapPH ul.lev1 li span {
+  color: #000 !important;
+}
+
+.leftWrapPH ul.lev1 li span:first-child {
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+
+.leftWrapPH ul.lev2 {
+  padding: 0 !important;
+  border: 0;
+  margin: 0;
+}
+
+.leftWrapPH ul.lev2 li {
+  list-style-type: none;
+  margin: 0 !important;
+  border: 0;
+  padding: 12px 15px !important;
+  display: block;
+  color: #000 !important;
+  background: #fff;
+}
+
+.leftWrapPH ul.lev2 li:hover + a {
+  color: #fff !important;
+  background: #000;
+  padding: 0 !important;
+}
+
+.leftWrapPH ul.lev2 li a {
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+.leftWrapPH ul.lev2 li span {
+  color: #000 !important;
+}
+
+.leftWrapPH ul.lev2 li span:first-child {
+  font-weight: bold !important;
+  font-style: italic !important;
+}
+
+.leftWrapPH ul.lev3 {
+  border: 0;
+}
+
+.leftWrapPH ul.lev3 li {
+  padding: 5px 10px 5px 40px !important;
+  background: none !important;
+}
+
+.leftWrapPH ul.lev3 li a {
+  font-weight: normal !important;
+  text-decoration: none !important;
+}
+
+.leftWrapPH ul.lev3 li a:hover {
+  color: #ffae00 !important;
+  text-decoration: none !important;
+}
+
+/************************* right *************************/
+.rightWrapPH {
+  float: right;
+  width: 774px;
+}
+
+.rightWrapPH h1 {
+  margin: 0;
+}
+
+.rightWrapMainPH {
+  background: #fff;
+  width: 774px;
+  float: left;
+}
+
+.rightWrapSubPH {
+  width: 0px;
+  float: right;
+}
+
+.rightWrapPH__banner {
+  margin-bottom: 1px;
+}
+
+.rightWrapPH__banner .rightWrapPH__banner--promotion {
+  margin-right: 1px;
+}
+
+.rightWrapPH__cateBanner {
+  margin-bottom: 8px;
+}
+
+.rightWrapPH__cateBanner a {
+  float: left;
+  margin: 8px 0 0 8px;
+  display: block;
+}
+
+.rightWrapPH__cateBanner a:nth-child(1), .rightWrapPH__cateBanner a:nth-child(4), .rightWrapPH__cateBanner a:nth-child(7) {
+  margin-left: 0;
+}
+
+/************************* eBay Control *************************/
+#CentralArea .v4stabl, #CentralArea .r3, #CentralArea #v4-2 {
+  background: #fff;
+}
+
+/*.tb_v4bc + table{
+    box-sizing: border-box;
+    background: $allBg;
+    & table + table{
+        background:#fff;
+        width: 1030px;
+        margin: 0 auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+}*/
+.tb_v4bc ~ table {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.tb_v4bc ~ table table + table {
+  background: #fff;
+  width: 1000px;
+  margin: 0 auto;
+}

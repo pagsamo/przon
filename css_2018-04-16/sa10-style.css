@@ -1,0 +1,140 @@
+html, body {
+  max-width:100vw;
+  overflow-y:scroll;
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: "Tahoma", Arial, sans-serif;
+}
+
+.img-responsive{ 
+display: inline-block;
+max-width: 100%!important;
+height: auto;
+border-width: 0;
+
+}
+
+.label{ font-weight: bolder; }
+img[src*="spacer.jpg"] {display: none;}
+
+.container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/*Utilities*/
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+/*Utilities*/
+
+@media (min-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 0; }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 90%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+  .one-half.column                { width: 48%; }
+  
+}
+
+.main{ border-bottom: 10px solid #FF6F6F; border-top:10px solid #FF6F6F; padding:3% 10%; }
+.specsandinclude, .specsandinclude2{ background-color: #F1F2F2; padding: 3% 5%;}
+.specsandinclude .seven.columns .row .six.columns{ padding-left:5%; padding-right:5%; }
+.specsandinclude .five.columns{ padding: 0 5%; }
+.guides .six.columns{ width:50%; margin-left:0; }
+.tips{ width:80%; float:none; margin: 0 auto; padding:3% 0; }
+.tips .six.columns{ background-color: #F1F2F2; padding:2% 3%; border-top: 10px solid #FF6F6F; }
+.twelve.columns.title{ background-color: #FF6F6F; text-align: center; }
+.content{ width: 88%; float:none; margin:0 auto; padding: 5% 0; }
+.content .row .four.columns, .content .row .eight.columns{ background-color: #F1F2F2; margin-top: 5%; padding: 3% 3%; border-top: 10px solid #FF6F6F;}
+
+@media (min-width: 550px) and (max-width: 1024px) {
+.other-images{ display: none; }
+.other-images2{ display: block !important; }
+.other-images2 .six.columns{ width:50%; margin-left:0; }
+.other-images2 .twelve.columns{ text-align: center; }
+.main .seven.columns{ width:65%; margin-left:0;}
+.main .five.columns{ width:35%; margin-left:0; }
+.specsandinclude{ display: none; }
+.specsandinclude2{ display: block !important; }
+.specsandinclude2 .twelve.columns{ text-align: center; padding:0 5%;}
+.specsandinclude2 .six.columns{ width:50%; margin-left:0; padding:0 5%; }
+.guides .six.columns{ width:100%; margin-left:0; }
+.tips .six.columns{ margin: 5% auto; padding: 3% 7%;}
+.trackandship{ display:none; }
+.trackandship2{ display: block !important; }
+.trackandship2 .twelve.columns{ background-color: #FF6F6F; text-align: center; padding: 3% 0; margin:0;}
+.trackandship2 .track-content, .trackandship2 .ship-content{ width:80%; margin:3% auto; float: none; background-color: #F1F2F2; border-top:10px solid #FF6F6F}
+.trackandship2 .track-content .six.columns,.trackandship2 .shipping .six.columns{ width: 50%; margin-left:0; padding:3% 5%;}
+}
+/*Tablets and Laptop*/
+
+
+
+/*Mobile*/
+@media (max-width: 549px) {
+.specsandinclude{ display:none; }
+.specsandinclude2{ display:block !important; padding: 10% 5%;}
+.guides .six.columns{ width:100%; margin-left:0; }
+.tips{ width:100%; padding:0;}
+.tips .six.columns{padding:10% 10%;}
+.trackandship{ display: none; }
+.trackandship2{ display: block !important; }
+.trackandship2 .twelve.columns{ background-color: #FF6F6F; text-align: center; padding: 3% 0; margin:0;}
+.trackandship2 .track-content, .trackandship2 .ship-content{ width:100%; margin:0 auto; float: none; background-color: #F1F2F2; padding:10% 0;}
+.trackandship2 .track-content .six.columns,.trackandship2 .shipping .six.columns{ padding-left:7%; padding-right:7%;}
+
+
+
+
+}/*Mobile*/
+
