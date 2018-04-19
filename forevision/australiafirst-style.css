@@ -11,10 +11,14 @@ strong {
     color: white;
     border-radius: 4px;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: arial;
     font-weight: bold;
     margin-left: 10px;
+}
+
+#showcase {
+    text-align: center;
 }
 
 /*
@@ -23,10 +27,6 @@ strong {
 ========================================================================== */
 
 @media screen and (max-width: 820px) {
-    body {
-        /*background:brown;*/
-        font-size: .75em;
-    }
     /* copied over from watchstyle5 */
     .img-responsive {
         display: inline-block;
@@ -75,7 +75,7 @@ strong {
     h1 {
         color: #d70909;
         text-align: center;
-        font-size: 28px;
+        font-size: 20px;
     }
     h1.title {
         color: #FFFFFF;
@@ -84,7 +84,7 @@ strong {
     }
     h3 {
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
     }
     .row {
         /* This is the first ul */
@@ -98,7 +98,7 @@ strong {
         /* This is the li directly below the first ul */
         /*border: 1px solid orange;*/
         display: block;
-        font-size: 16px;
+        font-size: 14px;
         font-family: arial;
     }
     .row ul {
@@ -129,7 +129,7 @@ strong {
         text-align: center;
     }
     h1.terms {
-        font-size: 26px;
+        font-size: 22px;
         color: #FFFFFF;
         max-width: 100%;
         padding: 10px 0 10px 10px;
@@ -157,7 +157,7 @@ strong {
         font-family: Arial;
         font-weight: 300;
         align: center;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 10px;
     }
     .conditions img {
@@ -178,7 +178,7 @@ strong {
         /*border:1px solid yellow;*/
         padding: 2% 8% 1% 8%;
         /* trbl */
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 
@@ -188,10 +188,6 @@ strong {
 ========================================================================== */
 
 @media screen and (min-width: 821px) and (max-width: 1190px) {
-    body {
-        /*background:pink;*/
-        font-size: .85em;
-    }
     /* copied over from watchstyle5 */
     .img-responsive {
         display: inline-block;
@@ -204,7 +200,7 @@ strong {
         display: block;
         max-width: 55%;
         float: left;
-        padding: 15px;
+        padding: 14px;
         border: none;
         /*border: 1px solid red;*/
     }
@@ -237,12 +233,12 @@ strong {
     }
     /* style for DESCRIPTION div */
     h1 {
-        font-size: 32px;
+        font-size: 22px;
         color: #d70909;
         text-align: left;
     }
     h1.title {
-        font-size: 48px;
+        font-size: 22px;
         color: #FFFFFF;
         max-width: 100%;
         margin: 0;
@@ -267,7 +263,7 @@ strong {
         /*border: 1px solid orange;*/
         display: block;
         /**/
-        font-size: 16px;
+        font-size: 14px;
         font-family: arial;
     }
     .row ul {
@@ -286,7 +282,7 @@ strong {
         padding: 4px 2px;
         /* top&bottom left&right */
         margin-right: 5px;
-        font-size: 16px;
+        font-size: 14px;
         font-family: arial;
         height: 20px;
     }
@@ -302,7 +298,7 @@ strong {
         text-align: center;
     }
     h1.terms {
-        font-size: 26px;
+        font-size: 20px;
         color: #FFFFFF;
         max-width: 100%;
         padding: 10px 0 10px 10px;
@@ -330,7 +326,7 @@ strong {
         font-family: Arial;
         font-weight: 300;
         align: center;
-        font-size: 17px;
+        font-size: 14px;
     }
     .conditions img {
         max-height: 80px;
@@ -356,7 +352,7 @@ strong {
         /*border:1px solid yellow;*/
         padding: 2% 7% 1% 7%;
         /* trbl */
-        font-size: 17px;
+        font-size: 14px;
     }
 }
 
