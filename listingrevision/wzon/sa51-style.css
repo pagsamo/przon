@@ -176,6 +176,8 @@ ul {
   padding: 0 4%;
 }
 
+.main .row .six.columns h1{ margin:0; padding:4%; }
+
 
 .specs {
   background-color: #EBEBEB;
@@ -228,14 +230,36 @@ ul {
 .charts .row{ width:75%; text-align: center; margin:0 auto; float: none;}
 
 
-.feedback{ padding:4%;}
+.feedback {
+  padding: 4%;
+  color: #626262;;
+}
 .feedback .six.columns{ width:50%; margin-left:0; padding:0 4%;}
 .feedback .six.columns .thankyou{ display: flex; justify-content: center; }
 .feedback .six.columns .thankyou div{ align-self: center;}
 .feedback .six.columns .thankyou div:first-child{ width:30%;text-align: right;}
+.feedback .six.columns:first-child h1 {
+  color: #ED6239;
+}
+.feedback .six.columns:last-child h1 {
+  color: #EE6338;
+}
 .feedback .six.columns .thankyou div:last-child{ width:70%;}
 .feedback .six.columns .thankyou img{ width:100px;}
-.feedback .six.columns .thankyou h1{ margin:0; font-weight: 700; }
+.feedback .six.columns .thankyou h1{
+  margin: 0;
+  font-weight: 700;
+  color: #999999;
+}
+
+.shipping {
+  background-color: #EBEBEB;
+  color: #939393;
+  padding:4%;
+  }
+.shipping img{ width:100px;}
+.shipping .six.columns{ width:50%; margin-left:0; padding:0 4%;}
+
 /************************************************************************************************/
 
 /************************************************************************************************/
@@ -259,6 +283,8 @@ ul {
 @media (min-width: 550px) and (max-width: 1024px) {
   /************************************************************************************************/
   /************************************************************************************************/
+  .charts .row{ width:100%; }
+ 
   /************************************************************************************************/
   /************************************************************************************************/
 }
@@ -287,6 +313,19 @@ ul {
   /************************************************************************************************/
   /************************************************************************************************/
   /************************************************************************************************/
+  body{ font-size: 75%;}
+  .main .row{ display: block;}
+  .specs .six.columns {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 4%;
+  }
+  .boxandincludes .row{ display: block;}
+  .charts .row {
+    width: 100%;
+  }
+  .feedback .six.columns{ width:100%; margin-left:0;}
+  .shipping .six.columns{ width: 100%; margin-left: 0;}
   /************************************************************************************************/
   /************************************************************************************************/
   /************************************************************************************************/
