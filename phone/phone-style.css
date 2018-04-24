@@ -34,6 +34,10 @@ ul {
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
+  .img-responsive {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 .u-pull-right {
   float: right; }
 .u-pull-left {
@@ -91,6 +95,9 @@ ul {
 .heading{ display: flex; justify-content: center; }
 .heading img, .heading h1{ align-self: center;}
 
+
+.banner{ text-align: center;}
+.banner img{ margin:0 auto; float: none;}
 
 .main .row, .packageAndBox .row{ text-align: center; }
 .warrantyAndLock{ background-color: #0E4859; color: white;}
